@@ -5,8 +5,9 @@
   "description": "AI-powered daily news report with Tavily search and auto-translation",
   "scripts": {
     "fetch": "node src/fetch-news.mjs",
+    "translate": "node src/translate.mjs",
     "generate": "node src/generate-report.mjs",
-    "build": "npm run fetch && npm run generate"
+    "build": "npm run fetch && npm run translate && npm run generate"
   },
   "keywords": ["ai", "news", "daily-report", "tavily"],
   "license": "MIT"

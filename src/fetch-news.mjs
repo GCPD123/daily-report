@@ -42,11 +42,15 @@ function parseTavilyOutput(markdown) {
       const snippet = snippetMatch ? snippetMatch[1].trim() : snippetLine.trim();
       
       if (url && url.startsWith('http')) {
+        // 尝试从 URL 提取可能的图片
+        const image = extractImageFromUrl(url);
+        
         sources.push({
           title,
           relevance,
           url,
-          snippet: snippet.substring(0, 300)
+          snippet: snippet.substring(0, 300),
+          image
         });
       }
       
@@ -57,6 +61,19 @@ function parseTavilyOutput(markdown) {
   }
   
   return sources;
+}
+
+/**
+ * 从 URL 提取可能的封面图
+ */
+function extractImageFromUrl(url) {
+  // 常见新闻网站的 OG 图片 URL 模式
+  const urlObj = new URL(url);
+  const hostname = urlObj.hostname;
+  
+  // 返回一个占位图 URL（实际应该抓取 OG 标签）
+  // 这里使用一个占位服务，实际可以调用 web_fetch 获取页面 OG 标签
+  return null; // 标记需要后续抓取
 }
 
 /**
@@ -131,7 +148,9 @@ async function main() {
       ...item,
       title: cleanTitle,
       source,
-      needsTranslation: !isChinese(cleanTitle)
+      needsTranslation: !isChinese(cleanTitle),
+      originalTitle: cleanTitle,
+      originalSnippet: item.snippet
     };
   });
 
@@ -166,6 +185,10 @@ async function main() {
     categoryStats[item.category] = (categoryStats[item.category] || 0) + 1;
   });
   console.log('📊 分类统计:', categoryStats);
+  
+  // 7. 输出需要翻译的数量
+  const needsTranslation = allItems.filter(i => i.needsTranslation).length;
+  console.log(`🌐 需要翻译：${needsTranslation} 条`);
 
   return allItems;
 }
