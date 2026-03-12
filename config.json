@@ -1,0 +1,20 @@
+{
+  "keywords": [
+    "artificial intelligence",
+    "machine learning",
+    "LLM",
+    "AI agents",
+    "tech news"
+  ],
+  "categories": [
+    "AI 技术突破",
+    "行业动态",
+    "产品发布",
+    "研究论文",
+    "其他"
+  ],
+  "searchDepth": "deep",
+  "maxResults": 20,
+  "language": "zh-CN",
+  "timezone": "Asia/Shanghai"
+}
