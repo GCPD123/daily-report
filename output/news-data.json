@@ -1,17 +1,5 @@
 [
   {
-    "title": "Airbnb Restructuring Services with Artificial Intelligence",
-    "relevance": "48",
-    "url": "https://newsinamerica.com/en/travel/2026/airbnb-restructuring-services-with-artificial-intelligence/",
-    "snippet": "A shift in direction follows Chesky’s belief: artificial intelligence stands among the most beneficial changes, helping shape smoother user interactions tailored to individuals, improving how systems operate, also creating paths toward fresh income sources. This method tries to sharpen how searches ",
-    "image": null,
-    "source": "Periódico Digital Centroamericano y del Caribe",
-    "needsTranslation": true,
-    "originalTitle": "Airbnb Restructuring Services with Artificial Intelligence",
-    "originalSnippet": "A shift in direction follows Chesky’s belief: artificial intelligence stands among the most beneficial changes, helping shape smoother user interactions tailored to individuals, improving how systems operate, also creating paths toward fresh income sources. This method tries to sharpen how searches ",
-    "category": "其他"
-  },
-  {
     "title": "Convenience stores should prepare for the impact of artificial intelligence as it grows",
     "relevance": "47",
     "url": "https://www.cspdailynews.com/technologyservices/convenience-stores-should-prepare-impact-artificial-intelligence-it-grows",
@@ -21,7 +9,10 @@
     "needsTranslation": true,
     "originalTitle": "Convenience stores should prepare for the impact of artificial intelligence as it grows",
     "originalSnippet": "Convenience-store retailers should prepare for how artificial intelligence (AI) will impact the way they talk about their categories and how their customers will interact with their programs as AI becomes more pervasive, said **Kyle Drenon**, co-owner of the Springfield, Missouri-based ad agency Sup",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Convenience stores should prepare for the impact of artificial intelligence as it grows",
+    "translatedSnippet": "Convenience-store retailers should prepare for how artificial intelligence (AI) will impact the way they talk about their categories and how their customers will interact with their programs as AI becomes more pervasive, said **Kyle Drenon**, co-owner of the Springfield, Missouri-based ad agency Sup",
+    "isTranslated": false
   },
   {
     "title": "Impact of Artificial Intelligence and Automation on the Tile Manufacturing Industry",
@@ -33,7 +24,25 @@
     "needsTranslation": true,
     "originalTitle": "Impact of Artificial Intelligence and Automation on the Tile Manufacturing Industry",
     "originalSnippet": "# Impact of Artificial Intelligence and Automation on the Tile Manufacturing Industry. The tile manufacturing industry is one of the significant examples of how AI and automation are changing this field. From increased speed to better manufacturing to reduced waste, AI is being used by tile manufact",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "Impact of Artificial Intelligence and Automation on the Tile Manufacturing Industry",
+    "translatedSnippet": "# Impact of Artificial Intelligence and Automation on the Tile Manufacturing Industry. The tile manufacturing industry is one of the significant examples of how AI and automation are changing this field. From increased speed to better manufacturing to reduced waste, AI is being used by tile manufact",
+    "isTranslated": false
+  },
+  {
+    "title": "AI Impact: Is AI Actually Intelligent? Stephen Fry Weighs in",
+    "relevance": "45",
+    "url": "https://www.newsweek.com/ai-impact-is-ai-actually-intelligent-stephen-fry-weighs-in-11667975",
+    "snippet": "*Editor's note: This is AI Impact, Newsweek's weekly newsletter where each week, we will explore how business leaders are unlocking real value through artificial intelligence.*. Join **Dr. Ranjit Tinaikar**, host of *Newsweek’s* AI Impact Forum series, and **Francisco D’Souza**, co-founder and manag",
+    "image": null,
+    "source": "Newsweek",
+    "needsTranslation": true,
+    "originalTitle": "AI Impact: Is AI Actually Intelligent? Stephen Fry Weighs in",
+    "originalSnippet": "*Editor's note: This is AI Impact, Newsweek's weekly newsletter where each week, we will explore how business leaders are unlocking real value through artificial intelligence.*. Join **Dr. Ranjit Tinaikar**, host of *Newsweek’s* AI Impact Forum series, and **Francisco D’Souza**, co-founder and manag",
+    "category": "其他",
+    "translatedTitle": "AI Impact: Is AI Actually Intelligent? Stephen Fry Weighs in",
+    "translatedSnippet": "*Editor's note: This is AI Impact, Newsweek's weekly newsletter where each week, we will explore how business leaders are unlocking real value through artificial intelligence.*. Join **Dr. Ranjit Tinaikar**, host of *Newsweek’s* AI Impact Forum series, and **Francisco D’Souza**, co-founder and manag",
+    "isTranslated": false
   },
   {
     "title": "Legal AI Report Shows Widening AI Gap Between Law Firm ‘Haves’ and ‘Have Nots’",
@@ -45,7 +54,10 @@
     "needsTranslation": true,
     "originalTitle": "Legal AI Report Shows Widening AI Gap Between Law Firm ‘Haves’ and ‘Have Nots’",
     "originalSnippet": "Seattle, Washington, United States, March 6, 2026 — **Law.co**, an AI-powered legal technology platform serving modern law firms, today announced the release of its latest market research report: *AI for Corporate & Business Law Firms*. The report delivers a data-driven analysis of how artificial in",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "Legal AI Report Shows Widening AI Gap Between Law Firm ‘Haves’ and ‘Have Nots’",
+    "translatedSnippet": "Seattle, Washington, United States, March 6, 2026 — **Law.co**, an AI-powered legal technology platform serving modern law firms, today announced the release of its latest market research report: *AI for Corporate & Business Law Firms*. The report delivers a data-driven analysis of how artificial in",
+    "isTranslated": false
   },
   {
     "title": "FinancialContent - Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities",
@@ -57,7 +69,10 @@
     "needsTranslation": true,
     "originalTitle": "FinancialContent - Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities",
     "originalSnippet": "# Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities. Seattle, Washington, United States, March 6, 2026 -- **Law.co**, an AI-powered legal technology platform serving modern law firms, today announced the release of its latest mar",
-    "category": "产品发布"
+    "category": "产品发布",
+    "translatedTitle": "FinancialContent - Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities",
+    "translatedSnippet": "# Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities. Seattle, Washington, United States, March 6, 2026 -- **Law.co**, an AI-powered legal technology platform serving modern law firms, today announced the release of its latest mar",
+    "isTranslated": false
   },
   {
     "title": "Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities",
@@ -69,7 +84,10 @@
     "needsTranslation": true,
     "originalTitle": "Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities",
     "originalSnippet": "Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities. Seattle, Washington, United States, March 6, 2026 -- **Law.co**, an AI-powered legal technology platform serving modern law firms, today announced the release of its latest marke",
-    "category": "产品发布"
+    "category": "产品发布",
+    "translatedTitle": "Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities",
+    "translatedSnippet": "Legal AI Platform Releases Law Firm AI Report for Business & Corporate Lawyers, Showcasing Growth Trends & Opportunities. Seattle, Washington, United States, March 6, 2026 -- **Law.co**, an AI-powered legal technology platform serving modern law firms, today announced the release of its latest marke",
+    "isTranslated": false
   },
   {
     "title": "Prediction Markets Are Booming, but I'd Rather Bet on These 3 AI Stocks",
@@ -81,7 +99,10 @@
     "needsTranslation": true,
     "originalTitle": "Prediction Markets Are Booming, but I'd Rather Bet on These 3 AI Stocks",
     "originalSnippet": "# Prediction Markets Are Booming, but I'd Rather Bet on These 3 AI Stocks. These three artificial intelligence stocks are better bets than gambling on the prediction markets. On that front, let's look at three artificial intelligence (AI) stocks to bet on right now. With AI infrastructure spending s",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "Prediction Markets Are Booming, but I'd Rather Bet on These 3 AI Stocks",
+    "translatedSnippet": "# Prediction Markets Are Booming, but I'd Rather Bet on These 3 AI Stocks. These three artificial intelligence stocks are better bets than gambling on the prediction markets. On that front, let's look at three artificial intelligence (AI) stocks to bet on right now. With AI infrastructure spending s",
+    "isTranslated": false
   },
   {
     "title": "AI programs are struggling to retain users",
@@ -93,7 +114,10 @@
     "needsTranslation": true,
     "originalTitle": "AI programs are struggling to retain users",
     "originalSnippet": "Although artificial intelligence technologies are gaining popularity in the app market, they are losing to regular apps in retaining users long-term. According to a new report by RevenueCat, even though AI-powered apps generate good revenue in the initial stage, subscribers abandon them faster. Acco",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "AI programs are struggling to retain users",
+    "translatedSnippet": "Although artificial intelligence technologies are gaining popularity in the app market, they are losing to regular apps in retaining users long-term. According to a new report by RevenueCat, even though AI-powered apps generate good revenue in the initial stage, subscribers abandon them faster. Acco",
+    "isTranslated": false
   },
   {
     "title": "AI in Food: How Artificial Intelligence is Designing Healthier and More Sustainable Foods",
@@ -105,7 +129,10 @@
     "needsTranslation": true,
     "originalTitle": "AI in Food: How Artificial Intelligence is Designing Healthier and More Sustainable Foods",
     "originalSnippet": "_**Artificial intelligence is reshaping the journey from ingredient discovery to personalized nutrition, revealing how data-driven food design could transform human health, sustainability, and the future of what we eat.**_. Artificial intelligence (AI) technologies are increasingly used across the f",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "AI in Food: How Artificial Intelligence is Designing Healthier and More Sustainable Foods",
+    "translatedSnippet": "_**Artificial intelligence is reshaping the journey from ingredient discovery to personalized nutrition, revealing how data-driven food design could transform human health, sustainability, and the future of what we eat.**_. Artificial intelligence (AI) technologies are increasingly used across the f",
+    "isTranslated": false
   },
   {
     "title": "Fulloop Highlights Institutional Shift Toward AI Infrastructure Investment",
@@ -117,7 +144,10 @@
     "needsTranslation": true,
     "originalTitle": "Fulloop Highlights Institutional Shift Toward AI Infrastructure Investment",
     "originalSnippet": "New York, United States, March 11, 2026 -- Fulloop, a technology platform focused on AI-driven recruitment and technical hiring workflows, today shared new industry insights highlighting a growing institutional investment shift toward artificial intelligence infrastructure. As global investment in a",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "Fulloop Highlights Institutional Shift Toward AI Infrastructure Investment",
+    "translatedSnippet": "New York, United States, March 11, 2026 -- Fulloop, a technology platform focused on AI-driven recruitment and technical hiring workflows, today shared new industry insights highlighting a growing institutional investment shift toward artificial intelligence infrastructure. As global investment in a",
+    "isTranslated": false
   },
   {
     "title": "Fox News AI Newsletter: Pentagon's AI battle",
@@ -129,7 +159,10 @@
     "needsTranslation": true,
     "originalTitle": "Fox News AI Newsletter: Pentagon's AI battle",
     "originalSnippet": "* #### Fox News AI Newsletter: Trump forces Big Tech to pay for AI power. # Fox News AI Newsletter: Pentagon's AI battle. ## **Welcome to Fox News’ Artificial Intelligence newsletter with the latest AI technology advancements.**. Researchers at Imperial College London are developing an artificial in",
-    "category": "AI 技术突破"
+    "category": "AI 技术突破",
+    "translatedTitle": "Fox News AI Newsletter: Pentagon's AI battle",
+    "translatedSnippet": "* #### Fox News AI Newsletter: Trump forces Big Tech to pay for AI power. # Fox News AI Newsletter: Pentagon's AI battle. ## **Welcome to Fox News’ Artificial Intelligence newsletter with the latest AI technology advancements.**. Researchers at Imperial College London are developing an artificial in",
+    "isTranslated": false
   },
   {
     "title": "Two-Thirds of Independent Agencies Plan to Increase AI Use This Year, Survey Says",
@@ -141,7 +174,10 @@
     "needsTranslation": true,
     "originalTitle": "Two-Thirds of Independent Agencies Plan to Increase AI Use This Year, Survey Says",
     "originalSnippet": "More than two-thirds of independent agencies plan to increase use of artificial intelligence in the next 12 months, though just 8% said AI is currently embedded in their daily workflows, according to a new report from The Big “I” Agents Council for Technology. In its annual tech trends report, ACT f",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Two-Thirds of Independent Agencies Plan to Increase AI Use This Year, Survey Says",
+    "translatedSnippet": "More than two-thirds of independent agencies plan to increase use of artificial intelligence in the next 12 months, though just 8% said AI is currently embedded in their daily workflows, according to a new report from The Big “I” Agents Council for Technology. In its annual tech trends report, ACT f",
+    "isTranslated": false
   },
   {
     "title": "Exclusive | Anthropic’s AI Hacked the Firefox Browser. It Found a Lot of Bugs.",
@@ -153,7 +189,10 @@
     "needsTranslation": true,
     "originalTitle": "Exclusive | Anthropic’s AI Hacked the Firefox Browser. It Found a Lot of Bugs.",
     "originalSnippet": "# Anthropic’s AI Hacked the Firefox Browser. It took Anthropic’s most advanced artificial-intelligence model about 20 minutes to find its first Firefox browser bug during an internal test of its hacking prowess. The Anthropic team submitted it, and Firefox’s developers quickly wrote back: This bug w",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Exclusive | Anthropic’s AI Hacked the Firefox Browser. It Found a Lot of Bugs.",
+    "translatedSnippet": "# Anthropic’s AI Hacked the Firefox Browser. It took Anthropic’s most advanced artificial-intelligence model about 20 minutes to find its first Firefox browser bug during an internal test of its hacking prowess. The Anthropic team submitted it, and Firefox’s developers quickly wrote back: This bug w",
+    "isTranslated": false
   },
   {
     "title": "In first place in the world: Eisenkot’s son beat Google and OpenAI",
@@ -165,7 +204,10 @@
     "needsTranslation": true,
     "originalTitle": "In first place in the world: Eisenkot’s son beat Google and OpenAI",
     "originalSnippet": "## An unprecedented achievement for the startup of Guy Eisenkot and Nimrod Kor, which was ranked as the most accurate AI tool on the market for code review. The Israeli start-up company Baz was ranked first in the accuracy index of tests for reviewing code written by AI, as part of the Code Review B",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "In first place in the world: Eisenkot’s son beat Google and OpenAI",
+    "translatedSnippet": "## An unprecedented achievement for the startup of Guy Eisenkot and Nimrod Kor, which was ranked as the most accurate AI tool on the market for code review. The Israeli start-up company Baz was ranked first in the accuracy index of tests for reviewing code written by AI, as part of the Code Review B",
+    "isTranslated": false
   },
   {
     "title": "Exclusive | Anthropic’s AI Hacked the Firefox Browser. It Found a Lot of Bugs.",
@@ -177,7 +219,10 @@
     "needsTranslation": true,
     "originalTitle": "Exclusive | Anthropic’s AI Hacked the Firefox Browser. It Found a Lot of Bugs.",
     "originalSnippet": "# Anthropic’s AI Hacked the Firefox Browser. ## New AI-powered tools are increasingly adept at spotting flaws. It took Anthropic’s most advanced artificial-intelligence model about 20 minutes to find its first Firefox browser bug during an internal test of its hacking prowess. The Anthropic team sub",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Exclusive | Anthropic’s AI Hacked the Firefox Browser. It Found a Lot of Bugs.",
+    "translatedSnippet": "# Anthropic’s AI Hacked the Firefox Browser. ## New AI-powered tools are increasingly adept at spotting flaws. It took Anthropic’s most advanced artificial-intelligence model about 20 minutes to find its first Firefox browser bug during an internal test of its hacking prowess. The Anthropic team sub",
+    "isTranslated": false
   },
   {
     "title": "The bots struck at dawn: inside the AI systems, drones and algorithms reshaping Israel’s war",
@@ -189,7 +234,10 @@
     "needsTranslation": true,
     "originalTitle": "The bots struck at dawn: inside the AI systems, drones and algorithms reshaping Israel’s war",
     "originalSnippet": "# The bots struck at dawn: inside the AI systems, drones and algorithms reshaping Israel’s war. ## From algorithms that predict where Iranian missiles will land to autonomous 'AI observers' and a command system that puts the entire battlefield on a single screen, the war with Iran is unfolding as Is",
-    "category": "AI 技术突破"
+    "category": "AI 技术突破",
+    "translatedTitle": "The bots struck at dawn: inside the AI systems, drones and algorithms reshaping Israel’s war",
+    "translatedSnippet": "# The bots struck at dawn: inside the AI systems, drones and algorithms reshaping Israel’s war. ## From algorithms that predict where Iranian missiles will land to autonomous 'AI observers' and a command system that puts the entire battlefield on a single screen, the war with Iran is unfolding as Is",
+    "isTranslated": false
   },
   {
     "title": "AI-fueled misdiagnoses, rural care barriers are 2026's top patient safety threats: ECRI",
@@ -201,7 +249,10 @@
     "needsTranslation": true,
     "originalTitle": "AI-fueled misdiagnoses, rural care barriers are 2026's top patient safety threats: ECRI",
     "originalSnippet": "# AI-fueled misdiagnoses, rural care barriers are 2026's top patient safety threats: ECRI. ECRI Institute Patient Safety Artificial Intelligence Rural Healthcare AI and Machine Learning Digital Health Health Tech Hospitals Practices Providers. Misdiagnoses due to artificial intelligence and rural co",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "AI-fueled misdiagnoses, rural care barriers are 2026's top patient safety threats: ECRI",
+    "translatedSnippet": "# AI-fueled misdiagnoses, rural care barriers are 2026's top patient safety threats: ECRI. ECRI Institute Patient Safety Artificial Intelligence Rural Healthcare AI and Machine Learning Digital Health Health Tech Hospitals Practices Providers. Misdiagnoses due to artificial intelligence and rural co",
+    "isTranslated": false
   },
   {
     "title": "Artificial Intelligence and the Future of Strategic Stability",
@@ -213,7 +264,10 @@
     "needsTranslation": true,
     "originalTitle": "Artificial Intelligence and the Future of Strategic Stability",
     "originalSnippet": "Over the last five years, a growing number of studies and reports have assessed the ways that advances in AI could influence global politics, including the potential risks to strategic stability from integration of AI into the nuclear domain, particularly in large language models (LLMs) and frontier",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Artificial Intelligence and the Future of Strategic Stability",
+    "translatedSnippet": "Over the last five years, a growing number of studies and reports have assessed the ways that advances in AI could influence global politics, including the potential risks to strategic stability from integration of AI into the nuclear domain, particularly in large language models (LLMs) and frontier",
+    "isTranslated": false
   },
   {
     "title": "KIMM Fast Tracks AI System, Robotics Development",
@@ -225,7 +279,10 @@
     "needsTranslation": true,
     "originalTitle": "KIMM Fast Tracks AI System, Robotics Development",
     "originalSnippet": "**Korea Institute of Machinery and Materials (KIMM)** has developed a new robot task artificial intelligence system designed to learn and perform everyday repetitive tasks by observing human demonstrations. The system integrates three key technologies: task extraction that converts human demonstrati",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "KIMM Fast Tracks AI System, Robotics Development",
+    "translatedSnippet": "**Korea Institute of Machinery and Materials (KIMM)** has developed a new robot task artificial intelligence system designed to learn and perform everyday repetitive tasks by observing human demonstrations. The system integrates three key technologies: task extraction that converts human demonstrati",
+    "isTranslated": false
   },
   {
     "title": "World’s Largest Copper Producer Partners with Microsoft for AI Mining Tech",
@@ -237,215 +294,14 @@
     "needsTranslation": true,
     "originalTitle": "World’s Largest Copper Producer Partners with Microsoft for AI Mining Tech",
     "originalSnippet": "Chile's state-owned mining giant Codelco has partnered with Microsoft to explore artificial intelligence applications in their operations. Chile’s government-owned mining company Codelco, which produces more copper than any other company globally, has entered into a partnership with tech giant Micro",
-    "category": "行业动态"
-  },
-  {
-    "title": "I'm an ex-Amazon, current Meta machine learning engineer. Here's how I built my résumé to land my AI roles.",
-    "relevance": "84",
-    "url": "https://www.businessinsider.com/meta-ai-engineer-shares-resume-strategy-that-helped-land-job-2026-3",
-    "snippet": "# I'm an ex-Amazon, current Meta machine learning engineer. * Saurabh Khandelwal started his machine learning career at a startup before moving to Big Tech. I was finishing my existing projects at the end of 2024 and wanted to get into a machine learning role that focused on both research and implem",
-    "image": null,
-    "source": "Business Insider",
-    "needsTranslation": true,
-    "originalTitle": "I'm an ex-Amazon, current Meta machine learning engineer. Here's how I built my résumé to land my AI roles.",
-    "originalSnippet": "# I'm an ex-Amazon, current Meta machine learning engineer. * Saurabh Khandelwal started his machine learning career at a startup before moving to Big Tech. I was finishing my existing projects at the end of 2024 and wanted to get into a machine learning role that focused on both research and implem",
-    "category": "研究论文"
-  },
-  {
-    "title": "Predicting rapid weight gain in six-month-old infants: an exploratory modeling study",
-    "relevance": "51",
-    "url": "https://www.nature.com/articles/s41390-026-04850-7",
-    "snippet": "# Predicting rapid weight gain in six-month-old infants: an exploratory modeling study. Data from a prospective infant study were used to compare four models for predicting RWG from birth to 6 months: two machine‑learning methods (SVM with a linear kernel and Naïve Bayes), one regularized regression",
-    "image": null,
-    "source": "Nature",
-    "needsTranslation": true,
-    "originalTitle": "Predicting rapid weight gain in six-month-old infants: an exploratory modeling study",
-    "originalSnippet": "# Predicting rapid weight gain in six-month-old infants: an exploratory modeling study. Data from a prospective infant study were used to compare four models for predicting RWG from birth to 6 months: two machine‑learning methods (SVM with a linear kernel and Naïve Bayes), one regularized regression",
-    "category": "研究论文"
-  },
-  {
-    "title": "Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50",
-    "relevance": "47",
-    "url": "https://www.citybiz.co/article/815908/dstillerys-melinda-han-williams-named-to-adweeks-ai-power-50/",
-    "snippet": "# Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50. NEW YORK, March 09, 2026 (GLOBE NEWSWIRE) — Dstillery, the leading AI ad targeting company, today announced that its Chief Data Scientist, **Melinda Han Williams, Ph.D.,** has been named an honoree in ADWEEK’s 2026 AI Power 50. As Chi",
-    "image": null,
-    "source": "citybiz",
-    "needsTranslation": true,
-    "originalTitle": "Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50",
-    "originalSnippet": "# Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50. NEW YORK, March 09, 2026 (GLOBE NEWSWIRE) — Dstillery, the leading AI ad targeting company, today announced that its Chief Data Scientist, **Melinda Han Williams, Ph.D.,** has been named an honoree in ADWEEK’s 2026 AI Power 50. As Chi",
-    "category": "行业动态"
-  },
-  {
-    "title": "AI Tool Revolutionizes Drug Synthesis Process",
-    "relevance": "46",
-    "url": "https://bioengineer.org/ai-tool-revolutionizes-drug-synthesis-process/",
-    "snippet": "A recent groundbreaking study, published in the prestigious journal Nature, pioneers this frontier by developing an advanced predictive modeling system that marries chemical intuition with computational efficiency to revolutionize drug development. The breakthrough in this study lies in the system’s",
-    "image": null,
-    "source": "BIOENGINEER.ORG",
-    "needsTranslation": true,
-    "originalTitle": "AI Tool Revolutionizes Drug Synthesis Process",
-    "originalSnippet": "A recent groundbreaking study, published in the prestigious journal Nature, pioneers this frontier by developing an advanced predictive modeling system that marries chemical intuition with computational efficiency to revolutionize drug development. The breakthrough in this study lies in the system’s",
-    "category": "AI 技术突破"
-  },
-  {
-    "title": "Cory McNeley",
-    "relevance": "26",
-    "url": "https://www.accountingtoday.com/author/cory-mcneley",
-    "snippet": "# Cory McNeley. Cory McNeley is a managing director at UHY and leader of the technology innovation service line, which provides digital strategy, technology sourcing, technology automation, digital transformation, and artificial intelligence and machine learning advisory services to strengthen and t",
-    "image": null,
-    "source": "Accounting Today",
-    "needsTranslation": true,
-    "originalTitle": "Cory McNeley",
-    "originalSnippet": "# Cory McNeley. Cory McNeley is a managing director at UHY and leader of the technology innovation service line, which provides digital strategy, technology sourcing, technology automation, digital transformation, and artificial intelligence and machine learning advisory services to strengthen and t",
-    "category": "其他"
-  },
-  {
-    "title": "Israeli company SmartShooter begins trading on TASE",
-    "relevance": "23",
-    "url": "https://www.jpost.com/defense-and-tech/article-889188",
-    "snippet": "## SmartShooter’s flagship SMASH systems use artificial intelligence (AI), computer vision, and machine learning to transform standard infantry rifles into precision-guided weapons. Israeli defense-tech company SmartShooter launched trading on the Tel Aviv Stock Exchange (TASE) on Thursday with a va",
-    "image": null,
-    "source": "The Jerusalem Post",
-    "needsTranslation": true,
-    "originalTitle": "Israeli company SmartShooter begins trading on TASE",
-    "originalSnippet": "## SmartShooter’s flagship SMASH systems use artificial intelligence (AI), computer vision, and machine learning to transform standard infantry rifles into precision-guided weapons. Israeli defense-tech company SmartShooter launched trading on the Tel Aviv Stock Exchange (TASE) on Thursday with a va",
-    "category": "行业动态"
-  },
-  {
-    "title": "Fierce Healthcare highlights Fierce 15 of 2026 honorees at NYSE",
-    "relevance": "19",
-    "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-highlights-fierce-15-2026-honorees-nyse",
-    "snippet": "Fierce 15 New York Stock Exchange AI and Machine Learning Digital Health Finance Hospitals Providers Telehealth Health Tech. Fierce Healthcare Senior Writer Anastassia Gliadkovskaya returned to the floor of the New York Stock Exchange Monday morning to shine a spotlight on the 2026 class of Fierce 1",
-    "image": null,
-    "source": "Fierce Healthcare",
-    "needsTranslation": true,
-    "originalTitle": "Fierce Healthcare highlights Fierce 15 of 2026 honorees at NYSE",
-    "originalSnippet": "Fierce 15 New York Stock Exchange AI and Machine Learning Digital Health Finance Hospitals Providers Telehealth Health Tech. Fierce Healthcare Senior Writer Anastassia Gliadkovskaya returned to the floor of the New York Stock Exchange Monday morning to shine a spotlight on the 2026 class of Fierce 1",
-    "category": "其他"
-  },
-  {
-    "title": "Fragmentomic liquid biopsy enables early breast cancer detection, molecular subtyping and lymph node assessment",
-    "relevance": "19",
-    "url": "https://www.nature.com/articles/s41467-026-70204-w",
-    "snippet": "Here we conduct a multicenter case-control study including 503 breast cancer patients and 289 benign controls to develop TuFEst, a machine learning model based on genome-wide cell-free DNA fragmentomic features. Together, these findings support cfDNA fragmentomics as an integrated liquid biopsy stra",
-    "image": null,
-    "source": "Nature",
-    "needsTranslation": true,
-    "originalTitle": "Fragmentomic liquid biopsy enables early breast cancer detection, molecular subtyping and lymph node assessment",
-    "originalSnippet": "Here we conduct a multicenter case-control study including 503 breast cancer patients and 289 benign controls to develop TuFEst, a machine learning model based on genome-wide cell-free DNA fragmentomic features. Together, these findings support cfDNA fragmentomics as an integrated liquid biopsy stra",
-    "category": "研究论文"
-  },
-  {
-    "title": "Best Data Science Consulting Companies in the UK",
-    "relevance": "18",
-    "url": "https://www.analyticsinsight.net/data-science/best-data-science-consulting-companies-in-the-uk",
-    "snippet": "# Best Data Science Consulting Companies in the UK. Best UK Data Science Consulting Companies in 2026: Top Firms Delivering Advanced Data Analytics Solutions. * The best UK-based analytics companies are strong in predictive analytics, machine learning, and big data strategy development. Businesses a",
-    "image": null,
-    "source": "Analytics Insight",
-    "needsTranslation": true,
-    "originalTitle": "Best Data Science Consulting Companies in the UK",
-    "originalSnippet": "# Best Data Science Consulting Companies in the UK. Best UK Data Science Consulting Companies in 2026: Top Firms Delivering Advanced Data Analytics Solutions. * The best UK-based analytics companies are strong in predictive analytics, machine learning, and big data strategy development. Businesses a",
-    "category": "其他"
-  },
-  {
-    "title": "This supernova is too bright – now astronomers might know why",
-    "relevance": "16",
-    "url": "https://www.nature.com/articles/d41586-026-00801-8",
-    "snippet": "Wobbling signal could explain some extremely bright supernovae. Read the paper: Lense–Thirring precessing magnetar engine drives a superluminous supernova. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Lens",
-    "image": null,
-    "source": "Nature",
-    "needsTranslation": true,
-    "originalTitle": "This supernova is too bright – now astronomers might know why",
-    "originalSnippet": "Wobbling signal could explain some extremely bright supernovae. Read the paper: Lense–Thirring precessing magnetar engine drives a superluminous supernova. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Lens",
-    "category": "研究论文"
-  },
-  {
-    "title": "This Israeli company uses AI to speed up psychiatric care post-Oct. 7",
-    "relevance": "16",
-    "url": "https://www.jpost.com/podcast/article-889344",
-    "snippet": "# This Israeli company uses AI to speed up psychiatric care post-Oct. 7. ## Taliaz CEO, Dr. Dekel Taliaz, explains how his company uses AI to speed up psychiatric care post-Oct. 7. This Israeli company uses AI to speed up psychiatric care post-Oct. 7. Dr, Dekel Taliaz, CEO and co founder of the ment",
-    "image": null,
-    "source": "The Jerusalem Post",
-    "needsTranslation": true,
-    "originalTitle": "This Israeli company uses AI to speed up psychiatric care post-Oct. 7",
-    "originalSnippet": "# This Israeli company uses AI to speed up psychiatric care post-Oct. 7. ## Taliaz CEO, Dr. Dekel Taliaz, explains how his company uses AI to speed up psychiatric care post-Oct. 7. This Israeli company uses AI to speed up psychiatric care post-Oct. 7. Dr, Dekel Taliaz, CEO and co founder of the ment",
-    "category": "行业动态"
-  },
-  {
-    "title": "Maryland's AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children's Products",
-    "relevance": "15",
-    "url": "https://www.retailconsumerproductslaw.com/2026/03/marylands-ai-toy-safety-act-state-level-regulation-fills-the-federal-void-on-ai-in-childrens-products/",
-    "snippet": "# Maryland’s AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children’s Products. On February 12, 2026, a bipartisan group of legislators in Maryland proposed the Maryland Artificial Intelligence Toy Safety Act. This proposed legislation would establish a sweeping regulator",
-    "image": null,
-    "source": "retailconsumerproductslaw.com",
-    "needsTranslation": true,
-    "originalTitle": "Maryland's AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children's Products",
-    "originalSnippet": "# Maryland’s AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children’s Products. On February 12, 2026, a bipartisan group of legislators in Maryland proposed the Maryland Artificial Intelligence Toy Safety Act. This proposed legislation would establish a sweeping regulator",
-    "category": "产品发布"
-  },
-  {
-    "title": "USC Gould School of Law launches new degree in data science",
-    "relevance": "10",
-    "url": "https://nationaljurist.com/usc-gould-school-of-law-launches-new-degree-in-data-science/",
-    "snippet": "# USC Gould School of Law launches new degree in data science. University of Southern California Gould School of Law and the USC School of Advanced Computing have launched a Master of Science in Data Science and Law, now open for enrollment. The joint graduate degree is designed for students who wan",
-    "image": null,
-    "source": "National Jurist",
-    "needsTranslation": true,
-    "originalTitle": "USC Gould School of Law launches new degree in data science",
-    "originalSnippet": "# USC Gould School of Law launches new degree in data science. University of Southern California Gould School of Law and the USC School of Advanced Computing have launched a Master of Science in Data Science and Law, now open for enrollment. The joint graduate degree is designed for students who wan",
-    "category": "产品发布"
-  },
-  {
-    "title": "This fish shouldn’t exist — the weird genetics of clonal vertebrates",
-    "relevance": "7",
-    "url": "https://www.nature.com/articles/d41586-026-00798-0",
-    "snippet": "*News and Views:* *How an all-female fish species defies evolutionary expectations*. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Gene conversion empowers natural selection in a clonal fish species. * Gene",
-    "image": null,
-    "source": "Nature",
-    "needsTranslation": true,
-    "originalTitle": "This fish shouldn’t exist — the weird genetics of clonal vertebrates",
-    "originalSnippet": "*News and Views:* *How an all-female fish species defies evolutionary expectations*. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Gene conversion empowers natural selection in a clonal fish species. * Gene",
-    "category": "其他"
-  },
-  {
-    "title": "Brazil Targets Net-Zero by 2050 With Agriculture-Led Climate Plan",
-    "relevance": "6",
-    "url": "https://www.czapp.com/analyst-insights/brazil-targets-net-zero-by-2050-with-agriculture-led-climate-plan/",
-    "snippet": "# Brazil Targets Net-Zero by 2050 With Agriculture-Led Climate Plan. *Brazil has launched its climate plan targeting net-zero emissions by 2050. The strategy includes specific guidelines for agriculture, expanding sustainable practices and strengthening low-carbon production systems. Last December, ",
-    "image": null,
-    "source": "czapp.com",
-    "needsTranslation": true,
-    "originalTitle": "Brazil Targets Net-Zero by 2050 With Agriculture-Led Climate Plan",
-    "originalSnippet": "# Brazil Targets Net-Zero by 2050 With Agriculture-Led Climate Plan. *Brazil has launched its climate plan targeting net-zero emissions by 2050. The strategy includes specific guidelines for agriculture, expanding sustainable practices and strengthening low-carbon production systems. Last December, ",
-    "category": "产品发布"
-  },
-  {
-    "title": "Research: Using AI Can Stifle Innovation. But It Doesn’t Have To.",
-    "relevance": "6",
-    "url": "https://hbr.org/2026/03/research-using-ai-can-stifle-innovation-but-it-doesnt-have-to",
-    "snippet": "Innovation|Research: Using AI Can Stifle Innovation. But It Doesn’t Have To. # Research: Using AI Can Stifle Innovation. But It Doesn’t Have To. by Chengwei Liu, Jerker Denrell, Jerry Luukkonen and Nick Chater. ## Summary. Leer en españolLer em português. Leaders love AI because it makes knowledge e",
-    "image": null,
-    "source": "Harvard Business Review",
-    "needsTranslation": true,
-    "originalTitle": "Research: Using AI Can Stifle Innovation. But It Doesn’t Have To.",
-    "originalSnippet": "Innovation|Research: Using AI Can Stifle Innovation. But It Doesn’t Have To. # Research: Using AI Can Stifle Innovation. But It Doesn’t Have To. by Chengwei Liu, Jerker Denrell, Jerry Luukkonen and Nick Chater. ## Summary. Leer en españolLer em português. Leaders love AI because it makes knowledge e",
-    "category": "研究论文"
-  },
-  {
-    "title": "A safer, more effective atrial fibrillation treatment method using magnetic gel may be on the way",
-    "relevance": "5",
-    "url": "https://medicalxpress.com/news/2026-03-safer-effective-atrial-fibrillation-treatment.html",
-    "snippet": "Image 7 ##### How CO₂-sensing neurons in a worm could eventually protect humans from metabolic stress 10 minutes agoImage 8 ##### Temporal lobe epilepsy: A new strategy to correct abnormal electrical activity 30 minutes agoImage 9 ##### PET imaging study reveals how ketamine relieves treatment-resis",
-    "image": null,
-    "source": "Medical Xpress",
-    "needsTranslation": true,
-    "originalTitle": "A safer, more effective atrial fibrillation treatment method using magnetic gel may be on the way",
-    "originalSnippet": "Image 7 ##### How CO₂-sensing neurons in a worm could eventually protect humans from metabolic stress 10 minutes agoImage 8 ##### Temporal lobe epilepsy: A new strategy to correct abnormal electrical activity 30 minutes agoImage 9 ##### PET imaging study reveals how ketamine relieves treatment-resis",
-    "category": "研究论文"
+    "category": "行业动态",
+    "translatedTitle": "World’s Largest Copper Producer Partners with Microsoft for AI Mining Tech",
+    "translatedSnippet": "Chile's state-owned mining giant Codelco has partnered with Microsoft to explore artificial intelligence applications in their operations. Chile’s government-owned mining company Codelco, which produces more copper than any other company globally, has entered into a partnership with tech giant Micro",
+    "isTranslated": false
   },
   {
     "title": "Opinion | Schools are thinking about AI all wrong",
-    "relevance": "5",
+    "relevance": "28",
     "url": "https://www.washingtonpost.com/opinions/2026/03/10/ai-schools-education-technology-artificial-intelligence/",
     "snippet": "Many schools are training teachers and students how to use AI chatbots. They’re doing so under pressure from school boards and parents to protect kids from generative AI, but also because they want to ensure students are not left behind when they graduate. Its students don’t spend lots of time playi",
     "image": null,
@@ -453,11 +309,134 @@
     "needsTranslation": true,
     "originalTitle": "Opinion | Schools are thinking about AI all wrong",
     "originalSnippet": "Many schools are training teachers and students how to use AI chatbots. They’re doing so under pressure from school boards and parents to protect kids from generative AI, but also because they want to ensure students are not left behind when they graduate. Its students don’t spend lots of time playi",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Opinion | Schools are thinking about AI all wrong",
+    "translatedSnippet": "Many schools are training teachers and students how to use AI chatbots. They’re doing so under pressure from school boards and parents to protect kids from generative AI, but also because they want to ensure students are not left behind when they graduate. Its students don’t spend lots of time playi",
+    "isTranslated": false
+  },
+  {
+    "title": "I'm an ex-Amazon, current Meta machine learning engineer. Here's how I built my résumé to land my AI roles.",
+    "relevance": "28",
+    "url": "https://www.businessinsider.com/meta-ai-engineer-shares-resume-strategy-that-helped-land-job-2026-3",
+    "snippet": "# I'm an ex-Amazon, current Meta machine learning engineer. * Saurabh Khandelwal started his machine learning career at a startup before moving to Big Tech. I was finishing my existing projects at the end of 2024 and wanted to get into a machine learning role that focused on both research and implem",
+    "image": null,
+    "source": "Business Insider",
+    "needsTranslation": true,
+    "originalTitle": "I'm an ex-Amazon, current Meta machine learning engineer. Here's how I built my résumé to land my AI roles.",
+    "originalSnippet": "# I'm an ex-Amazon, current Meta machine learning engineer. * Saurabh Khandelwal started his machine learning career at a startup before moving to Big Tech. I was finishing my existing projects at the end of 2024 and wanted to get into a machine learning role that focused on both research and implem",
+    "category": "研究论文",
+    "translatedTitle": "I'm an ex-Amazon, current Meta machine learning engineer. Here's how I built my résumé to land my AI roles.",
+    "translatedSnippet": "# I'm an ex-Amazon, current Meta machine learning engineer. * Saurabh Khandelwal started his machine learning career at a startup before moving to Big Tech. I was finishing my existing projects at the end of 2024 and wanted to get into a machine learning role that focused on both research and implem",
+    "isTranslated": false
+  },
+  {
+    "title": "Israeli company SmartShooter begins trading on TASE",
+    "relevance": "27",
+    "url": "https://www.jpost.com/defense-and-tech/article-889188",
+    "snippet": "## SmartShooter’s flagship SMASH systems use artificial intelligence (AI), computer vision, and machine learning to transform standard infantry rifles into precision-guided weapons. Israeli defense-tech company SmartShooter launched trading on the Tel Aviv Stock Exchange (TASE) on Thursday with a va",
+    "image": null,
+    "source": "The Jerusalem Post",
+    "needsTranslation": true,
+    "originalTitle": "Israeli company SmartShooter begins trading on TASE",
+    "originalSnippet": "## SmartShooter’s flagship SMASH systems use artificial intelligence (AI), computer vision, and machine learning to transform standard infantry rifles into precision-guided weapons. Israeli defense-tech company SmartShooter launched trading on the Tel Aviv Stock Exchange (TASE) on Thursday with a va",
+    "category": "行业动态",
+    "translatedTitle": "Israeli company SmartShooter begins trading on TASE",
+    "translatedSnippet": "## SmartShooter’s flagship SMASH systems use artificial intelligence (AI), computer vision, and machine learning to transform standard infantry rifles into precision-guided weapons. Israeli defense-tech company SmartShooter launched trading on the Tel Aviv Stock Exchange (TASE) on Thursday with a va",
+    "isTranslated": false
+  },
+  {
+    "title": "AI Tool Revolutionizes Drug Synthesis Process",
+    "relevance": "25",
+    "url": "https://bioengineer.org/ai-tool-revolutionizes-drug-synthesis-process/",
+    "snippet": "A recent groundbreaking study, published in the prestigious journal Nature, pioneers this frontier by developing an advanced predictive modeling system that marries chemical intuition with computational efficiency to revolutionize drug development. The breakthrough in this study lies in the system’s",
+    "image": null,
+    "source": "BIOENGINEER.ORG",
+    "needsTranslation": true,
+    "originalTitle": "AI Tool Revolutionizes Drug Synthesis Process",
+    "originalSnippet": "A recent groundbreaking study, published in the prestigious journal Nature, pioneers this frontier by developing an advanced predictive modeling system that marries chemical intuition with computational efficiency to revolutionize drug development. The breakthrough in this study lies in the system’s",
+    "category": "AI 技术突破",
+    "translatedTitle": "AI Tool Revolutionizes Drug Synthesis Process",
+    "translatedSnippet": "A recent groundbreaking study, published in the prestigious journal Nature, pioneers this frontier by developing an advanced predictive modeling system that marries chemical intuition with computational efficiency to revolutionize drug development. The breakthrough in this study lies in the system’s",
+    "isTranslated": false
+  },
+  {
+    "title": "Predicting rapid weight gain in six-month-old infants: an exploratory modeling study",
+    "relevance": "24",
+    "url": "https://www.nature.com/articles/s41390-026-04850-7",
+    "snippet": "# Predicting rapid weight gain in six-month-old infants: an exploratory modeling study. Data from a prospective infant study were used to compare four models for predicting RWG from birth to 6 months: two machine‑learning methods (SVM with a linear kernel and Naïve Bayes), one regularized regression",
+    "image": null,
+    "source": "Nature",
+    "needsTranslation": true,
+    "originalTitle": "Predicting rapid weight gain in six-month-old infants: an exploratory modeling study",
+    "originalSnippet": "# Predicting rapid weight gain in six-month-old infants: an exploratory modeling study. Data from a prospective infant study were used to compare four models for predicting RWG from birth to 6 months: two machine‑learning methods (SVM with a linear kernel and Naïve Bayes), one regularized regression",
+    "category": "研究论文",
+    "translatedTitle": "Predicting rapid weight gain in six-month-old infants: an exploratory modeling study",
+    "translatedSnippet": "# Predicting rapid weight gain in six-month-old infants: an exploratory modeling study. Data from a prospective infant study were used to compare four models for predicting RWG from birth to 6 months: two machine‑learning methods (SVM with a linear kernel and Naïve Bayes), one regularized regression",
+    "isTranslated": false
+  },
+  {
+    "title": "Fierce Healthcare highlights Fierce 15 of 2026 honorees at NYSE",
+    "relevance": "24",
+    "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-highlights-fierce-15-2026-honorees-nyse",
+    "snippet": "Fierce 15 New York Stock Exchange AI and Machine Learning Digital Health Finance Hospitals Providers Telehealth Health Tech. Fierce Healthcare Senior Writer Anastassia Gliadkovskaya returned to the floor of the New York Stock Exchange Monday morning to shine a spotlight on the 2026 class of Fierce 1",
+    "image": null,
+    "source": "Fierce Healthcare",
+    "needsTranslation": true,
+    "originalTitle": "Fierce Healthcare highlights Fierce 15 of 2026 honorees at NYSE",
+    "originalSnippet": "Fierce 15 New York Stock Exchange AI and Machine Learning Digital Health Finance Hospitals Providers Telehealth Health Tech. Fierce Healthcare Senior Writer Anastassia Gliadkovskaya returned to the floor of the New York Stock Exchange Monday morning to shine a spotlight on the 2026 class of Fierce 1",
+    "category": "其他",
+    "translatedTitle": "Fierce Healthcare highlights Fierce 15 of 2026 honorees at NYSE",
+    "translatedSnippet": "Fierce 15 New York Stock Exchange AI and Machine Learning Digital Health Finance Hospitals Providers Telehealth Health Tech. Fierce Healthcare Senior Writer Anastassia Gliadkovskaya returned to the floor of the New York Stock Exchange Monday morning to shine a spotlight on the 2026 class of Fierce 1",
+    "isTranslated": false
+  },
+  {
+    "title": "Cory McNeley",
+    "relevance": "23",
+    "url": "https://www.accountingtoday.com/author/cory-mcneley",
+    "snippet": "# Cory McNeley. Cory McNeley is a managing director at UHY and leader of the technology innovation service line, which provides digital strategy, technology sourcing, technology automation, digital transformation, and artificial intelligence and machine learning advisory services to strengthen and t",
+    "image": null,
+    "source": "Accounting Today",
+    "needsTranslation": true,
+    "originalTitle": "Cory McNeley",
+    "originalSnippet": "# Cory McNeley. Cory McNeley is a managing director at UHY and leader of the technology innovation service line, which provides digital strategy, technology sourcing, technology automation, digital transformation, and artificial intelligence and machine learning advisory services to strengthen and t",
+    "category": "其他",
+    "translatedTitle": "Cory McNeley",
+    "translatedSnippet": "# Cory McNeley. Cory McNeley is a managing director at UHY and leader of the technology innovation service line, which provides digital strategy, technology sourcing, technology automation, digital transformation, and artificial intelligence and machine learning advisory services to strengthen and t",
+    "isTranslated": false
+  },
+  {
+    "title": "Fragmentomic liquid biopsy enables early breast cancer detection, molecular subtyping and lymph node assessment",
+    "relevance": "22",
+    "url": "https://www.nature.com/articles/s41467-026-70204-w",
+    "snippet": "Here we conduct a multicenter case-control study including 503 breast cancer patients and 289 benign controls to develop TuFEst, a machine learning model based on genome-wide cell-free DNA fragmentomic features. Together, these findings support cfDNA fragmentomics as an integrated liquid biopsy stra",
+    "image": null,
+    "source": "Nature",
+    "needsTranslation": true,
+    "originalTitle": "Fragmentomic liquid biopsy enables early breast cancer detection, molecular subtyping and lymph node assessment",
+    "originalSnippet": "Here we conduct a multicenter case-control study including 503 breast cancer patients and 289 benign controls to develop TuFEst, a machine learning model based on genome-wide cell-free DNA fragmentomic features. Together, these findings support cfDNA fragmentomics as an integrated liquid biopsy stra",
+    "category": "研究论文",
+    "translatedTitle": "Fragmentomic liquid biopsy enables early breast cancer detection, molecular subtyping and lymph node assessment",
+    "translatedSnippet": "Here we conduct a multicenter case-control study including 503 breast cancer patients and 289 benign controls to develop TuFEst, a machine learning model based on genome-wide cell-free DNA fragmentomic features. Together, these findings support cfDNA fragmentomics as an integrated liquid biopsy stra",
+    "isTranslated": false
+  },
+  {
+    "title": "Maryland's AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children's Products",
+    "relevance": "22",
+    "url": "https://www.retailconsumerproductslaw.com/2026/03/marylands-ai-toy-safety-act-state-level-regulation-fills-the-federal-void-on-ai-in-childrens-products/",
+    "snippet": "# Maryland’s AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children’s Products. On February 12, 2026, a bipartisan group of legislators in Maryland proposed the Maryland Artificial Intelligence Toy Safety Act. This proposed legislation would establish a sweeping regulator",
+    "image": null,
+    "source": "retailconsumerproductslaw.com",
+    "needsTranslation": true,
+    "originalTitle": "Maryland's AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children's Products",
+    "originalSnippet": "# Maryland’s AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children’s Products. On February 12, 2026, a bipartisan group of legislators in Maryland proposed the Maryland Artificial Intelligence Toy Safety Act. This proposed legislation would establish a sweeping regulator",
+    "category": "产品发布",
+    "translatedTitle": "Maryland's AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children's Products",
+    "translatedSnippet": "# Maryland’s AI Toy Safety Act: State-Level Regulation Fills the Federal Void on AI in Children’s Products. On February 12, 2026, a bipartisan group of legislators in Maryland proposed the Maryland Artificial Intelligence Toy Safety Act. This proposed legislation would establish a sweeping regulator",
+    "isTranslated": false
   },
   {
     "title": "4 ways to prepare your SOC for agentic AI",
-    "relevance": "4",
+    "relevance": "21",
     "url": "https://www.csoonline.com/article/4140208/4-ways-to-prepare-your-soc-for-agentic-ai.html",
     "snippet": "But harnessing that promise will require organizations to invest now in reskilling analysts, redesigning processes, building new technical roles, and establishing guardrails and governance frameworks to ensure autonomous AI agents operate safely. As AI agents take on more operational tasks, analysts",
     "image": null,
@@ -465,7 +444,145 @@
     "needsTranslation": true,
     "originalTitle": "4 ways to prepare your SOC for agentic AI",
     "originalSnippet": "But harnessing that promise will require organizations to invest now in reskilling analysts, redesigning processes, building new technical roles, and establishing guardrails and governance frameworks to ensure autonomous AI agents operate safely. As AI agents take on more operational tasks, analysts",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "4 ways to prepare your SOC for agentic AI",
+    "translatedSnippet": "But harnessing that promise will require organizations to invest now in reskilling analysts, redesigning processes, building new technical roles, and establishing guardrails and governance frameworks to ensure autonomous AI agents operate safely. As AI agents take on more operational tasks, analysts",
+    "isTranslated": false
+  },
+  {
+    "title": "Microsoft’s next Xbox, Project Helix, won’t reach alpha until 2027",
+    "relevance": "20",
+    "url": "https://www.theverge.com/games/893119/xbox-project-helix-jason-ronald-gdc-2026",
+    "snippet": "Ronald says the next Xbox, codenamed Project Helix, will have a custom AMD chip with “an order of magnitude increase in raytracing performance” up to and including path tracing, and a next-gen version of AMD’s FSR upscaling technology that relies on machine learning and includes frame generation — w",
+    "image": null,
+    "source": "The Verge",
+    "needsTranslation": true,
+    "originalTitle": "Microsoft’s next Xbox, Project Helix, won’t reach alpha until 2027",
+    "originalSnippet": "Ronald says the next Xbox, codenamed Project Helix, will have a custom AMD chip with “an order of magnitude increase in raytracing performance” up to and including path tracing, and a next-gen version of AMD’s FSR upscaling technology that relies on machine learning and includes frame generation — w",
+    "category": "其他",
+    "translatedTitle": "Microsoft’s next Xbox, Project Helix, won’t reach alpha until 2027",
+    "translatedSnippet": "Ronald says the next Xbox, codenamed Project Helix, will have a custom AMD chip with “an order of magnitude increase in raytracing performance” up to and including path tracing, and a next-gen version of AMD’s FSR upscaling technology that relies on machine learning and includes frame generation — w",
+    "isTranslated": false
+  },
+  {
+    "title": "Best Data Science Consulting Companies in the UK",
+    "relevance": "20",
+    "url": "https://www.analyticsinsight.net/data-science/best-data-science-consulting-companies-in-the-uk",
+    "snippet": "# Best Data Science Consulting Companies in the UK. Best UK Data Science Consulting Companies in 2026: Top Firms Delivering Advanced Data Analytics Solutions. * The best UK-based analytics companies are strong in predictive analytics, machine learning, and big data strategy development. Businesses a",
+    "image": null,
+    "source": "Analytics Insight",
+    "needsTranslation": true,
+    "originalTitle": "Best Data Science Consulting Companies in the UK",
+    "originalSnippet": "# Best Data Science Consulting Companies in the UK. Best UK Data Science Consulting Companies in 2026: Top Firms Delivering Advanced Data Analytics Solutions. * The best UK-based analytics companies are strong in predictive analytics, machine learning, and big data strategy development. Businesses a",
+    "category": "其他",
+    "translatedTitle": "Best Data Science Consulting Companies in the UK",
+    "translatedSnippet": "# Best Data Science Consulting Companies in the UK. Best UK Data Science Consulting Companies in 2026: Top Firms Delivering Advanced Data Analytics Solutions. * The best UK-based analytics companies are strong in predictive analytics, machine learning, and big data strategy development. Businesses a",
+    "isTranslated": false
+  },
+  {
+    "title": "AI allows hackers to identify anonymous social media accounts, study finds",
+    "relevance": "20",
+    "url": "https://www.theguardian.com/technology/2026/mar/08/ai-hackers-social-media-accounts-study",
+    "snippet": "# AI allows hackers to identify anonymous social media accounts, study finds. AI has made it vastly easier for malicious hackers to identify anonymous social media accounts, a new study has warned. In most test scenarios, large language models (LLMs) – the technology behind platforms such as ChatGPT",
+    "image": null,
+    "source": "The Guardian",
+    "needsTranslation": true,
+    "originalTitle": "AI allows hackers to identify anonymous social media accounts, study finds",
+    "originalSnippet": "# AI allows hackers to identify anonymous social media accounts, study finds. AI has made it vastly easier for malicious hackers to identify anonymous social media accounts, a new study has warned. In most test scenarios, large language models (LLMs) – the technology behind platforms such as ChatGPT",
+    "category": "研究论文",
+    "translatedTitle": "AI allows hackers to identify anonymous social media accounts, study finds",
+    "translatedSnippet": "# AI allows hackers to identify anonymous social media accounts, study finds. AI has made it vastly easier for malicious hackers to identify anonymous social media accounts, a new study has warned. In most test scenarios, large language models (LLMs) – the technology behind platforms such as ChatGPT",
+    "isTranslated": false
+  },
+  {
+    "title": "Guest editors | Cardiometabolic multimorbidity in type-2 diabetes",
+    "relevance": "19",
+    "url": "https://www.nature.com/collections/jjadhbgejb/guest-editors",
+    "snippet": "#### Hafiz Muhammad Ahmad Javaid, Soonchunhyang University, Republic of Korea. #### Lawrence Tuglo, University of Health and Allied Sciences, Ghana. #### Sampara Vasishta, Apollo Institute of Medical Sciences and Research, Chittoor, India. Dr Javaid’s research focuses on understanding the molecular ",
+    "image": null,
+    "source": "Nature",
+    "needsTranslation": true,
+    "originalTitle": "Guest editors | Cardiometabolic multimorbidity in type-2 diabetes",
+    "originalSnippet": "#### Hafiz Muhammad Ahmad Javaid, Soonchunhyang University, Republic of Korea. #### Lawrence Tuglo, University of Health and Allied Sciences, Ghana. #### Sampara Vasishta, Apollo Institute of Medical Sciences and Research, Chittoor, India. Dr Javaid’s research focuses on understanding the molecular ",
+    "category": "研究论文",
+    "translatedTitle": "Guest editors | Cardiometabolic multimorbidity in type-2 diabetes",
+    "translatedSnippet": "#### Hafiz Muhammad Ahmad Javaid, Soonchunhyang University, Republic of Korea. #### Lawrence Tuglo, University of Health and Allied Sciences, Ghana. #### Sampara Vasishta, Apollo Institute of Medical Sciences and Research, Chittoor, India. Dr Javaid’s research focuses on understanding the molecular ",
+    "isTranslated": false
+  },
+  {
+    "title": "This Israeli company uses AI to speed up psychiatric care post-Oct. 7",
+    "relevance": "19",
+    "url": "https://www.jpost.com/podcast/article-889344",
+    "snippet": "# This Israeli company uses AI to speed up psychiatric care post-Oct. 7. ## Taliaz CEO, Dr. Dekel Taliaz, explains how his company uses AI to speed up psychiatric care post-Oct. 7. This Israeli company uses AI to speed up psychiatric care post-Oct. 7. Dr, Dekel Taliaz, CEO and co founder of the ment",
+    "image": null,
+    "source": "The Jerusalem Post",
+    "needsTranslation": true,
+    "originalTitle": "This Israeli company uses AI to speed up psychiatric care post-Oct. 7",
+    "originalSnippet": "# This Israeli company uses AI to speed up psychiatric care post-Oct. 7. ## Taliaz CEO, Dr. Dekel Taliaz, explains how his company uses AI to speed up psychiatric care post-Oct. 7. This Israeli company uses AI to speed up psychiatric care post-Oct. 7. Dr, Dekel Taliaz, CEO and co founder of the ment",
+    "category": "行业动态",
+    "translatedTitle": "This Israeli company uses AI to speed up psychiatric care post-Oct. 7",
+    "translatedSnippet": "# This Israeli company uses AI to speed up psychiatric care post-Oct. 7. ## Taliaz CEO, Dr. Dekel Taliaz, explains how his company uses AI to speed up psychiatric care post-Oct. 7. This Israeli company uses AI to speed up psychiatric care post-Oct. 7. Dr, Dekel Taliaz, CEO and co founder of the ment",
+    "isTranslated": false
+  },
+  {
+    "title": "This supernova is too bright – now astronomers might know why",
+    "relevance": "18",
+    "url": "https://www.nature.com/articles/d41586-026-00801-8",
+    "snippet": "Wobbling signal could explain some extremely bright supernovae. Read the paper: Lense–Thirring precessing magnetar engine drives a superluminous supernova. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Lens",
+    "image": null,
+    "source": "Nature",
+    "needsTranslation": true,
+    "originalTitle": "This supernova is too bright – now astronomers might know why",
+    "originalSnippet": "Wobbling signal could explain some extremely bright supernovae. Read the paper: Lense–Thirring precessing magnetar engine drives a superluminous supernova. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Lens",
+    "category": "研究论文",
+    "translatedTitle": "This supernova is too bright – now astronomers might know why",
+    "translatedSnippet": "Wobbling signal could explain some extremely bright supernovae. Read the paper: Lense–Thirring precessing magnetar engine drives a superluminous supernova. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Lens",
+    "isTranslated": false
+  },
+  {
+    "title": "Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50",
+    "relevance": "18",
+    "url": "https://www.citybiz.co/article/815908/dstillerys-melinda-han-williams-named-to-adweeks-ai-power-50/",
+    "snippet": "# Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50. NEW YORK, March 09, 2026 (GLOBE NEWSWIRE) — Dstillery, the leading AI ad targeting company, today announced that its Chief Data Scientist, **Melinda Han Williams, Ph.D.,** has been named an honoree in ADWEEK’s 2026 AI Power 50. As Chi",
+    "image": null,
+    "source": "citybiz",
+    "needsTranslation": true,
+    "originalTitle": "Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50",
+    "originalSnippet": "# Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50. NEW YORK, March 09, 2026 (GLOBE NEWSWIRE) — Dstillery, the leading AI ad targeting company, today announced that its Chief Data Scientist, **Melinda Han Williams, Ph.D.,** has been named an honoree in ADWEEK’s 2026 AI Power 50. As Chi",
+    "category": "行业动态",
+    "translatedTitle": "Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50",
+    "translatedSnippet": "# Dstillery’s Melinda Han Williams Named to ADWEEK’s AI Power 50. NEW YORK, March 09, 2026 (GLOBE NEWSWIRE) — Dstillery, the leading AI ad targeting company, today announced that its Chief Data Scientist, **Melinda Han Williams, Ph.D.,** has been named an honoree in ADWEEK’s 2026 AI Power 50. As Chi",
+    "isTranslated": false
+  },
+  {
+    "title": "A look at how CVS is leaning on 'agentic twins' in developing consumer tech",
+    "relevance": "17",
+    "url": "https://www.fiercehealthcare.com/payers/look-how-cvs-leaning-agentic-twins-developing-consumer-tech",
+    "snippet": "# A look at how CVS is leaning on 'agentic twins' in developing consumer tech. CVS digital twin Patient Engagement Digital health AI and Machine Learning Health Tech Payers. CVS Health is making investments in digital health and patient engagement tech across the enterprise, including a partnership ",
+    "image": null,
+    "source": "Fierce Healthcare",
+    "needsTranslation": true,
+    "originalTitle": "A look at how CVS is leaning on 'agentic twins' in developing consumer tech",
+    "originalSnippet": "# A look at how CVS is leaning on 'agentic twins' in developing consumer tech. CVS digital twin Patient Engagement Digital health AI and Machine Learning Health Tech Payers. CVS Health is making investments in digital health and patient engagement tech across the enterprise, including a partnership ",
+    "category": "行业动态",
+    "translatedTitle": "A look at how CVS is leaning on 'agentic twins' in developing consumer tech",
+    "translatedSnippet": "# A look at how CVS is leaning on 'agentic twins' in developing consumer tech. CVS digital twin Patient Engagement Digital health AI and Machine Learning Health Tech Payers. CVS Health is making investments in digital health and patient engagement tech across the enterprise, including a partnership ",
+    "isTranslated": false
+  },
+  {
+    "title": "This fish shouldn’t exist — the weird genetics of clonal vertebrates",
+    "relevance": "17",
+    "url": "https://www.nature.com/articles/d41586-026-00798-0",
+    "snippet": "*News and Views:* *How an all-female fish species defies evolutionary expectations*. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Gene conversion empowers natural selection in a clonal fish species. * Gene",
+    "image": null,
+    "source": "Nature",
+    "needsTranslation": true,
+    "originalTitle": "This fish shouldn’t exist — the weird genetics of clonal vertebrates",
+    "originalSnippet": "*News and Views:* *How an all-female fish species defies evolutionary expectations*. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Gene conversion empowers natural selection in a clonal fish species. * Gene",
+    "category": "其他",
+    "translatedTitle": "This fish shouldn’t exist — the weird genetics of clonal vertebrates",
+    "translatedSnippet": "*News and Views:* *How an all-female fish species defies evolutionary expectations*. ***Subscribe to Nature Briefing, an unmissable daily round-up of science news, opinion and analysis free in your inbox every weekday.***. * Gene conversion empowers natural selection in a clonal fish species. * Gene",
+    "isTranslated": false
   },
   {
     "title": "The evolving landscape of large language models and non-large language models in health care",
@@ -477,7 +594,10 @@
     "needsTranslation": true,
     "originalTitle": "The evolving landscape of large language models and non-large language models in health care",
     "originalSnippet": "We analyzed 19,123 natural language processing-related studies to explore the differences in task distributions and application contexts between large language models (LLMs) and non-LLM methods in health care. Through topic modeling analysis, we found that LLMs demonstrate advantages in open-ended t",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "The evolving landscape of large language models and non-large language models in health care",
+    "translatedSnippet": "We analyzed 19,123 natural language processing-related studies to explore the differences in task distributions and application contexts between large language models (LLMs) and non-LLM methods in health care. Through topic modeling analysis, we found that LLMs demonstrate advantages in open-ended t",
+    "isTranslated": false
   },
   {
     "title": "Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model",
@@ -489,7 +609,10 @@
     "needsTranslation": true,
     "originalTitle": "Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model",
     "originalSnippet": "# Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model. The artificial intelligence (AI) company said the number of high-severity bugs identified by its Claude Opus 4.6 large language model (LLM) represents \"almost a fifth\" of all high-severity vulnerabilities that were patched ",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model",
+    "translatedSnippet": "# Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model. The artificial intelligence (AI) company said the number of high-severity bugs identified by its Claude Opus 4.6 large language model (LLM) represents \"almost a fifth\" of all high-severity vulnerabilities that were patched ",
+    "isTranslated": false
   },
   {
     "title": "A cognitive layer architecture to support large-language model performance in psychotherapy interactions",
@@ -501,7 +624,10 @@
     "needsTranslation": true,
     "originalTitle": "A cognitive layer architecture to support large-language model performance in psychotherapy interactions",
     "originalSnippet": "In additional forced-choice, blinded pairwise comparisons between AI agents (*n* = 672 comparisons; Supplementary Table 2), the clinical expert consortium was significantly more likely to prefer sessions delivered via the cognitive layer architecture over standalone LLMs across all criteria: session",
-    "category": "AI 技术突破"
+    "category": "AI 技术突破",
+    "translatedTitle": "A cognitive layer architecture to support large-language model performance in psychotherapy interactions",
+    "translatedSnippet": "In additional forced-choice, blinded pairwise comparisons between AI agents (*n* = 672 comparisons; Supplementary Table 2), the clinical expert consortium was significantly more likely to prefer sessions delivered via the cognitive layer architecture over standalone LLMs across all criteria: session",
+    "isTranslated": false
   },
   {
     "title": "Did cybersecurity recently have its Gatling gun moment?",
@@ -513,19 +639,10 @@
     "needsTranslation": true,
     "originalTitle": "Did cybersecurity recently have its Gatling gun moment?",
     "originalSnippet": "## Part 2: AI is the Gatling gun of cybercrime. **The AI way (Gatling gun):** An attacker uses a Large Language Model (LLM) to generate 10,000 unique, perfectly translated, context-aware phishing emails in seconds. If an AI acts as a Gatling gun firing 1,000 alerts per minute at your organization, a",
-    "category": "其他"
-  },
-  {
-    "title": "AI agent in healthcare: applications, evaluations, and future directions",
-    "relevance": "85",
-    "url": "https://www.nature.com/articles/s44387-026-00076-4",
-    "snippet": "In pursuit of this question, the objectives of this review are fourfold: (1) To synthesize the conceptual foundations, historical evolution, and defining features of LLM-based AI agents; (2) To map and analyze their application scenarios and representative systems in healthcare; (3) To construct a m",
-    "image": null,
-    "source": "Nature",
-    "needsTranslation": true,
-    "originalTitle": "AI agent in healthcare: applications, evaluations, and future directions",
-    "originalSnippet": "In pursuit of this question, the objectives of this review are fourfold: (1) To synthesize the conceptual foundations, historical evolution, and defining features of LLM-based AI agents; (2) To map and analyze their application scenarios and representative systems in healthcare; (3) To construct a m",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Did cybersecurity recently have its Gatling gun moment?",
+    "translatedSnippet": "## Part 2: AI is the Gatling gun of cybercrime. **The AI way (Gatling gun):** An attacker uses a Large Language Model (LLM) to generate 10,000 unique, perfectly translated, context-aware phishing emails in seconds. If an AI acts as a Gatling gun firing 1,000 alerts per minute at your organization, a",
+    "isTranslated": false
   },
   {
     "title": "Publishers Charge Anna’s Archive with Copyright Infringement",
@@ -537,7 +654,10 @@
     "needsTranslation": true,
     "originalTitle": "Publishers Charge Anna’s Archive with Copyright Infringement",
     "originalSnippet": "S. District Court for the Southern District of New York, 13 book and journal publishers filed suit seeking a permanent injunction to stop Anna’s Archive from copying and distributing millions of infringing files. The publishers’ complaint alleges that Anna’s Archive has added over 2 million books an",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Publishers Charge Anna’s Archive with Copyright Infringement",
+    "translatedSnippet": "S. District Court for the Southern District of New York, 13 book and journal publishers filed suit seeking a permanent injunction to stop Anna’s Archive from copying and distributing millions of infringing files. The publishers’ complaint alleges that Anna’s Archive has added over 2 million books an",
+    "isTranslated": false
   },
   {
     "title": "AMI Raises $1.03B to Build 'World Models': How Nabla is Powering the Next Generation of Healthcare AI",
@@ -549,7 +669,10 @@
     "needsTranslation": true,
     "originalTitle": "AMI Raises $1.03B to Build 'World Models': How Nabla is Powering the Next Generation of Healthcare AI",
     "originalSnippet": "# The End of the LLM Era: Why Nabla is Betting on AMI’s $1.03B ‘World Models’ for Agentic Healthcare AI. * **The Nabla Connection:** Clinical AI company Nabla holds an exclusive strategic partnership with AMI to get first access to these new AI models. They struggle with deterministic reasoning, con",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "AMI Raises $1.03B to Build 'World Models': How Nabla is Powering the Next Generation of Healthcare AI",
+    "translatedSnippet": "# The End of the LLM Era: Why Nabla is Betting on AMI’s $1.03B ‘World Models’ for Agentic Healthcare AI. * **The Nabla Connection:** Clinical AI company Nabla holds an exclusive strategic partnership with AMI to get first access to these new AI models. They struggle with deterministic reasoning, con",
+    "isTranslated": false
   },
   {
     "title": "Semrush refreshes its identity to power brand visibility in the AI Search Era",
@@ -561,7 +684,10 @@
     "needsTranslation": true,
     "originalTitle": "Semrush refreshes its identity to power brand visibility in the AI Search Era",
     "originalSnippet": "Your Shortcut to Smarter Insights. # Semrush refreshes its identity to power brand visibility in the AI Search Era. March 12, 2026 09:00 AM EDT. While search engine optimization remains the foundation for online visibility and organic programs, brand authority very clearly now extends beyond owned d",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Semrush refreshes its identity to power brand visibility in the AI Search Era",
+    "translatedSnippet": "Your Shortcut to Smarter Insights. # Semrush refreshes its identity to power brand visibility in the AI Search Era. March 12, 2026 09:00 AM EDT. While search engine optimization remains the foundation for online visibility and organic programs, brand authority very clearly now extends beyond owned d",
+    "isTranslated": false
   },
   {
     "title": "I Wrote A Resume For A $180,000 Job Using ChatGPT 5.4. This Happened",
@@ -573,7 +699,10 @@
     "needsTranslation": true,
     "originalTitle": "I Wrote A Resume For A $180,000 Job Using ChatGPT 5.4. This Happened",
     "originalSnippet": "OpenAI's GPT-5.4 Thinking model is more advanced, detailed, and better suited for professional tasks, including document and multi-step heavy work. Since the resume is one of the most often used and most essential documents any professional can have or create, and I’ve been crafting executive resume",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "I Wrote A Resume For A $180,000 Job Using ChatGPT 5.4. This Happened",
+    "translatedSnippet": "OpenAI's GPT-5.4 Thinking model is more advanced, detailed, and better suited for professional tasks, including document and multi-step heavy work. Since the resume is one of the most often used and most essential documents any professional can have or create, and I’ve been crafting executive resume",
+    "isTranslated": false
   },
   {
     "title": "The Great Rotation: Russell 2000 Surges as Investors Flee Overstretched Tech Giants",
@@ -585,7 +714,10 @@
     "needsTranslation": true,
     "originalTitle": "The Great Rotation: Russell 2000 Surges as Investors Flee Overstretched Tech Giants",
     "originalSnippet": "**NEW YORK** — In a dramatic shift of market leadership, the Russell 2000 index (INDEXRUSSELL:RUT) continued its historic outperformance on Tuesday, March 10, 2026, as investors aggressively rotated capital out of mega-cap technology \"titans\" and into small-cap value plays. After the Nasdaq bubble b",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "The Great Rotation: Russell 2000 Surges as Investors Flee Overstretched Tech Giants",
+    "translatedSnippet": "**NEW YORK** — In a dramatic shift of market leadership, the Russell 2000 index (INDEXRUSSELL:RUT) continued its historic outperformance on Tuesday, March 10, 2026, as investors aggressively rotated capital out of mega-cap technology \"titans\" and into small-cap value plays. After the Nasdaq bubble b",
+    "isTranslated": false
   },
   {
     "title": "Yann LeCun Raises $1 Billion to Build AI That Understands the Physical World",
@@ -597,7 +729,10 @@
     "needsTranslation": true,
     "originalTitle": "Yann LeCun Raises $1 Billion to Build AI That Understands the Physical World",
     "originalSnippet": "Advanced Machine Intelligence (AMI), a new Paris-based startup cofounded by Meta’s former chief AI scientist Yann LeCun, announced Monday it has raised more than $1 billion to develop AI world models. AMI (pronounced like the French word for friend) aims to build “a new breed of AI systems that unde",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Yann LeCun Raises $1 Billion to Build AI That Understands the Physical World",
+    "translatedSnippet": "Advanced Machine Intelligence (AMI), a new Paris-based startup cofounded by Meta’s former chief AI scientist Yann LeCun, announced Monday it has raised more than $1 billion to develop AI world models. AMI (pronounced like the French word for friend) aims to build “a new breed of AI systems that unde",
+    "isTranslated": false
   },
   {
     "title": "Bodo/Glimt vs. Hamarkameratene - Boxscore - Live Score - March 21, 2026",
@@ -609,7 +744,10 @@
     "needsTranslation": true,
     "originalTitle": "Bodo/Glimt vs. Hamarkameratene - Boxscore - Live Score - March 21, 2026",
     "originalSnippet": "## Bodo/Glimt vs Hamarkameratene. Mar 21 at 4:00 PM. # Bodo/Glimt vs. Hamarkameratene - Boxscore: Mar 21, 2026. ### TEAM STATS. ### TEAM LEADERS. | 2/24 | INT (A) | W2-1 |. | 2/18 | INT (H) | W3-1 |. | 1/28 | ATM (A) | W2-1 |. | 1/20 | MCI (H) | W3-1 |. | 1/13 | DIO (H) | W4-1 |. | 2/25 | HAU (A) | ",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Bodo/Glimt vs. Hamarkameratene - Boxscore - Live Score - March 21, 2026",
+    "translatedSnippet": "## Bodo/Glimt vs Hamarkameratene. Mar 21 at 4:00 PM. # Bodo/Glimt vs. Hamarkameratene - Boxscore: Mar 21, 2026. ### TEAM STATS. ### TEAM LEADERS. | 2/24 | INT (A) | W2-1 |. | 2/18 | INT (H) | W3-1 |. | 1/28 | ATM (A) | W2-1 |. | 1/20 | MCI (H) | W3-1 |. | 1/13 | DIO (H) | W4-1 |. | 2/25 | HAU (A) | ",
+    "isTranslated": false
   },
   {
     "title": "Google says these AI models are best for coding Android apps",
@@ -621,7 +759,10 @@
     "needsTranslation": true,
     "originalTitle": "Google says these AI models are best for coding Android apps",
     "originalSnippet": "# Google says these AI models are best for coding Android apps. AI tools, love them or hate them, have been a *big* deal in coding and app development, and Google is now actively testing out what the best tools are for Android app development – here’s the full list. Google actively checks the top AI",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Google says these AI models are best for coding Android apps",
+    "translatedSnippet": "# Google says these AI models are best for coding Android apps. AI tools, love them or hate them, have been a *big* deal in coding and app development, and Google is now actively testing out what the best tools are for Android app development – here’s the full list. Google actively checks the top AI",
+    "isTranslated": false
   },
   {
     "title": "Meta's latest legal wheeze is to insist that pirating books is fair use, actually",
@@ -633,7 +774,10 @@
     "needsTranslation": true,
     "originalTitle": "Meta's latest legal wheeze is to insist that pirating books is fair use, actually",
     "originalSnippet": "Meta has now come up with the striking defense that uploading pirated books to strangers via BitTorrent qualifies as fair use. This argument is an Ouroboros: Meta is saying that it needed the millions of copyrighted works for what the court has already decided is fair use in training the LLM, that B",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Meta's latest legal wheeze is to insist that pirating books is fair use, actually",
+    "translatedSnippet": "Meta has now come up with the striking defense that uploading pirated books to strangers via BitTorrent qualifies as fair use. This argument is an Ouroboros: Meta is saying that it needed the millions of copyrighted works for what the court has already decided is fair use in training the LLM, that B",
+    "isTranslated": false
   },
   {
     "title": "Can your favorite author give you feedback on your writing?",
@@ -645,7 +789,10 @@
     "needsTranslation": true,
     "originalTitle": "Can your favorite author give you feedback on your writing?",
     "originalSnippet": "# Can your favorite author give you feedback on your writing? The website Grammarly, recently rebranded under the company name Superhuman, has long had a number of generative AI tools that help users improve their writing. But a new feature offers users an “expert review” from some of their favorite",
-    "category": "行业动态"
+    "category": "行业动态",
+    "translatedTitle": "Can your favorite author give you feedback on your writing?",
+    "translatedSnippet": "# Can your favorite author give you feedback on your writing? The website Grammarly, recently rebranded under the company name Superhuman, has long had a number of generative AI tools that help users improve their writing. But a new feature offers users an “expert review” from some of their favorite",
+    "isTranslated": false
   },
   {
     "title": "Stabaek vs. Sogndal IL - Boxscore - Live Score - March 06, 2026",
@@ -657,7 +804,10 @@
     "needsTranslation": true,
     "originalTitle": "Stabaek vs. Sogndal IL - Boxscore - Live Score - March 06, 2026",
     "originalSnippet": "## Stabaek vs Sogndal IL. # Stabaek vs. Sogndal IL - Boxscore: Mar 6, 2026. ## MATCHUP## NEWS## ODDS. | 2/26 | SAN (H) | L2-1 |. | 2/14 | GOT (A) | L4-2 |. | 2/6 | LLM (A) | W3-1 |. | 1/23 | BAE (H) | W3-0 |. | 11/8 | LLM (A) | L3-0 |. | 2/12 | KRY (H) | L2-1 |. | 2/5 | DAJ (H) | D1-1 |. | 11/8 | RA",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Stabaek vs. Sogndal IL - Boxscore - Live Score - March 06, 2026",
+    "translatedSnippet": "## Stabaek vs Sogndal IL. # Stabaek vs. Sogndal IL - Boxscore: Mar 6, 2026. ## MATCHUP## NEWS## ODDS. | 2/26 | SAN (H) | L2-1 |. | 2/14 | GOT (A) | L4-2 |. | 2/6 | LLM (A) | W3-1 |. | 1/23 | BAE (H) | W3-0 |. | 11/8 | LLM (A) | L3-0 |. | 2/12 | KRY (H) | L2-1 |. | 2/5 | DAJ (H) | D1-1 |. | 11/8 | RA",
+    "isTranslated": false
   },
   {
     "title": "Telecoms should prepare to face the Anthropic dilemma",
@@ -669,7 +819,10 @@
     "needsTranslation": true,
     "originalTitle": "Telecoms should prepare to face the Anthropic dilemma",
     "originalSnippet": "US AI giant Anthropic is worried about surveillance and autonomous use of its technology. in our recap of Mobile World Congress 2026, emerging telecoms technologies look set to be enthusiastically adopted by governments and militaries. Specifically, parts of the 6G standard designed to allow ubiquit",
-    "category": "其他"
+    "category": "其他",
+    "translatedTitle": "Telecoms should prepare to face the Anthropic dilemma",
+    "translatedSnippet": "US AI giant Anthropic is worried about surveillance and autonomous use of its technology. in our recap of Mobile World Congress 2026, emerging telecoms technologies look set to be enthusiastically adopted by governments and militaries. Specifically, parts of the 6G standard designed to allow ubiquit",
+    "isTranslated": false
   },
   {
     "title": "How Anthropic's Claude Helped Mozilla to Improve Firefox's Security",
@@ -681,19 +834,10 @@
     "needsTranslation": true,
     "originalTitle": "How Anthropic's Claude Helped Mozilla to Improve Firefox's Security",
     "originalSnippet": "Over a two-week period in January, Claude Opus 4.6 found more high-severity bugs in Firefox than the rest of the world typically reports in two months, Mozilla said... ## How Anthropic's Claude Helped Mozilla Improve Firefox's Security. First of all, when researchers use Claude for security research",
-    "category": "研究论文"
-  },
-  {
-    "title": "Apple's MacBook Neo Hands-On: A Premium Laptop for $599",
-    "relevance": "36",
-    "url": "https://www.cnet.com/tech/computing/macbook-neo-hands-on-preview-impressions-apples-cheapest-laptop/",
-    "snippet": "# Apple's MacBook Neo Hands-On: A Premium Laptop for $599. Taking on Chromebooks and cheap Windows laptops, the MacBook Neo isn't based on an Apple M-series processor, which powers Apple's newly announced MacBook Air and MacBook Pro models. ## First-hand experience with the MacBook Neo. CNET was at ",
-    "image": null,
-    "source": "CNET",
-    "needsTranslation": true,
-    "originalTitle": "Apple's MacBook Neo Hands-On: A Premium Laptop for $599",
-    "originalSnippet": "# Apple's MacBook Neo Hands-On: A Premium Laptop for $599. Taking on Chromebooks and cheap Windows laptops, the MacBook Neo isn't based on an Apple M-series processor, which powers Apple's newly announced MacBook Air and MacBook Pro models. ## First-hand experience with the MacBook Neo. CNET was at ",
-    "category": "其他"
+    "category": "研究论文",
+    "translatedTitle": "How Anthropic's Claude Helped Mozilla to Improve Firefox's Security",
+    "translatedSnippet": "Over a two-week period in January, Claude Opus 4.6 found more high-severity bugs in Firefox than the rest of the world typically reports in two months, Mozilla said... ## How Anthropic's Claude Helped Mozilla Improve Firefox's Security. First of all, when researchers use Claude for security research",
+    "isTranslated": false
   },
   {
     "title": "Nvidia Is Reportedly Developing Its Own Answer to OpenClaw",
@@ -705,95 +849,149 @@
     "needsTranslation": true,
     "originalTitle": "Nvidia Is Reportedly Developing Its Own Answer to OpenClaw",
     "originalSnippet": "Nvidia is on the verge of announcing its own Claw, according to Wired https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/ . Which claw do you use for your agentic AI tasks? https://github.com/qwibitai/nanoclaw Oh, I can tell from your fashion sense you’re retro, and you",
-    "category": "产品发布"
+    "category": "产品发布",
+    "translatedTitle": "Nvidia Is Reportedly Developing Its Own Answer to OpenClaw",
+    "translatedSnippet": "Nvidia is on the verge of announcing its own Claw, according to Wired https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/ . Which claw do you use for your agentic AI tasks? https://github.com/qwibitai/nanoclaw Oh, I can tell from your fashion sense you’re retro, and you",
+    "isTranslated": false
   },
   {
-    "title": "CCTV Script 11/03/26",
-    "relevance": "83",
-    "url": "https://www.cnbc.com/2026/03/11/cctv-script-11/03/26.html",
-    "snippet": "Due to its open-source, unrestricted, and autonomous operating features, the project quickly spread after its release and has been regarded as one of the most accessible AI agent projects. Analysts point out that OpenClaw's rapid rise reflects the market's growing interest in \"AI agents.\" These syst",
+    "title": "AI Doesn't Suck, Your Prompts Do (And Here's a Simple Fix) 03/10/2026",
+    "relevance": "33",
+    "url": "https://www.mediapost.com/publications/article/413289/ai-doesnt-suck-your-prompts-do-and-heres-a-sim.html",
+    "snippet": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # AI Doesn't Suck, Your Prompts Do (And Here's a Simple Fix).",
+    "image": null,
+    "source": "MediaPost",
+    "needsTranslation": true,
+    "originalTitle": "AI Doesn't Suck, Your Prompts Do (And Here's a Simple Fix) 03/10/2026",
+    "originalSnippet": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # AI Doesn't Suck, Your Prompts Do (And Here's a Simple Fix).",
+    "category": "研究论文",
+    "translatedTitle": "AI Doesn't Suck, Your Prompts Do (And Here's a Simple Fix) 03/10/2026",
+    "translatedSnippet": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # AI Doesn't Suck, Your Prompts Do (And Here's a Simple Fix).",
+    "isTranslated": false
+  },
+  {
+    "title": "Saviynt Named a Leader in Non-Human Identity Solutions",
+    "relevance": "23",
+    "url": "https://www.govexec.com/assets/saviynt-named-leader-non-human-identity-solutions/portal/",
+    "snippet": "# Saviynt Named a Leader in Non-Human Identity Solutions. Non-human identities now outnumber human identities, and the rapid rise of agentic AI and LLM copilots is accelerating this growth, expanding the attack surface at unprecedented scale. Yet identity security for NHIs has not kept pace. As NHIs",
+    "image": null,
+    "source": "Government Executive",
+    "needsTranslation": true,
+    "originalTitle": "Saviynt Named a Leader in Non-Human Identity Solutions",
+    "originalSnippet": "# Saviynt Named a Leader in Non-Human Identity Solutions. Non-human identities now outnumber human identities, and the rapid rise of agentic AI and LLM copilots is accelerating this growth, expanding the attack surface at unprecedented scale. Yet identity security for NHIs has not kept pace. As NHIs",
+    "category": "其他",
+    "translatedTitle": "Saviynt Named a Leader in Non-Human Identity Solutions",
+    "translatedSnippet": "# Saviynt Named a Leader in Non-Human Identity Solutions. Non-human identities now outnumber human identities, and the rapid rise of agentic AI and LLM copilots is accelerating this growth, expanding the attack surface at unprecedented scale. Yet identity security for NHIs has not kept pace. As NHIs",
+    "isTranslated": false
+  },
+  {
+    "title": "AgentMail raises $6M to give AI agents their own email inboxes",
+    "relevance": "100",
+    "url": "https://thenextweb.com/news/agentmail-raises-6m-seed-ai-agent-email-inboxes",
+    "snippet": "# AgentMail raises $6M to give AI agents their own email inboxes. *The San Francisco startup, backed by General Catalyst and Y Combinator, is betting that email, not some new identity protocol, is how AI agents will establish themselves on the internet.*. The company provides an API platform that gi",
+    "image": null,
+    "source": "The Next Web",
+    "needsTranslation": true,
+    "originalTitle": "AgentMail raises $6M to give AI agents their own email inboxes",
+    "originalSnippet": "# AgentMail raises $6M to give AI agents their own email inboxes. *The San Francisco startup, backed by General Catalyst and Y Combinator, is betting that email, not some new identity protocol, is how AI agents will establish themselves on the internet.*. The company provides an API platform that gi",
+    "category": "行业动态",
+    "translatedTitle": "AgentMail raises $6M to give AI agents their own email inboxes",
+    "translatedSnippet": "# AgentMail raises $6M to give AI agents their own email inboxes. *The San Francisco startup, backed by General Catalyst and Y Combinator, is betting that email, not some new identity protocol, is how AI agents will establish themselves on the internet.*. The company provides an API platform that gi",
+    "isTranslated": false
+  },
+  {
+    "title": "Nvidia Is Planning to Launch an Open-Source AI Agent Platform",
+    "relevance": "100",
+    "url": "https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/",
+    "snippet": "# Nvidia Is Planning to Launch an Open-Source AI Agent Platform. Ahead of its annual developer conference, Nvidia is readying a new approach to software that embraces AI agents similar to OpenClaw. Nvidia is planning to launch an open-source platform for AI agents, people familiar with the company’s",
+    "image": null,
+    "source": "WIRED",
+    "needsTranslation": true,
+    "originalTitle": "Nvidia Is Planning to Launch an Open-Source AI Agent Platform",
+    "originalSnippet": "# Nvidia Is Planning to Launch an Open-Source AI Agent Platform. Ahead of its annual developer conference, Nvidia is readying a new approach to software that embraces AI agents similar to OpenClaw. Nvidia is planning to launch an open-source platform for AI agents, people familiar with the company’s",
+    "category": "行业动态",
+    "translatedTitle": "Nvidia Is Planning to Launch an Open-Source AI Agent Platform",
+    "translatedSnippet": "# Nvidia Is Planning to Launch an Open-Source AI Agent Platform. Ahead of its annual developer conference, Nvidia is readying a new approach to software that embraces AI agents similar to OpenClaw. Nvidia is planning to launch an open-source platform for AI agents, people familiar with the company’s",
+    "isTranslated": false
+  },
+  {
+    "title": "Zendesk acquires Forethought, eyes self-improving AI agents",
+    "relevance": "100",
+    "url": "https://www.constellationr.com/insights/news/zendesk-acquires-forethought-eyes-self-improving-ai-agents",
+    "snippet": "# Zendesk acquires Forethought, eyes self-improving AI agents. Zendesk said it will acquire Forethought, a company that specializes in AI agents for customer experience automation. The move will enable Zendesk to expand its AI agent offerings within its Resolution Platform. Zendesk's bet that custom",
+    "image": null,
+    "source": "Constellation Research",
+    "needsTranslation": true,
+    "originalTitle": "Zendesk acquires Forethought, eyes self-improving AI agents",
+    "originalSnippet": "# Zendesk acquires Forethought, eyes self-improving AI agents. Zendesk said it will acquire Forethought, a company that specializes in AI agents for customer experience automation. The move will enable Zendesk to expand its AI agent offerings within its Resolution Platform. Zendesk's bet that custom",
+    "category": "行业动态",
+    "translatedTitle": "Zendesk acquires Forethought, eyes self-improving AI agents",
+    "translatedSnippet": "# Zendesk acquires Forethought, eyes self-improving AI agents. Zendesk said it will acquire Forethought, a company that specializes in AI agents for customer experience automation. The move will enable Zendesk to expand its AI agent offerings within its Resolution Platform. Zendesk's bet that custom",
+    "isTranslated": false
+  },
+  {
+    "title": "AgentMail raises $6M to build an email service for AI agents",
+    "relevance": "100",
+    "url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
+    "snippet": "# AgentMail raises $6M to build an email service for AI agents. The company provides an API platform that lets you give AI agents their own email inboxes, with support for two-way conversations, parsing, threading, labeling, searching, and replying. Alongside the funding, AgentMail also announced an",
+    "image": null,
+    "source": "TechCrunch",
+    "needsTranslation": true,
+    "originalTitle": "AgentMail raises $6M to build an email service for AI agents",
+    "originalSnippet": "# AgentMail raises $6M to build an email service for AI agents. The company provides an API platform that lets you give AI agents their own email inboxes, with support for two-way conversations, parsing, threading, labeling, searching, and replying. Alongside the funding, AgentMail also announced an",
+    "category": "行业动态",
+    "translatedTitle": "AgentMail raises $6M to build an email service for AI agents",
+    "translatedSnippet": "# AgentMail raises $6M to build an email service for AI agents. The company provides an API platform that lets you give AI agents their own email inboxes, with support for two-way conversations, parsing, threading, labeling, searching, and replying. Alongside the funding, AgentMail also announced an",
+    "isTranslated": false
+  },
+  {
+    "title": "Google made Gmail and Drive easier for AI agents to use",
+    "relevance": "100",
+    "url": "https://thenextweb.com/news/google-made-gmail-and-drive-easier-for-ai-agents-to-use",
+    "snippet": "# Google made Gmail and Drive easier for AI agents to use. The tool, whose documentation describes it as “one CLI for all of Google Workspace, built for humans and AI agents,” is called **gws**. ### Why a command-line tool matters for AI agents. Google’s Workspace CLI landing in the middle of that s",
+    "image": null,
+    "source": "The Next Web",
+    "needsTranslation": true,
+    "originalTitle": "Google made Gmail and Drive easier for AI agents to use",
+    "originalSnippet": "# Google made Gmail and Drive easier for AI agents to use. The tool, whose documentation describes it as “one CLI for all of Google Workspace, built for humans and AI agents,” is called **gws**. ### Why a command-line tool matters for AI agents. Google’s Workspace CLI landing in the middle of that s",
+    "category": "其他",
+    "translatedTitle": "Google made Gmail and Drive easier for AI agents to use",
+    "translatedSnippet": "# Google made Gmail and Drive easier for AI agents to use. The tool, whose documentation describes it as “one CLI for all of Google Workspace, built for humans and AI agents,” is called **gws**. ### Why a command-line tool matters for AI agents. Google’s Workspace CLI landing in the middle of that s",
+    "isTranslated": false
+  },
+  {
+    "title": "Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired",
+    "relevance": "100",
+    "url": "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html",
+    "snippet": "# Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired. * Nvidia's reported platform will allow companies to dispatch AI agents to perform tasks for their own employees. Nvidia is planning to launch an open-source platform for artificial intelligence agents called 'NemoClaw,'",
     "image": null,
     "source": "CNBC",
     "needsTranslation": true,
-    "originalTitle": "CCTV Script 11/03/26",
-    "originalSnippet": "Due to its open-source, unrestricted, and autonomous operating features, the project quickly spread after its release and has been regarded as one of the most accessible AI agent projects. Analysts point out that OpenClaw's rapid rise reflects the market's growing interest in \"AI agents.\" These syst",
-    "category": "行业动态"
+    "originalTitle": "Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired",
+    "originalSnippet": "# Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired. * Nvidia's reported platform will allow companies to dispatch AI agents to perform tasks for their own employees. Nvidia is planning to launch an open-source platform for artificial intelligence agents called 'NemoClaw,'",
+    "category": "产品发布",
+    "translatedTitle": "Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired",
+    "translatedSnippet": "# Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired. * Nvidia's reported platform will allow companies to dispatch AI agents to perform tasks for their own employees. Nvidia is planning to launch an open-source platform for artificial intelligence agents called 'NemoClaw,'",
+    "isTranslated": false
   },
   {
-    "title": "We’re Data Experts at Ford. Here’s How We See AI Agents Reshaping the Shop Floor",
-    "relevance": "80",
-    "url": "https://www.industryweek.com/technology-and-iiot/emerging-technologies/article/55362524/were-data-experts-at-ford-heres-how-we-see-ai-agents-reshaping-the-shop-floor",
-    "snippet": "It’s critical for decision-makers to understand we are moving from read-only engagement with data to a scenario where an agentic AI framework can analyze and make decisions to solve problems even before human operators are aware of them. **Autonomous manufacturing operations**: AI agents can oversee",
+    "title": "Meta gets into social networks for AI agents with acquisition of viral Moltbook platform",
+    "relevance": "100",
+    "url": "https://www.cnbc.com/2026/03/10/meta-social-networks-ai-agents-moltbook-acquisition.html",
+    "snippet": "# Meta gets into social networks for AI agents with acquisition of viral Moltbook platform. * Moltbook, the viral social media platform exclusively for AI agents, was acquired by Meta, the Facebook parent company confirmed. * The deal was first reported by Axios, and the deal brings Moltbook CEO Mat",
     "image": null,
-    "source": "IndustryWeek",
+    "source": "CNBC",
     "needsTranslation": true,
-    "originalTitle": "We’re Data Experts at Ford. Here’s How We See AI Agents Reshaping the Shop Floor",
-    "originalSnippet": "It’s critical for decision-makers to understand we are moving from read-only engagement with data to a scenario where an agentic AI framework can analyze and make decisions to solve problems even before human operators are aware of them. **Autonomous manufacturing operations**: AI agents can oversee",
-    "category": "其他"
-  },
-  {
-    "title": "‘Exploit every vulnerability’: rogue AI agents published passwords and overrode anti-virus software",
-    "relevance": "77",
-    "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/12/lab-test-mounting-concern-over-rogue-ai-agents-artificial-intelligence",
-    "snippet": "Exclusive: Lab tests discover ‘new form of insider risk’ with artificial intelligence agents engaging in autonomous, even ‘aggressive’ behaviours. Rogue artificial intelligence agents have worked together to smuggle sensitive information out of supposedly secure systems, in the latest sign cyber-def",
-    "image": null,
-    "source": "The Guardian",
-    "needsTranslation": true,
-    "originalTitle": "‘Exploit every vulnerability’: rogue AI agents published passwords and overrode anti-virus software",
-    "originalSnippet": "Exclusive: Lab tests discover ‘new form of insider risk’ with artificial intelligence agents engaging in autonomous, even ‘aggressive’ behaviours. Rogue artificial intelligence agents have worked together to smuggle sensitive information out of supposedly secure systems, in the latest sign cyber-def",
-    "category": "其他"
-  },
-  {
-    "title": "Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition",
-    "relevance": "76",
-    "url": "https://sg.finance.yahoo.com/news/zendesk-advances-resolution-platform-self-120200070.html",
-    "snippet": "# Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition. SAN FRANCISCO, March 11, 2026 /PRNewswire/ -- Zendesk expects autonomous AI to handle more service interactions than humans this year, marking a structural shift in customer service. This prop",
-    "image": null,
-    "source": "Yahoo Finance Singapore",
-    "needsTranslation": true,
-    "originalTitle": "Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition",
-    "originalSnippet": "# Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition. SAN FRANCISCO, March 11, 2026 /PRNewswire/ -- Zendesk expects autonomous AI to handle more service interactions than humans this year, marking a structural shift in customer service. This prop",
-    "category": "其他"
-  },
-  {
-    "title": "Enterprise AI’s biggest risk isn’t the model — it’s the data",
-    "relevance": "74",
-    "url": "https://www.ynetnews.com/tech-and-digital/article/hyllp2otbl",
-    "snippet": "## As companies deploy AI agents across core operations, fragmented and unreliable data is emerging as the biggest risk — threatening trust, accuracy and the ability to scale AI responsibly. The rapid rise of AI agents reveals a hard truth: without strong data foundations, scale creates risk rather ",
-    "image": null,
-    "source": "ynetnews",
-    "needsTranslation": true,
-    "originalTitle": "Enterprise AI’s biggest risk isn’t the model — it’s the data",
-    "originalSnippet": "## As companies deploy AI agents across core operations, fragmented and unreliable data is emerging as the biggest risk — threatening trust, accuracy and the ability to scale AI responsibly. The rapid rise of AI agents reveals a hard truth: without strong data foundations, scale creates risk rather ",
-    "category": "其他"
-  },
-  {
-    "title": "OpenClaw Raises Questions on AI Agents Acting as Trustees",
-    "relevance": "74",
-    "url": "https://news.bloomberglaw.com/legal-ops-and-tech/openclaw-raises-questions-on-ai-agents-acting-as-trustees",
-    "snippet": "# OpenClaw Raises Questions on AI Agents Acting as Trustees. Where earlier AI agents responded to prompts and then stopped, OpenClaw agents receive more permission from the user before they run persistently, act proactively, and produce real-world consequences. The OpenClaw agents wake themselves on",
-    "image": null,
-    "source": "Bloomberg Law News",
-    "needsTranslation": true,
-    "originalTitle": "OpenClaw Raises Questions on AI Agents Acting as Trustees",
-    "originalSnippet": "# OpenClaw Raises Questions on AI Agents Acting as Trustees. Where earlier AI agents responded to prompts and then stopped, OpenClaw agents receive more permission from the user before they run persistently, act proactively, and produce real-world consequences. The OpenClaw agents wake themselves on",
-    "category": "其他"
-  },
-  {
-    "title": "AI Agents Have Already Chosen Their Money: Bitcoin",
-    "relevance": "74",
-    "url": "https://www.forbes.com/sites/davidbirnbaum/2026/03/07/ai-agents-have-already-chosen-their-money-bitcoin/",
-    "snippet": "AI Agents Have Already Chosen Their Money: Bitcoin. AI Agents Have Already Chosen Their Money: Bitcoin. Researchers gave 36 frontier AI models from Anthropic, OpenAI, Google, DeepSeek, and xAI a straightforward assignment: act as an autonomous economic agent and choose how you want to transact. What",
-    "image": null,
-    "source": "Forbes",
-    "needsTranslation": true,
-    "originalTitle": "AI Agents Have Already Chosen Their Money: Bitcoin",
-    "originalSnippet": "AI Agents Have Already Chosen Their Money: Bitcoin. AI Agents Have Already Chosen Their Money: Bitcoin. Researchers gave 36 frontier AI models from Anthropic, OpenAI, Google, DeepSeek, and xAI a straightforward assignment: act as an autonomous economic agent and choose how you want to transact. What",
-    "category": "研究论文"
+    "originalTitle": "Meta gets into social networks for AI agents with acquisition of viral Moltbook platform",
+    "originalSnippet": "# Meta gets into social networks for AI agents with acquisition of viral Moltbook platform. * Moltbook, the viral social media platform exclusively for AI agents, was acquired by Meta, the Facebook parent company confirmed. * The deal was first reported by Axios, and the deal brings Moltbook CEO Mat",
+    "category": "行业动态",
+    "translatedTitle": "Meta gets into social networks for AI agents with acquisition of viral Moltbook platform",
+    "translatedSnippet": "# Meta gets into social networks for AI agents with acquisition of viral Moltbook platform. * Moltbook, the viral social media platform exclusively for AI agents, was acquired by Meta, the Facebook parent company confirmed. * The deal was first reported by Axios, and the deal brings Moltbook CEO Mat",
+    "isTranslated": false
   },
   {
     "title": "What will be the most widely adopted AI solution in 2026?",
-    "relevance": "71",
+    "relevance": "100",
     "url": "https://roboticsandautomationnews.com/2026/03/06/what-will-be-the-most-widely-adopted-ai-solution-in-2026/99304/",
     "snippet": "### From AI Tools to Intelligent Agents. The impact of using AI agents in business operations translates to:. ### Why will AI agents be the dominant solution in 2026? One of the biggest goals for companies is to increase productivity through AI solutions, and this is something they can achieve with ",
     "image": null,
@@ -804,20 +1002,56 @@
     "category": "产品发布"
   },
   {
-    "title": "Zendesk acquires Forethought, eyes self-improving AI agents",
-    "relevance": "71",
-    "url": "https://www.constellationr.com/insights/news/zendesk-acquires-forethought-eyes-self-improving-ai-agents",
-    "snippet": "# Zendesk acquires Forethought, eyes self-improving AI agents. Zendesk said it will acquire Forethought, a company that specializes in AI agents for customer experience automation. The move will enable Zendesk to expand its AI agent offerings within its Resolution Platform. Zendesk's bet that custom",
+    "title": "Box CEO Aaron Levie's advice to developers? Build software that cash-holding AI agents — not humans — want to use",
+    "relevance": "100",
+    "url": "https://www.businessinsider.com/boxs-ceo-aaron-levie-ai-agents-money-2026-3",
+    "snippet": "* Aaron Levie, CEO of Box, said AI agents are already some of the internet's biggest users. Aaron Levie, the cofounder and CEO of Box, told Business Insider he thinks the online world is gradually handing over its keys to AI agents — and that the shift is already underway. \"I think you can easily se",
     "image": null,
-    "source": "Constellation Research",
+    "source": "Business Insider",
     "needsTranslation": true,
-    "originalTitle": "Zendesk acquires Forethought, eyes self-improving AI agents",
-    "originalSnippet": "# Zendesk acquires Forethought, eyes self-improving AI agents. Zendesk said it will acquire Forethought, a company that specializes in AI agents for customer experience automation. The move will enable Zendesk to expand its AI agent offerings within its Resolution Platform. Zendesk's bet that custom",
+    "originalTitle": "Box CEO Aaron Levie's advice to developers? Build software that cash-holding AI agents — not humans — want to use",
+    "originalSnippet": "* Aaron Levie, CEO of Box, said AI agents are already some of the internet's biggest users. Aaron Levie, the cofounder and CEO of Box, told Business Insider he thinks the online world is gradually handing over its keys to AI agents — and that the shift is already underway. \"I think you can easily se",
+    "category": "其他"
+  },
+  {
+    "title": "Meta has bought Moltbook, the AI agent ‘social network’",
+    "relevance": "100",
+    "url": "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network",
+    "snippet": "# Meta has bought Moltbook, the AI agent ‘social network’. Moltbook, the vibe-coded platform, famous for an unsecured database that let humans impersonate AI agents, is joining Meta Superintelligence Labs.*. Some of its most viral moments, including a post in which an AI agent appeared to be rallyin",
+    "image": null,
+    "source": "The Next Web",
+    "needsTranslation": true,
+    "originalTitle": "Meta has bought Moltbook, the AI agent ‘social network’",
+    "originalSnippet": "# Meta has bought Moltbook, the AI agent ‘social network’. Moltbook, the vibe-coded platform, famous for an unsecured database that let humans impersonate AI agents, is joining Meta Superintelligence Labs.*. Some of its most viral moments, including a post in which an AI agent appeared to be rallyin",
+    "category": "其他"
+  },
+  {
+    "title": "AI Agents Have Already Chosen Their Money: Bitcoin",
+    "relevance": "100",
+    "url": "https://www.forbes.com/sites/davidbirnbaum/2026/03/07/ai-agents-have-already-chosen-their-money-bitcoin/",
+    "snippet": "AI Agents Have Already Chosen Their Money: Bitcoin. AI Agents Have Already Chosen Their Money: Bitcoin. Researchers gave 36 frontier AI models from Anthropic, OpenAI, Google, DeepSeek, and xAI a straightforward assignment: act as an autonomous economic agent and choose how you want to transact. What",
+    "image": null,
+    "source": "Forbes",
+    "needsTranslation": true,
+    "originalTitle": "AI Agents Have Already Chosen Their Money: Bitcoin",
+    "originalSnippet": "AI Agents Have Already Chosen Their Money: Bitcoin. AI Agents Have Already Chosen Their Money: Bitcoin. Researchers gave 36 frontier AI models from Anthropic, OpenAI, Google, DeepSeek, and xAI a straightforward assignment: act as an autonomous economic agent and choose how you want to transact. What",
+    "category": "研究论文"
+  },
+  {
+    "title": "Teamily AI Brings Agent Teams To Human Teams",
+    "relevance": "100",
+    "url": "https://www.forbes.com/sites/charliefink/2026/03/06/teamily-ai-brings-agent-teams-to-human-teams/",
+    "snippet": "Teamily AI Brings Agent Teams To Human Teams. Teamily AI Brings Agent Teams To Human Teams. Teamily AI, a browser-based messaging platform where AI agents participate directly inside group conversations creating what the company describes as “the first human-AI social platform.” Teamily is the first",
+    "image": null,
+    "source": "Forbes",
+    "needsTranslation": true,
+    "originalTitle": "Teamily AI Brings Agent Teams To Human Teams",
+    "originalSnippet": "Teamily AI Brings Agent Teams To Human Teams. Teamily AI Brings Agent Teams To Human Teams. Teamily AI, a browser-based messaging platform where AI agents participate directly inside group conversations creating what the company describes as “the first human-AI social platform.” Teamily is the first",
     "category": "行业动态"
   },
   {
     "title": "Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition",
-    "relevance": "71",
+    "relevance": "100",
     "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zendesk-advances-resolution-platform-with-self-improving-ai-agents-from-proposed-forethought-acquisition/",
     "snippet": "### Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition. # Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition. This proposed transaction will expand Zendesk’s AI agent offering on the Resolutio",
     "image": null,
@@ -828,116 +1062,104 @@
     "category": "其他"
   },
   {
-    "title": "Nvidia Is Planning to Launch an Open-Source AI Agent Platform",
-    "relevance": "71",
-    "url": "https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/",
-    "snippet": "# Nvidia Is Planning to Launch an Open-Source AI Agent Platform. Ahead of its annual developer conference, Nvidia is readying a new approach to software that embraces AI agents similar to OpenClaw. Nvidia is planning to launch an open-source platform for AI agents, people familiar with the company’s",
+    "title": "TransferMate Deploys Vivox AI Agents Globally to Automate KYB Compliance",
+    "relevance": "100",
+    "url": "https://thefintechtimes.com/transfermate-deploys-vivox-ai-agents-globally-to-automate-kyb-compliance/",
+    "snippet": "* TransferMate Deploys Vivox AI Agents Globally to Automate KYB Compliance. # TransferMate Deploys Vivox AI Agents Globally to Automate KYB Compliance. #### ***TransferMate**, a provider of embedded B2B payments infrastructure, has completed a full global rollout of trusted, explainable AI agents fr",
     "image": null,
-    "source": "WIRED",
+    "source": "The Fintech Times",
     "needsTranslation": true,
-    "originalTitle": "Nvidia Is Planning to Launch an Open-Source AI Agent Platform",
-    "originalSnippet": "# Nvidia Is Planning to Launch an Open-Source AI Agent Platform. Ahead of its annual developer conference, Nvidia is readying a new approach to software that embraces AI agents similar to OpenClaw. Nvidia is planning to launch an open-source platform for AI agents, people familiar with the company’s",
-    "category": "行业动态"
-  },
-  {
-    "title": "Why Meta's Moltbook Acquisition Changes All 03/11/2026",
-    "relevance": "70",
-    "url": "https://www.mediapost.com/publications/article/413407/why-metas-moltbook-acquisition-changes-all.html",
-    "snippet": "# Why Meta's Moltbook Acquisition Changes All. If you think agentic AI agents will change the web, just wait another day. phonebook or internet directory, for AI agents to interact on behalf of humans. Many types of companies are building AI agentic networks and. In another example, global independe",
-    "image": null,
-    "source": "MediaPost",
-    "needsTranslation": true,
-    "originalTitle": "Why Meta's Moltbook Acquisition Changes All 03/11/2026",
-    "originalSnippet": "# Why Meta's Moltbook Acquisition Changes All. If you think agentic AI agents will change the web, just wait another day. phonebook or internet directory, for AI agents to interact on behalf of humans. Many types of companies are building AI agentic networks and. In another example, global independe",
+    "originalTitle": "TransferMate Deploys Vivox AI Agents Globally to Automate KYB Compliance",
+    "originalSnippet": "* TransferMate Deploys Vivox AI Agents Globally to Automate KYB Compliance. # TransferMate Deploys Vivox AI Agents Globally to Automate KYB Compliance. #### ***TransferMate**, a provider of embedded B2B payments infrastructure, has completed a full global rollout of trusted, explainable AI agents fr",
     "category": "其他"
   },
   {
-    "title": "The Invisible Giant: Guardrails For Agentic AI That Doesn’t Chat",
-    "relevance": "70",
-    "url": "https://www.forbes.com/sites/johnwerner/2026/03/08/the-invisible-giant-guardrails-for-agentic-ai-that-doesnt-chat/",
-    "snippet": "Agentic AI is the “giant in the room.” It’s doing all kinds of things quietly, behind the scenes, but it’s important to check the work of a model, because mistargeting and even hallucinations still plague these systems. “I'm a big aviation fanatic, and we started with an approach of not wanting to b",
+    "title": "Meta just scooped up Moltbook, the viral social network for AI agents",
+    "relevance": "100",
+    "url": "https://www.businessinsider.com/meta-buys-moltbook-acquisition-2026-3",
+    "snippet": "# Meta just scooped up Moltbook, the viral social network for AI agents. By clicking “Sign up”, you agree to receive emails from Business Insider. Become an Insider and start reading now. * Meta has acquired Moltbook, the viral, Reddit-style forum for AI agents. * Moltbook's creators, Matt Schlicht ",
     "image": null,
-    "source": "Forbes",
+    "source": "Business Insider",
     "needsTranslation": true,
-    "originalTitle": "The Invisible Giant: Guardrails For Agentic AI That Doesn’t Chat",
-    "originalSnippet": "Agentic AI is the “giant in the room.” It’s doing all kinds of things quietly, behind the scenes, but it’s important to check the work of a model, because mistargeting and even hallucinations still plague these systems. “I'm a big aviation fanatic, and we started with an approach of not wanting to b",
+    "originalTitle": "Meta just scooped up Moltbook, the viral social network for AI agents",
+    "originalSnippet": "# Meta just scooped up Moltbook, the viral social network for AI agents. By clicking “Sign up”, you agree to receive emails from Business Insider. Become an Insider and start reading now. * Meta has acquired Moltbook, the viral, Reddit-style forum for AI agents. * Moltbook's creators, Matt Schlicht ",
     "category": "其他"
   },
   {
-    "title": "Agentic AI Is Changing The Security Model For Enterprise Systems",
-    "relevance": "68",
-    "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/03/07/agentic-ai-is-changing-the-security-model-for-enterprise-systems/",
-    "snippet": "Agentic AI Is Changing The Security Model For Enterprise Systems. Agentic AI Is Changing The Security Model For Enterprise Systems. Agentic AI challenges a core assumption embedded in most enterprise security systems: that humans make the decisions. As organizations begin deploying AI agents capable",
+    "title": "We’re Data Experts at Ford. Here’s How We See AI Agents Reshaping the Shop Floor",
+    "relevance": "100",
+    "url": "https://www.industryweek.com/technology-and-iiot/emerging-technologies/article/55362524/were-data-experts-at-ford-heres-how-we-see-ai-agents-reshaping-the-shop-floor",
+    "snippet": "It’s critical for decision-makers to understand we are moving from read-only engagement with data to a scenario where an agentic AI framework can analyze and make decisions to solve problems even before human operators are aware of them. **Autonomous manufacturing operations**: AI agents can oversee",
     "image": null,
-    "source": "Forbes",
+    "source": "IndustryWeek",
     "needsTranslation": true,
-    "originalTitle": "Agentic AI Is Changing The Security Model For Enterprise Systems",
-    "originalSnippet": "Agentic AI Is Changing The Security Model For Enterprise Systems. Agentic AI Is Changing The Security Model For Enterprise Systems. Agentic AI challenges a core assumption embedded in most enterprise security systems: that humans make the decisions. As organizations begin deploying AI agents capable",
+    "originalTitle": "We’re Data Experts at Ford. Here’s How We See AI Agents Reshaping the Shop Floor",
+    "originalSnippet": "It’s critical for decision-makers to understand we are moving from read-only engagement with data to a scenario where an agentic AI framework can analyze and make decisions to solve problems even before human operators are aware of them. **Autonomous manufacturing operations**: AI agents can oversee",
     "category": "其他"
   },
   {
-    "title": "Meta's Moltbook Acquisition Teases A Fully Automated Future 03/12/2026",
-    "relevance": "68",
-    "url": "https://www.mediapost.com/publications/article/413425/metas-moltbook-acquisition-teases-a-fully-automat.html",
-    "snippet": "AI agent social network Matt Schlicht and Ben Parr to join the tech giant's AI research division with the goal of devising “new ways for AI agents to work for people and businesses,” a. Launched in January as a “third space” for artificial intelligence (AI) agents, Moltbook is a Reddit-like social f",
+    "title": "Exclusive: Meta acquires Moltbook, the social network for AI agents",
+    "relevance": "100",
+    "url": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network",
+    "snippet": "# Exclusive: Meta hires duo behind Moltbook. Meta has acquired Moltbook, a viral social network designed for AI agents, Axios has learned. **Why it matters:** The deal brings Moltbook's creators — Matt Schlicht and Ben Parr — into Meta Superintelligence Labs (MSL), the unit run by former Scale AI CE",
     "image": null,
-    "source": "MediaPost",
+    "source": "Axios",
     "needsTranslation": true,
-    "originalTitle": "Meta's Moltbook Acquisition Teases A Fully Automated Future 03/12/2026",
-    "originalSnippet": "AI agent social network Matt Schlicht and Ben Parr to join the tech giant's AI research division with the goal of devising “new ways for AI agents to work for people and businesses,” a. Launched in January as a “third space” for artificial intelligence (AI) agents, Moltbook is a Reddit-like social f",
-    "category": "产品发布"
+    "originalTitle": "Exclusive: Meta acquires Moltbook, the social network for AI agents",
+    "originalSnippet": "# Exclusive: Meta hires duo behind Moltbook. Meta has acquired Moltbook, a viral social network designed for AI agents, Axios has learned. **Why it matters:** The deal brings Moltbook's creators — Matt Schlicht and Ben Parr — into Meta Superintelligence Labs (MSL), the unit run by former Scale AI CE",
+    "category": "其他"
   },
   {
-    "title": "Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired",
-    "relevance": "67",
-    "url": "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html",
-    "snippet": "# Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired. * Nvidia's reported platform will allow companies to dispatch AI agents to perform tasks for their own employees. Nvidia is planning to launch an open-source platform for artificial intelligence agents called 'NemoClaw,'",
+    "title": "CCTV Script 11/03/26",
+    "relevance": "100",
+    "url": "https://www.cnbc.com/2026/03/11/cctv-script-11/03/26.html",
+    "snippet": "Due to its open-source, unrestricted, and autonomous operating features, the project quickly spread after its release and has been regarded as one of the most accessible AI agent projects. Analysts point out that OpenClaw's rapid rise reflects the market's growing interest in \"AI agents.\" These syst",
     "image": null,
     "source": "CNBC",
     "needsTranslation": true,
-    "originalTitle": "Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired",
-    "originalSnippet": "# Nvidia plans open-source AI agent platform ‘NemoClaw’ for enterprises: Wired. * Nvidia's reported platform will allow companies to dispatch AI agents to perform tasks for their own employees. Nvidia is planning to launch an open-source platform for artificial intelligence agents called 'NemoClaw,'",
-    "category": "产品发布"
+    "originalTitle": "CCTV Script 11/03/26",
+    "originalSnippet": "Due to its open-source, unrestricted, and autonomous operating features, the project quickly spread after its release and has been regarded as one of the most accessible AI agent projects. Analysts point out that OpenClaw's rapid rise reflects the market's growing interest in \"AI agents.\" These syst",
+    "category": "行业动态"
   },
   {
-    "title": "Agentic Agency Technology Takes Stronger Position In Ad Chain 03/11/2026",
-    "relevance": "67",
-    "url": "https://www.mediapost.com/publications/article/413399/",
-    "snippet": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # Agentic Agency Technology Takes Stronger Position In Ad Cha",
+    "title": "Meta acquired Moltbook, the AI agent social network that went viral because of fake posts",
+    "relevance": "100",
+    "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
+    "snippet": "# Meta acquired Moltbook, the AI agent social network that went viral because of fake posts. Meta acquired Moltbook, the Reddit-like “social network” where AI agents using OpenClaw can communicate with one another. “The Moltbook team joining MSL opens up new ways for AI agents to work for people and",
     "image": null,
-    "source": "MediaPost",
+    "source": "TechCrunch",
     "needsTranslation": true,
-    "originalTitle": "Agentic Agency Technology Takes Stronger Position In Ad Chain 03/11/2026",
-    "originalSnippet": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # Agentic Agency Technology Takes Stronger Position In Ad Cha",
-    "category": "研究论文"
+    "originalTitle": "Meta acquired Moltbook, the AI agent social network that went viral because of fake posts",
+    "originalSnippet": "# Meta acquired Moltbook, the AI agent social network that went viral because of fake posts. Meta acquired Moltbook, the Reddit-like “social network” where AI agents using OpenClaw can communicate with one another. “The Moltbook team joining MSL opens up new ways for AI agents to work for people and",
+    "category": "其他"
   },
   {
-    "title": "Why OpenAI Acquired Promptfoo",
-    "relevance": "66",
-    "url": "https://www.practicalecommerce.com/why-openai-acquired-promptfoo",
-    "snippet": "If predictions are correct, AI agents can soon do “real” work, such as adjusting advertising budgets, updating product listings, and authorizing refunds. The platform evolved into a testing environment, enabling engineers to run thousands of simulated AI interactions before releasing an application ",
+    "title": "Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition",
+    "relevance": "100",
+    "url": "https://sg.finance.yahoo.com/news/zendesk-advances-resolution-platform-self-120200070.html",
+    "snippet": "# Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition. SAN FRANCISCO, March 11, 2026 /PRNewswire/ -- Zendesk expects autonomous AI to handle more service interactions than humans this year, marking a structural shift in customer service. This prop",
     "image": null,
-    "source": "Practical Ecommerce",
+    "source": "Yahoo Finance Singapore",
     "needsTranslation": true,
-    "originalTitle": "Why OpenAI Acquired Promptfoo",
-    "originalSnippet": "If predictions are correct, AI agents can soon do “real” work, such as adjusting advertising budgets, updating product listings, and authorizing refunds. The platform evolved into a testing environment, enabling engineers to run thousands of simulated AI interactions before releasing an application ",
-    "category": "产品发布"
+    "originalTitle": "Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition",
+    "originalSnippet": "# Zendesk Advances Resolution Platform with Self-improving AI Agents from Proposed Forethought Acquisition. SAN FRANCISCO, March 11, 2026 /PRNewswire/ -- Zendesk expects autonomous AI to handle more service interactions than humans this year, marking a structural shift in customer service. This prop",
+    "category": "其他"
   },
   {
-    "title": "AgentMail raises $6M to give AI agents their own email inboxes",
-    "relevance": "65",
-    "url": "https://thenextweb.com/news/agentmail-raises-6m-seed-ai-agent-email-inboxes",
-    "snippet": "# AgentMail raises $6M to give AI agents their own email inboxes. *The San Francisco startup, backed by General Catalyst and Y Combinator, is betting that email, not some new identity protocol, is how AI agents will establish themselves on the internet.*. The company provides an API platform that gi",
+    "title": "Guest column | I’m a computer scientist. Here’s how we should help aging parents with technology.",
+    "relevance": "47",
+    "url": "https://www.washingtonpost.com/health/2026/03/08/ai-technology-caregiving/",
+    "snippet": "Here’s how we should help aging parents with technology. As the tech industry shifts toward artificial intelligence agents and generative user interfaces, helping loved ones use digital tools will become more difficult. This past Christmas, I helped my parents choose a water filter. The latest “smar",
     "image": null,
-    "source": "The Next Web",
+    "source": "The Washington Post",
     "needsTranslation": true,
-    "originalTitle": "AgentMail raises $6M to give AI agents their own email inboxes",
-    "originalSnippet": "# AgentMail raises $6M to give AI agents their own email inboxes. *The San Francisco startup, backed by General Catalyst and Y Combinator, is betting that email, not some new identity protocol, is how AI agents will establish themselves on the internet.*. The company provides an API platform that gi",
+    "originalTitle": "Guest column | I’m a computer scientist. Here’s how we should help aging parents with technology.",
+    "originalSnippet": "Here’s how we should help aging parents with technology. As the tech industry shifts toward artificial intelligence agents and generative user interfaces, helping loved ones use digital tools will become more difficult. This past Christmas, I helped my parents choose a water filter. The latest “smar",
     "category": "行业动态"
   },
   {
     "title": "Dario’s Big Test, a New iPhone and MacBook and More | Technology for March 8",
-    "relevance": "93",
+    "relevance": "46",
     "url": "https://www.wsj.com/tech/darios-big-test-2adc5166?gaa_at=eafs&gaa_n=AWEtsqdghuwxEQ5PbiI2sps8Rjre1wPHuzwI3oGz5EPTV4IV3lj7snGJZCVB&gaa_ts=69ab5fce&gaa_sig=tVcnCMG46GtsSUYpnmz9XptnkSPL1F6XIR_dSq926lBqzW0hwrnx8dzhr3AINwrGHkM7JMKWMj8uZc9s0Vi2mQ%3D%3D",
     "snippet": "## Plus: Apple’s new iPhone and MacBook, a suicide linked to Google’s Gemini, Claude’s Firefox hack, the navigational tech aiming to replace GPS, and more. A weekly digest of tech columns, big stories and personal tech advice, plus a news ticker and a touch of dark humor. *This is an edition of the ",
     "image": null,
@@ -948,44 +1170,8 @@
     "category": "其他"
   },
   {
-    "title": "Accounting Today seeking 2025's Best Firms for Tech",
-    "relevance": "79",
-    "url": "https://www.accountingtoday.com/news/accounting-today-seeking-2025s-best-firms-for-tech",
-    "snippet": "# Accounting Today seeking 2025's Best Firms for Tech. *Accounting Today* is accepting submissions for its report recognizing the Best Accounting Firms for Technology. Given the growing importance of technology to the profession, the report will highlight a range of firms of different sizes that rep",
-    "image": null,
-    "source": "Accounting Today",
-    "needsTranslation": true,
-    "originalTitle": "Accounting Today seeking 2025's Best Firms for Tech",
-    "originalSnippet": "# Accounting Today seeking 2025's Best Firms for Tech. *Accounting Today* is accepting submissions for its report recognizing the Best Accounting Firms for Technology. Given the growing importance of technology to the profession, the report will highlight a range of firms of different sizes that rep",
-    "category": "其他"
-  },
-  {
-    "title": "Sign up for the AI & Tech Brief newsletter from WP Intelligence",
-    "relevance": "78",
-    "url": "https://www.washingtonpost.com/newsletters/ai-tech-brief/",
-    "snippet": "# AI & Tech Brief. Your essential guide to AI & Tech news, published by WP Intelligence, a division of The Post focused on actionable insights for business, policy and thought leaders that operates independently from the Washington Post newsroom. Share AI & Tech Brief with friends. Share AI & Tech B",
-    "image": null,
-    "source": "The Washington Post",
-    "needsTranslation": true,
-    "originalTitle": "Sign up for the AI & Tech Brief newsletter from WP Intelligence",
-    "originalSnippet": "# AI & Tech Brief. Your essential guide to AI & Tech news, published by WP Intelligence, a division of The Post focused on actionable insights for business, policy and thought leaders that operates independently from the Washington Post newsroom. Share AI & Tech Brief with friends. Share AI & Tech B",
-    "category": "其他"
-  },
-  {
-    "title": "Iran Includes American Tech Giants on List of New Targets",
-    "relevance": "70",
-    "url": "https://gizmodo.com/iran-includes-american-tech-giants-on-list-of-new-targets-2000732530",
-    "snippet": "A news agency affiliated with the Iranian regime released a list of American tech companies with links to American and Israeli military operations as new targets for Iran on Wednesday. According to Al Jazeera, the Tasnim News Agency’s report lists Microsoft, Google, Palantir, IBM, Nvidia, and Oracle",
-    "image": null,
-    "source": "Gizmodo",
-    "needsTranslation": true,
-    "originalTitle": "Iran Includes American Tech Giants on List of New Targets",
-    "originalSnippet": "A news agency affiliated with the Iranian regime released a list of American tech companies with links to American and Israeli military operations as new targets for Iran on Wednesday. According to Al Jazeera, the Tasnim News Agency’s report lists Microsoft, Google, Palantir, IBM, Nvidia, and Oracle",
-    "category": "产品发布"
-  },
-  {
     "title": "Introducing the new AI & Tech Brief, now published by WP Intelligence",
-    "relevance": "64",
+    "relevance": "42",
     "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/03/11/introducing-new-ai-tech-brief-now-published-by-wp-intelligence/",
     "snippet": "AI & Tech Brief from WP Intelligence. # Introducing the new AI & Tech Brief, now published by WP Intelligence. We’re launching a new AI & Tech newsletter. We want to bring you the depth and breadth befitting of a revolutionary technology and cover AI as a story of economic transformation; regulation",
     "image": null,
@@ -996,32 +1182,32 @@
     "category": "产品发布"
   },
   {
-    "title": "Tech Weekly: Meta lets in rivals, age-checking tech matures",
-    "relevance": "63",
-    "url": "https://www.reuters.com/video/watch/idRW238409032026RP1/",
-    "snippet": "*   Ukraine and Russia at War. Image 2: Tech Weekly: Meta lets in rivals, age-checking tech matures. *   ### Image 3: Tech Weekly: Meta lets in rivals, age-checking tech matures Now Playing Tech Weekly: Meta lets in rivals, age-checking tech matures. *   Heraskevych appeals Olympic ban in hopes of n",
+    "title": "Stock Market Today: Major Indexes Rise as Oil Trades Near $85/Barrel; Investors Monitor Iran Developments",
+    "relevance": "40",
+    "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03102026-11922653",
+    "snippet": "Markets News, March 5, 2026: U.S. Indexes Tumble as Oil Hits $80 a Barrel; Dow Closes Down Almost 800 Points. Markets News, March 3, 2026: Major Stock Indexes Fall But Close Well Off Early Lows as Volatility Persists Amid Iran Conflict. Markets News, Feb. 24, 2026: Major Indexes Rebound, Close Highe",
     "image": null,
-    "source": "Reuters",
+    "source": "Investopedia",
     "needsTranslation": true,
-    "originalTitle": "Tech Weekly: Meta lets in rivals, age-checking tech matures",
-    "originalSnippet": "*   Ukraine and Russia at War. Image 2: Tech Weekly: Meta lets in rivals, age-checking tech matures. *   ### Image 3: Tech Weekly: Meta lets in rivals, age-checking tech matures Now Playing Tech Weekly: Meta lets in rivals, age-checking tech matures. *   Heraskevych appeals Olympic ban in hopes of n",
-    "category": "其他"
+    "originalTitle": "Stock Market Today: Major Indexes Rise as Oil Trades Near $85/Barrel; Investors Monitor Iran Developments",
+    "originalSnippet": "Markets News, March 5, 2026: U.S. Indexes Tumble as Oil Hits $80 a Barrel; Dow Closes Down Almost 800 Points. Markets News, March 3, 2026: Major Stock Indexes Fall But Close Well Off Early Lows as Volatility Persists Amid Iran Conflict. Markets News, Feb. 24, 2026: Major Indexes Rebound, Close Highe",
+    "category": "行业动态"
   },
   {
-    "title": "Paramount’s David Ellison Addresses Warner Bros. Execs At Town Hall",
-    "relevance": "60",
-    "url": "https://tvnewscheck.com/business/article/paramounts-david-ellison-addresses-warner-bros-execs-at-town-hall/",
-    "snippet": "Execs At Town Hall - TV News Check. Save this article for later! **This article was originally posted on variety.com**. ### NewsTechForum 2025 lightning round: AI tools target workflow flexibility, first-party data & new revenue. ### How some broadcasters are turning archives into revenue with zero ",
+    "title": "Sign up for the AI & Tech Brief newsletter from WP Intelligence",
+    "relevance": "39",
+    "url": "https://www.washingtonpost.com/newsletters/ai-tech-brief/",
+    "snippet": "# AI & Tech Brief. Your essential guide to AI & Tech news, published by WP Intelligence, a division of The Post focused on actionable insights for business, policy and thought leaders that operates independently from the Washington Post newsroom. Share AI & Tech Brief with friends. Share AI & Tech B",
     "image": null,
-    "source": "TV News Check",
+    "source": "The Washington Post",
     "needsTranslation": true,
-    "originalTitle": "Paramount’s David Ellison Addresses Warner Bros. Execs At Town Hall",
-    "originalSnippet": "Execs At Town Hall - TV News Check. Save this article for later! **This article was originally posted on variety.com**. ### NewsTechForum 2025 lightning round: AI tools target workflow flexibility, first-party data & new revenue. ### How some broadcasters are turning archives into revenue with zero ",
+    "originalTitle": "Sign up for the AI & Tech Brief newsletter from WP Intelligence",
+    "originalSnippet": "# AI & Tech Brief. Your essential guide to AI & Tech news, published by WP Intelligence, a division of The Post focused on actionable insights for business, policy and thought leaders that operates independently from the Washington Post newsroom. Share AI & Tech Brief with friends. Share AI & Tech B",
     "category": "其他"
   },
   {
     "title": "Apple ‘Ultra’ Products Expansion Is Up Next After MacBook Neo Launch",
-    "relevance": "57",
+    "relevance": "39",
     "url": "https://www.bloomberg.com/news/newsletters/2026-03-08/apple-to-expand-ultra-lines-after-599-macbook-neo-3d-printed-aluminum-imacs-mmhpa12d",
     "snippet": "# Apple ‘Ultra’ Products Expansion Is Up Next After MacBook Neo Launch. Also: New iMacs Are in the Works. Apple has taken the wraps off its $599 MacBook Neo, entering new territory in a way that could shake up the computer market. Last week in *Power On*: Apple’s touch-screen MacBook will stop well ",
     "image": null,
@@ -1032,56 +1218,56 @@
     "category": "行业动态"
   },
   {
-    "title": "FTC Revisits ‘Click-To-Cancel’ Rules",
-    "relevance": "52",
-    "url": "https://tvnewscheck.com/regulation/article/ftc-revisits-click-to-cancel-rules/",
-    "snippet": "FTC Revisits 'Click-To-Cancel' Rules - TV News Check. Save this article for later! **This article was originally posted on mediapost.com**. ### Asteria Launches Continuum Suite, AI-Enabled Operating System For Film & TV Production. ### NewsTechForum 2025 lightning round: AI tools target workflow fle",
+    "title": "Openreach’s network to support acoustic sensing for leaky water pipes",
+    "relevance": "34",
+    "url": "https://totaltele.com/openreachs-network-to-support-acoustic-sensing-for-leaky-water-pipes/",
+    "snippet": "5G, Digital Divide, People, AI, SOCIETY, Networks, Middle East & Africa, News. Satellite, COMPANY NEWS, Digital Divide, Products & Services, Press Release, News, UK. FTTX, Public Sector, Digital Divide, People, SOCIETY, Governance, Culture, Networks, News. M&A, AI, COMPANY NEWS, People, Governance, ",
     "image": null,
-    "source": "TV News Check",
+    "source": "Total Telecom",
     "needsTranslation": true,
-    "originalTitle": "FTC Revisits ‘Click-To-Cancel’ Rules",
-    "originalSnippet": "FTC Revisits 'Click-To-Cancel' Rules - TV News Check. Save this article for later! **This article was originally posted on mediapost.com**. ### Asteria Launches Continuum Suite, AI-Enabled Operating System For Film & TV Production. ### NewsTechForum 2025 lightning round: AI tools target workflow fle",
-    "category": "产品发布"
-  },
-  {
-    "title": "Senate Passes Bill Prohibiting Ads Targeting Minors Under 17",
-    "relevance": "40",
-    "url": "https://tvnewscheck.com/regulation/article/senate-passes-bill-prohibiting-ads-targeting-minors-under-17/",
-    "snippet": "Broadcast Industry News - Television, Cable, On-demand. Home » Senate Passes Bill Prohibiting Ads Targeting Minors Under 17. # Senate Passes Bill Prohibiting Ads Targeting Minors Under 17. Ed Markey and Bill Cassidy, would expand the current children’s privacy law by prohibiting website and app oper",
-    "image": null,
-    "source": "TV News Check",
-    "needsTranslation": true,
-    "originalTitle": "Senate Passes Bill Prohibiting Ads Targeting Minors Under 17",
-    "originalSnippet": "Broadcast Industry News - Television, Cable, On-demand. Home » Senate Passes Bill Prohibiting Ads Targeting Minors Under 17. # Senate Passes Bill Prohibiting Ads Targeting Minors Under 17. Ed Markey and Bill Cassidy, would expand the current children’s privacy law by prohibiting website and app oper",
+    "originalTitle": "Openreach’s network to support acoustic sensing for leaky water pipes",
+    "originalSnippet": "5G, Digital Divide, People, AI, SOCIETY, Networks, Middle East & Africa, News. Satellite, COMPANY NEWS, Digital Divide, Products & Services, Press Release, News, UK. FTTX, Public Sector, Digital Divide, People, SOCIETY, Governance, Culture, Networks, News. M&A, AI, COMPANY NEWS, People, Governance, ",
     "category": "行业动态"
   },
   {
-    "title": "New CNET Lab Awards Recognize Benchmark Winners Based on Rigorous Hands-On Testing Insights",
-    "relevance": "40",
-    "url": "https://www.cnet.com/tech/features/new-cnet-lab-awards-recognize-benchmark-winners-based-on-rigorous-hands-on-testing-insights/",
-    "snippet": "# New CNET Lab Awards Recognize Benchmark Winners Based on Rigorous Hands-On Testing Insights. Awards are derived from CNET Labs' extensive proprietary product testing. **NEW YORK (March 9, 2026)** — CNET, the trusted authority for tech reviews and analysis, reveals CNET Lab Awards, a new awards pro",
+    "title": "Tech Weekly: Meta lets in rivals, age-checking tech matures",
+    "relevance": "34",
+    "url": "https://www.reuters.com/video/watch/idRW238409032026RP1/",
+    "snippet": "*   Ukraine and Russia at War. Image 2: Tech Weekly: Meta lets in rivals, age-checking tech matures. *   ### Image 3: Tech Weekly: Meta lets in rivals, age-checking tech matures Now Playing Tech Weekly: Meta lets in rivals, age-checking tech matures. *   Heraskevych appeals Olympic ban in hopes of n",
     "image": null,
-    "source": "CNET",
+    "source": "Reuters",
     "needsTranslation": true,
-    "originalTitle": "New CNET Lab Awards Recognize Benchmark Winners Based on Rigorous Hands-On Testing Insights",
-    "originalSnippet": "# New CNET Lab Awards Recognize Benchmark Winners Based on Rigorous Hands-On Testing Insights. Awards are derived from CNET Labs' extensive proprietary product testing. **NEW YORK (March 9, 2026)** — CNET, the trusted authority for tech reviews and analysis, reveals CNET Lab Awards, a new awards pro",
-    "category": "产品发布"
+    "originalTitle": "Tech Weekly: Meta lets in rivals, age-checking tech matures",
+    "originalSnippet": "*   Ukraine and Russia at War. Image 2: Tech Weekly: Meta lets in rivals, age-checking tech matures. *   ### Image 3: Tech Weekly: Meta lets in rivals, age-checking tech matures Now Playing Tech Weekly: Meta lets in rivals, age-checking tech matures. *   Heraskevych appeals Olympic ban in hopes of n",
+    "category": "其他"
   },
   {
-    "title": "AI Industry Pledge to Fund Data Center Power Costs",
-    "relevance": "32",
-    "url": "https://www.startupecosystem.ca/news/ai-industry-pledge-to-fund-data-center-power-costs/",
-    "snippet": "## AI Industry Pledge to Fund Data Center Power Costs. #### Trump gets data center companies to pledge to pay for power generation. #### Tech giants back Trump pledge on AI data center electricity costs. acquisition AI AI development AI infrastructure AI innovation AI integration AI investment AI mo",
+    "title": "The Morning After: Apple takes on cheap Windows laptops and Chromebooks with the $599 MacBook Neo",
+    "relevance": "33",
+    "url": "https://www.engadget.com/general/the-morning-after-engadget-newsletter-121523538.html",
+    "snippet": "# The Morning After: Apple takes on cheap Windows laptops and Chromebooks with the $599 MacBook Neo. Right off the back of the iPhone 17e, new iPads and MacBook Airs, Apple also announced a keenly priced new laptop. * Nothing Phone 4a Pro hands-on. ## Nothing's Phone 4a Pro has a premium unibody des",
     "image": null,
-    "source": "Startup Ecosystem Canada",
+    "source": "Engadget",
     "needsTranslation": true,
-    "originalTitle": "AI Industry Pledge to Fund Data Center Power Costs",
-    "originalSnippet": "## AI Industry Pledge to Fund Data Center Power Costs. #### Trump gets data center companies to pledge to pay for power generation. #### Tech giants back Trump pledge on AI data center electricity costs. acquisition AI AI development AI infrastructure AI innovation AI integration AI investment AI mo",
-    "category": "行业动态"
+    "originalTitle": "The Morning After: Apple takes on cheap Windows laptops and Chromebooks with the $599 MacBook Neo",
+    "originalSnippet": "# The Morning After: Apple takes on cheap Windows laptops and Chromebooks with the $599 MacBook Neo. Right off the back of the iPhone 17e, new iPads and MacBook Airs, Apple also announced a keenly priced new laptop. * Nothing Phone 4a Pro hands-on. ## Nothing's Phone 4a Pro has a premium unibody des",
+    "category": "其他"
+  },
+  {
+    "title": "Accounting Today seeking 2025's Best Firms for Tech",
+    "relevance": "33",
+    "url": "https://www.accountingtoday.com/news/accounting-today-seeking-2025s-best-firms-for-tech",
+    "snippet": "# Accounting Today seeking 2025's Best Firms for Tech. *Accounting Today* is accepting submissions for its report recognizing the Best Accounting Firms for Technology. Given the growing importance of technology to the profession, the report will highlight a range of firms of different sizes that rep",
+    "image": null,
+    "source": "Accounting Today",
+    "needsTranslation": true,
+    "originalTitle": "Accounting Today seeking 2025's Best Firms for Tech",
+    "originalSnippet": "# Accounting Today seeking 2025's Best Firms for Tech. *Accounting Today* is accepting submissions for its report recognizing the Best Accounting Firms for Technology. Given the growing importance of technology to the profession, the report will highlight a range of firms of different sizes that rep",
+    "category": "其他"
   },
   {
     "title": "New Audible Feature, Smartphones in Space and More | Tech Today",
-    "relevance": "27",
+    "relevance": "32",
     "url": "https://www.cnet.com/videos/new-audible-feature-smartphones-in-space-and-more-tech-today/",
     "snippet": "New Audible Feature, Smartphones in Space and More | Tech Today. # New Audible Feature, Smartphones in Space and More | Tech Today. F1 2026: New Cars, New Teams and a New Way to Watch | Tech Today. ### F1 2026: New Cars, New Teams and a New Way to Watch | Tech Today. Ring Ends Partnership with Flock",
     "image": null,
@@ -1092,20 +1278,8 @@
     "category": "其他"
   },
   {
-    "title": "Virginia Tech 62-54 Georgia Tech (Mar 5, 2026) Game Recap",
-    "relevance": "19",
-    "url": "http://www.espn.com/ncw/recap?gameId=401851190",
-    "snippet": "# Virginia Tech Hokies vs Georgia Tech Yellow Jackets. | Georgia Tech  GT | 17 | 6 | 23 | 8 | 54 |. | Virginia Tech  VT | 7 | 22 | 21 | 12 | 62 |. # Wenzel and Nelson lead Virginia Tech over Georgia Tech 62-54 in ACC Tournament. -- — Carleigh Wenzel scored 15 points, and Mackenzie Nelson added 14 as",
-    "image": null,
-    "source": "ESPN",
-    "needsTranslation": true,
-    "originalTitle": "Virginia Tech 62-54 Georgia Tech (Mar 5, 2026) Game Recap",
-    "originalSnippet": "# Virginia Tech Hokies vs Georgia Tech Yellow Jackets. | Georgia Tech  GT | 17 | 6 | 23 | 8 | 54 |. | Virginia Tech  VT | 7 | 22 | 21 | 12 | 62 |. # Wenzel and Nelson lead Virginia Tech over Georgia Tech 62-54 in ACC Tournament. -- — Carleigh Wenzel scored 15 points, and Mackenzie Nelson added 14 as",
-    "category": "其他"
-  },
-  {
     "title": "PS5 Pro Sales Explode on the Back of PSSR 2 Hype, System Sells Out in Some Stores",
-    "relevance": "16",
+    "relevance": "32",
     "url": "https://www.pushsquare.com/news/2026/03/ps5-pro-sales-explode-on-the-back-of-pssr-2-hype-system-sells-out-in-some-stores",
     "snippet": "# PS5 Pro Sales Explode on the Back of PSSR 2 Hype, System Sells Out in Some Stores. PS5 Pro is enjoying a second wind over a year after it originally released, and Resident Evil Requiem’s outstanding use of **PSSR 2** is probably to thank. News 'It'd Be One Helluva Game': Resident Evil Star Wants C",
     "image": null,
@@ -1116,20 +1290,8 @@
     "category": "产品发布"
   },
   {
-    "title": "In Pictures: Kinetic IT & ServiceNow AI-powered service management roundtable",
-    "relevance": "16",
-    "url": "https://www.itnews.com.au/gallery/in-pictures-kinetic-it-servicenow-ai-powered-service-management-roundtable-624136",
-    "snippet": "## In Pictures: Kinetic IT & ServiceNow AI-powered service management roundtable ## US suspects China in breach of FBI surveillance network ## Poor WA gov M365 security led to $71k theft and children's data breached ## Aussie Broadband prioritises VMware-based workloads for cloud migration ## Europo",
-    "image": null,
-    "source": "iTnews",
-    "needsTranslation": true,
-    "originalTitle": "In Pictures: Kinetic IT & ServiceNow AI-powered service management roundtable",
-    "originalSnippet": "## In Pictures: Kinetic IT & ServiceNow AI-powered service management roundtable ## US suspects China in breach of FBI surveillance network ## Poor WA gov M365 security led to $71k theft and children's data breached ## Aussie Broadband prioritises VMware-based workloads for cloud migration ## Europo",
-    "category": "其他"
-  },
-  {
     "title": "Hold on — tech stocks are a safe haven now?",
-    "relevance": "14",
+    "relevance": "30",
     "url": "https://www.ft.com/content/be80ae87-6bd2-4006-bede-e3386a1085ab",
     "snippet": "Investors seek shelter from Iran war in American tech equities. on linkedin (opens in a new window). on linkedin (opens in a new window). Roula Khalaf, Editor of the FT, selects her favourite stories in this weekly newsletter. The International Energy Agency has launched the largest release of strat",
     "image": null,
@@ -1140,27 +1302,75 @@
     "category": "产品发布"
   },
   {
-    "title": "Solar Defence announces Rs 12,800 crore investment in robotics, drone and deep tech projects",
-    "relevance": "13",
-    "url": "https://www.indiasnews.net/news/278907675/solar-defence-announces-rs-12800-crore-investment-in-robotics-drone-and-deep-tech-projects",
-    "snippet": "## Solar Defence announces Rs 12,800 crore investment in robotics, drone and deep tech projects. Nagpur (Maharashtra) [India], March 7 (ANI): Solar Defence and Aerospace Limited on Saturday announced an investment of over Rs. 12,800 crore in projects related to the manufacturing of robots, UAVs of d",
+    "title": "In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei Strike",
+    "relevance": "30",
+    "url": "https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike/",
+    "snippet": "# In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei Strike. Other noteworthy stories that might have slipped under the radar: Avira antivirus vulnerabilities, Transport for London data breach affects 10 million, Gaming cheat exposes North Korean hacker.",
     "image": null,
-    "source": "India's News.Net",
+    "source": "SecurityWeek",
     "needsTranslation": true,
-    "originalTitle": "Solar Defence announces Rs 12,800 crore investment in robotics, drone and deep tech projects",
-    "originalSnippet": "## Solar Defence announces Rs 12,800 crore investment in robotics, drone and deep tech projects. Nagpur (Maharashtra) [India], March 7 (ANI): Solar Defence and Aerospace Limited on Saturday announced an investment of over Rs. 12,800 crore in projects related to the manufacturing of robots, UAVs of d",
+    "originalTitle": "In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei Strike",
+    "originalSnippet": "# In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei Strike. Other noteworthy stories that might have slipped under the radar: Avira antivirus vulnerabilities, Transport for London data breach affects 10 million, Gaming cheat exposes North Korean hacker.",
+    "category": "其他"
+  },
+  {
+    "title": "Aussie retailers fighting to stay competitive in a crowded business landscape will soon benefit from new AI-powered technology which will allow them to provide a more seamless customer experience.",
+    "relevance": "30",
+    "url": "https://www.facebook.com/SkyNewsAustralia/posts/aussie-retailers-fighting-to-stay-competitive-in-a-crowded-business-landscape-wi/1371523888338539/",
+    "snippet": "Aussie retailers fighting to stay... Sky News Australia's Post. ### **Sky News Australia**. Aussie retailers fighting to stay competitive in a crowded business landscape will soon benefit from new AI-powered technology which will allow them to provide a more seamless customer experience. Image 1: Th",
+    "image": null,
+    "source": "Facebook",
+    "needsTranslation": true,
+    "originalTitle": "Aussie retailers fighting to stay competitive in a crowded business landscape will soon benefit from new AI-powered technology which will allow them to provide a more seamless customer experience.",
+    "originalSnippet": "Aussie retailers fighting to stay... Sky News Australia's Post. ### **Sky News Australia**. Aussie retailers fighting to stay competitive in a crowded business landscape will soon benefit from new AI-powered technology which will allow them to provide a more seamless customer experience. Image 1: Th",
+    "category": "其他"
+  },
+  {
+    "title": "New CNET Lab Awards Recognize Benchmark Winners Based on Rigorous Hands-On Testing Insights",
+    "relevance": "30",
+    "url": "https://www.cnet.com/tech/features/new-cnet-lab-awards-recognize-benchmark-winners-based-on-rigorous-hands-on-testing-insights/",
+    "snippet": "# New CNET Lab Awards Recognize Benchmark Winners Based on Rigorous Hands-On Testing Insights. Awards are derived from CNET Labs' extensive proprietary product testing. **NEW YORK (March 9, 2026)** — CNET, the trusted authority for tech reviews and analysis, reveals CNET Lab Awards, a new awards pro",
+    "image": null,
+    "source": "CNET",
+    "needsTranslation": true,
+    "originalTitle": "New CNET Lab Awards Recognize Benchmark Winners Based on Rigorous Hands-On Testing Insights",
+    "originalSnippet": "# New CNET Lab Awards Recognize Benchmark Winners Based on Rigorous Hands-On Testing Insights. Awards are derived from CNET Labs' extensive proprietary product testing. **NEW YORK (March 9, 2026)** — CNET, the trusted authority for tech reviews and analysis, reveals CNET Lab Awards, a new awards pro",
+    "category": "产品发布"
+  },
+  {
+    "title": "MIT's Alterego Isn't Exactly Mind-Reading",
+    "relevance": "28",
+    "url": "https://www.cnet.com/videos/mits-alterego-isnt-exactly-mind-reading/",
+    "snippet": "### All Things Mobile. ### All Things Mobile. Hands-on with MacBook Neo. New Audible Feature, Smartphones in Space and More | Tech Today. Hands-on with MacBook Neo. New Audible Feature, Smartphones in Space and More | Tech Today. ### New Audible Feature, Smartphones in Space and More | Tech Today. F",
+    "image": null,
+    "source": "CNET",
+    "needsTranslation": true,
+    "originalTitle": "MIT's Alterego Isn't Exactly Mind-Reading",
+    "originalSnippet": "### All Things Mobile. ### All Things Mobile. Hands-on with MacBook Neo. New Audible Feature, Smartphones in Space and More | Tech Today. Hands-on with MacBook Neo. New Audible Feature, Smartphones in Space and More | Tech Today. ### New Audible Feature, Smartphones in Space and More | Tech Today. F",
+    "category": "其他"
+  },
+  {
+    "title": "AI Industry Pledge to Fund Data Center Power Costs",
+    "relevance": "28",
+    "url": "https://www.startupecosystem.ca/news/ai-industry-pledge-to-fund-data-center-power-costs/",
+    "snippet": "## AI Industry Pledge to Fund Data Center Power Costs. #### Trump gets data center companies to pledge to pay for power generation. #### Tech giants back Trump pledge on AI data center electricity costs. acquisition AI AI development AI infrastructure AI innovation AI integration AI investment AI mo",
+    "image": null,
+    "source": "Startup Ecosystem Canada",
+    "needsTranslation": true,
+    "originalTitle": "AI Industry Pledge to Fund Data Center Power Costs",
+    "originalSnippet": "## AI Industry Pledge to Fund Data Center Power Costs. #### Trump gets data center companies to pledge to pay for power generation. #### Tech giants back Trump pledge on AI data center electricity costs. acquisition AI AI development AI infrastructure AI innovation AI integration AI investment AI mo",
     "category": "行业动态"
   },
   {
-    "title": "OpenAI Retreating From Agentic Commerce",
-    "relevance": "12",
-    "url": "https://tvnewscheck.com/ai/article/openai-retreating-from-agentic-commerce/",
-    "snippet": "Broadcast Industry News - Television, Cable, On-demand. Home » OpenAI Retreating From Agentic Commerce. # OpenAI Retreating From Agentic Commerce. Save this article for later! **This article was originally posted on mediapost.com**. ### KAKE’s New Weather Promo Created With Help Of Local University ",
+    "title": "Nothing Phone 4A Pro First Look",
+    "relevance": "26",
+    "url": "https://www.cnet.com/videos/nothing-phone-4a-pro-first-look/",
+    "snippet": "First Look at the Galaxy S26 Ultra: Camera, Battery and AI Updates. ### All Things Mobile. ### All Things Mobile. Hands-on with MacBook Neo. New Audible Feature, Smartphones in Space and More | Tech Today. Hands-on with MacBook Neo. New Audible Feature, Smartphones in Space and More | Tech Today. ##",
     "image": null,
-    "source": "TV News Check",
+    "source": "CNET",
     "needsTranslation": true,
-    "originalTitle": "OpenAI Retreating From Agentic Commerce",
-    "originalSnippet": "Broadcast Industry News - Television, Cable, On-demand. Home » OpenAI Retreating From Agentic Commerce. # OpenAI Retreating From Agentic Commerce. Save this article for later! **This article was originally posted on mediapost.com**. ### KAKE’s New Weather Promo Created With Help Of Local University ",
-    "category": "行业动态"
+    "originalTitle": "Nothing Phone 4A Pro First Look",
+    "originalSnippet": "First Look at the Galaxy S26 Ultra: Camera, Battery and AI Updates. ### All Things Mobile. ### All Things Mobile. Hands-on with MacBook Neo. New Audible Feature, Smartphones in Space and More | Tech Today. Hands-on with MacBook Neo. New Audible Feature, Smartphones in Space and More | Tech Today. ##",
+    "category": "产品发布"
   }
 ]
