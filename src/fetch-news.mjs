@@ -147,16 +147,24 @@ async function main() {
 
   // 3. 简单分类（基于标题关键词）
   const categoryKeywords = {
-    '🩰 丝袜美腿': ['stockings', 'tights', 'pantyhose', 'legs', '丝袜', '美腿', '黑丝', '白丝'],
-    '👗 优雅气质': ['elegant', 'graceful', 'sophisticated', 'classy', '优雅', '气质', '淑女'],
-    '🏙️ 街拍时尚': ['street style', 'street fashion', 'urban', 'casual', '街拍', '时尚', '穿搭'],
-    '📸 写真摄影': ['portrait', 'photoshoot', 'studio', 'professional', '写真', '摄影', '肖像'],
+    '🩰 丝袜美腿': ['stockings', 'tights', 'pantyhose', 'legs', '丝袜', '美腿', '黑丝', '白丝', 'leggings', 'hosiery'],
+    '👗 优雅气质': ['elegant', 'graceful', 'sophisticated', 'classy', '优雅', '气质', '淑女', 'refined'],
+    '🏙️ 街拍时尚': ['street style', 'street fashion', 'urban', 'casual', '街拍', '时尚', '穿搭', 'outfit'],
+    '📸 写真摄影': ['portrait', 'photoshoot', 'studio', 'professional', '写真', '摄影', '肖像', 'model'],
   };
 
   allItems = allItems.map(item => {
     const text = (item.title + ' ' + item.snippet).toLowerCase();
     
+    // 优先匹配丝袜分类（用户偏好）
+    const stockingsKeywords = categoryKeywords['🩰 丝袜美腿'];
+    if (stockingsKeywords.some(kw => text.includes(kw.toLowerCase()))) {
+      return { ...item, category: '🩰 丝袜美腿' };
+    }
+    
+    // 然后匹配其他分类
     for (const [category, keywords] of Object.entries(categoryKeywords)) {
+      if (category === '🩰 丝袜美腿') continue; // 已经检查过了
       if (keywords.some(kw => text.includes(kw.toLowerCase()))) {
         return { ...item, category };
       }
