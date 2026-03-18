@@ -111,13 +111,14 @@ const dateStr = today.toLocaleDateString('zh-CN', {
   weekday: 'long'
 });
 
+// 使用全局替换（防止多个 {{date}} 占位符）
 const html = template
-  .replace('{{date}}', dateStr)
-  .replace('{{totalCount}}', imageData.length)
-  .replace('{{categoryCount}}', Object.keys(grouped).length)
-  .replace('{{categoryTabs}}', categoryTabsHTML)
-  .replace('{{categories}}', categoriesHTML)
-  .replace('{{year}}', today.getFullYear());
+  .replaceAll('{{date}}', dateStr)
+  .replaceAll('{{totalCount}}', imageData.length)
+  .replaceAll('{{categoryCount}}', Object.keys(grouped).length)
+  .replaceAll('{{categoryTabs}}', categoryTabsHTML)
+  .replaceAll('{{categories}}', categoriesHTML)
+  .replaceAll('{{year}}', today.getFullYear().toString());
 
 // 添加分类切换脚本
 const script = `
