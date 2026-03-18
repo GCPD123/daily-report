@@ -1,20 +1,22 @@
 {
   "keywords": [
-    "artificial intelligence",
-    "machine learning",
-    "LLM",
-    "AI agents",
-    "tech news"
+    "fashion photography",
+    "street style fashion",
+    "elegant women portrait",
+    "professional model photoshoot",
+    "casual fashion style"
   ],
   "categories": [
-    "AI 技术突破",
-    "行业动态",
-    "产品发布",
-    "研究论文",
-    "其他"
+    "🩰 丝袜美腿",
+    "👗 优雅气质",
+    "🏙️ 街拍时尚",
+    "📸 写真摄影",
+    "☕ 日常穿搭"
   ],
-  "searchDepth": "deep",
-  "maxResults": 20,
+  "searchDepth": "fast",
+  "maxResults": 25,
   "language": "zh-CN",
-  "timezone": "Asia/Shanghai"
+  "timezone": "Asia/Shanghai",
+  "imageFocus": true,
+  "maxImagesPerCategory": 8
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * fetch-news.mjs
- * 使用 Tavily 搜索新闻，翻译非中文内容，按主题分类
+ * 搜索美女图片，按风格分类
  */
 
 import { execSync } from 'child_process';
@@ -17,10 +17,28 @@ const rootDir = join(__dirname, '..');
 const config = JSON.parse(readFileSync(join(rootDir, 'config.json'), 'utf-8'));
 
 /**
- * 解析 Tavily 的 markdown 输出
+ * 使用 Tavily 搜索图片
+ */
+async function searchWithTavily(query) {
+  try {
+    const cmd = `node ${rootDir}/../skills/tavily-search/scripts/search.mjs "${query}" --topic general -n ${config.maxResults}`;
+    const output = execSync(cmd, { 
+      encoding: 'utf-8', 
+      env: { ...process.env, TAVILY_API_KEY: process.env.TAVILY_API_KEY || '' },
+      maxBuffer: 10 * 1024 * 1024
+    });
+    return parseTavilyOutput(output);
+  } catch (error) {
+    console.error(`搜索失败 "${query}":`, error.message);
+    return [];
+  }
+}
+
+/**
+ * 解析 Tavily 的 markdown 输出，提取图片
  */
 function parseTavilyOutput(markdown) {
-  const sources = [];
+  const items = [];
   const lines = markdown.split('\n');
   
   let i = 0;
@@ -36,20 +54,20 @@ function parseTavilyOutput(markdown) {
       // 下一行是 URL
       const url = lines[i + 1]?.trim() || '';
       
-      // 再下一行是摘要（以 _ 开头）
+      // 再下一行是摘要
       const snippetLine = lines[i + 2] || '';
       const snippetMatch = snippetLine.match(/^_(.+?)_/);
       const snippet = snippetMatch ? snippetMatch[1].trim() : snippetLine.trim();
       
       if (url && url.startsWith('http')) {
-        // 尝试从 URL 提取可能的图片
+        // 尝试从 URL 提取图片
         const image = extractImageFromUrl(url);
         
-        sources.push({
+        items.push({
           title,
           relevance,
           url,
-          snippet: snippet.substring(0, 300),
+          snippet: snippet.substring(0, 150),
           image
         });
       }
@@ -60,46 +78,36 @@ function parseTavilyOutput(markdown) {
     }
   }
   
-  return sources;
+  return items;
 }
 
 /**
  * 从 URL 提取可能的封面图
  */
 function extractImageFromUrl(url) {
-  // 常见新闻网站的 OG 图片 URL 模式
-  const urlObj = new URL(url);
-  const hostname = urlObj.hostname;
+  // 尝试从 URL 推断图片地址
+  const imageExtensions = ['.jpg', '.jpeg', '.png', '.webp', '.gif'];
   
-  // 返回一个占位图 URL（实际应该抓取 OG 标签）
-  // 这里使用一个占位服务，实际可以调用 web_fetch 获取页面 OG 标签
-  return null; // 标记需要后续抓取
-}
-
-/**
- * 使用 Tavily 搜索新闻
- */
-async function searchWithTavily(query) {
-  try {
-    const cmd = `node ${rootDir}/../skills/tavily-search/scripts/search.mjs "${query}" --topic news -n ${config.maxResults}`;
-    const output = execSync(cmd, { 
-      encoding: 'utf-8', 
-      env: { ...process.env, TAVILY_API_KEY: process.env.TAVILY_API_KEY || '' },
-      maxBuffer: 10 * 1024 * 1024
-    });
-    return parseTavilyOutput(output);
-  } catch (error) {
-    console.error(`搜索失败 "${query}":`, error.message);
-    return [];
+  // 如果 URL 本身包含图片扩展名
+  if (imageExtensions.some(ext => url.toLowerCase().includes(ext))) {
+    return { url };
   }
-}
-
-/**
- * 检测是否为中文
- */
-function isChinese(text) {
-  const chineseRegex = /[\u4e00-\u9fa5]/;
-  return chineseRegex.test(text);
+  
+  // 常见图片网站的 URL 转换
+  if (url.includes('unsplash.com/photos/')) {
+    const photoId = url.split('/photos/')[1]?.split('?')[0];
+    if (photoId) {
+      return { url: `https://images.unsplash.com/photo-${photoId}?w=800&h=600&fit=crop` };
+    }
+  }
+  
+  if (url.includes('pinterest.com/pin/')) {
+    // Pinterest 图片需要后续处理
+    return { url: null, needsFetch: true };
+  }
+  
+  // 返回 null 表示需要后续抓取
+  return null;
 }
 
 /**
@@ -119,7 +127,7 @@ function deduplicateItems(items) {
  * 主函数
  */
 async function main() {
-  console.log('🔍 开始搜索新闻...');
+  console.log('🔍 开始搜索图片...');
   console.log('关键词:', config.keywords);
 
   // 1. 顺序搜索所有关键词
@@ -137,29 +145,12 @@ async function main() {
   allItems = deduplicateItems(allItems);
   console.log(`✅ 去重后 ${allItems.length} 条`);
 
-  // 3. 标记需要翻译的内容，提取来源
-  allItems = allItems.map(item => {
-    // 从标题提取来源（最后一个 - 后面的部分）
-    const parts = item.title.split(' - ');
-    const source = parts.length > 1 ? parts[parts.length - 1] : 'Unknown';
-    const cleanTitle = parts.length > 1 ? parts.slice(0, -1).join(' - ') : item.title;
-    
-    return {
-      ...item,
-      title: cleanTitle,
-      source,
-      needsTranslation: !isChinese(cleanTitle),
-      originalTitle: cleanTitle,
-      originalSnippet: item.snippet
-    };
-  });
-
-  // 4. 简单分类（基于标题关键词）
+  // 3. 简单分类（基于标题关键词）
   const categoryKeywords = {
-    'AI 技术突破': ['breakthrough', 'new model', 'architecture', 'algorithm', 'advancement', '技术突破', '新模型'],
-    '行业动态': ['industry', 'market', 'company', 'funding', 'investment', '行业', '市场', '融资'],
-    '产品发布': ['launch', 'release', 'product', 'update', '发布', '新产品'],
-    '研究论文': ['paper', 'research', 'study', 'arxiv', '论文', '研究'],
+    '🩰 丝袜美腿': ['stockings', 'tights', 'pantyhose', 'legs', '丝袜', '美腿', '黑丝', '白丝'],
+    '👗 优雅气质': ['elegant', 'graceful', 'sophisticated', 'classy', '优雅', '气质', '淑女'],
+    '🏙️ 街拍时尚': ['street style', 'street fashion', 'urban', 'casual', '街拍', '时尚', '穿搭'],
+    '📸 写真摄影': ['portrait', 'photoshoot', 'studio', 'professional', '写真', '摄影', '肖像'],
   };
 
   allItems = allItems.map(item => {
@@ -171,24 +162,21 @@ async function main() {
       }
     }
     
-    return { ...item, category: '其他' };
+    // 默认归类到日常穿搭
+    return { ...item, category: '☕ 日常穿搭' };
   });
 
-  // 5. 保存结果
+  // 4. 保存结果
   const outputPath = join(rootDir, 'output', 'news-data.json');
   writeFileSync(outputPath, JSON.stringify(allItems, null, 2), 'utf-8');
   console.log(`💾 结果保存到 ${outputPath}`);
 
-  // 6. 输出分类统计
+  // 5. 输出分类统计
   const categoryStats = {};
   allItems.forEach(item => {
     categoryStats[item.category] = (categoryStats[item.category] || 0) + 1;
   });
   console.log('📊 分类统计:', categoryStats);
-  
-  // 7. 输出需要翻译的数量
-  const needsTranslation = allItems.filter(i => i.needsTranslation).length;
-  console.log(`🌐 需要翻译：${needsTranslation} 条`);
 
   return allItems;
 }

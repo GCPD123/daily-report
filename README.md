@@ -1,12 +1,12 @@
-# AI Daily Report 📰
+# Daily Beauty Report ✨
 
-自动生成每日 AI 领域资讯日报，支持多语言翻译和智能分类。
+自动生成每日美女图片画廊，支持智能分类和精美展示。
 
 ## 功能
 
-- 🔍 **Tavily 搜索** - AI 优化的新闻搜索
-- 🌐 **自动翻译** - 非中文内容自动翻译成中文
-- 📊 **智能分类** - 按主题自动归类汇总
+- 🔍 **Tavily 搜索** - AI 优化的图片搜索
+- 🎨 **智能分类** - 按风格自动归类（丝袜/优雅/街拍/写真/穿搭）
+- 🖼️ **精美画廊** - 响应式图片网格布局
 - 🚀 **自动部署** - GitHub Pages 自动上线
 
 ## 快速开始
@@ -19,16 +19,18 @@ export TAVILY_API_KEY=your_api_key_here
 
 获取 key: https://tavily.com
 
-### 2. 配置关注领域
+### 2. 配置搜索关键词
 
 编辑 `config.json`，修改 `keywords` 数组：
 
 ```json
 {
   "keywords": [
-    "artificial intelligence",
-    "machine learning",
-    "你的关键词"
+    "fashion photography",
+    "street style fashion",
+    "elegant women portrait",
+    "professional model photoshoot",
+    "casual fashion style"
   ]
 }
 ```
@@ -47,11 +49,11 @@ npm run build
 {
   "action": "add",
   "job": {
-    "name": "daily-report",
+    "name": "daily-beauty-report",
     "schedule": { "kind": "cron", "expr": "0 8 * * *", "tz": "Asia/Shanghai" },
     "payload": {
       "kind": "agentTurn",
-      "message": "执行 daily-report 构建流程"
+      "message": "执行 daily-beauty-report 构建流程"
     }
   }
 }
@@ -70,13 +72,20 @@ npm run build
 daily-report/
 ├── .github/workflows/deploy.yml  # GitHub Pages 部署
 ├── src/
-│   ├── fetch-news.mjs            # 搜索 + 翻译 + 分类
+│   ├── fetch-news.mjs            # 搜索图片 + 分类
 │   ├── generate-report.mjs       # 生成 HTML
 │   └── template.html             # 网站模板
-├── output/                       # 生成的日报
+├── output/                       # 生成的画廊
 ├── config.json                   # 配置
 └── package.json
 ```
+
+## Token 优化
+
+- 快速搜索模式，降低 token 消耗
+- 每分类限制 8 张图片，总计约 30-40 张
+- 不生成摘要，仅展示图片 + 标题
+- 预估每次运行消耗 500-800 tokens
 
 ## License
 
