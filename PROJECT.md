@@ -25,10 +25,12 @@
 ## 🔑 关键配置
 
 ### Tavily API Key
+```bash
+# 从 .env 文件读取（此文件已被 .gitignore 忽略）
+TAVILY_API_KEY=你的_tavily_api_key
 ```
-TAVILY_API_KEY=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
-```
-保存在 `.env` 文件中。
+**获取方式**: https://tavily.com  
+**注意**: `.env` 文件不会被提交到 Git，请妥善保管。
 
 ### 定时任务
 ```bash
@@ -98,7 +100,7 @@ openclaw cron list
 
 # 手动运行
 cd /home/admin/.openclaw/workspace/daily-report
-export TAVILY_API_KEY=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
+export TAVILY_API_KEY=你的_tavily_api_key  # 从 .env 文件获取
 npm run build
 
 # 查看数据

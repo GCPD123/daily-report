@@ -1,2 +1,18 @@
+# 敏感信息
+.env
+*.env
+.env.local
+.env.*.local
+
+# 输出目录
 output/*.json
 output/.gitignore
+output/news-data*.json
+output/image-data*.json
+
+# 依赖
+node_modules/
+
+# 日志
+*.log
+npm-debug.log*
