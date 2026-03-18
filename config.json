@@ -1,10 +1,10 @@
 {
   "keywords": [
-    "fashion model stockings elegant",
-    "street style women fashion",
-    "portrait photography beautiful women",
-    "model photoshoot professional",
-    "casual outfit women style"
+    "site:youtube.com fashion model stockings elegant",
+    "site:youtube.com street style women fashion",
+    "site:youtube.com model photoshoot professional",
+    "site:pinterest.com fashion model outfit",
+    "site:instagram.com fashion model street style"
   ],
   "categories": [
     "🩰 丝袜美腿",
@@ -14,7 +14,7 @@
     "☕ 日常穿搭"
   ],
   "searchDepth": "fast",
-  "maxResults": 30,
+  "maxResults": 40,
   "language": "zh-CN",
   "timezone": "Asia/Shanghai",
   "imageFocus": true,

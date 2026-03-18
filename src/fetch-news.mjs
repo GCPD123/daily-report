@@ -103,28 +103,45 @@ function extractImageFromUrl(url) {
   
   // Pinterest 图片
   if (url.includes('pinterest.com/pin/')) {
-    return { url: null, needsFetch: true };
-  }
-  
-  // Unsplash
-  if (url.includes('unsplash.com/photos/')) {
-    const photoId = url.split('/photos/')[1]?.split('?')[0];
-    if (photoId) {
-      return { url: `https://images.unsplash.com/photo-${photoId}?w=800&h=600&fit=crop` };
+    const pinId = url.split('/pin/')[1]?.split('?')[0];
+    if (pinId) {
+      // Pinterest 缩略图 URL
+      return { url: `https://i.pinimg.com/564x/${pinId.substring(0, 2)}/${pinId.substring(2, 4)}/${pinId.substring(4, 6)}/${pinId}.jpg` };
     }
   }
   
-  // Getty Images
+  // Unsplash - 无法直接获取图片，返回 null
+  if (url.includes('unsplash.com')) {
+    return null;
+  }
+  
+  // Getty Images - 尝试从 URL 提取 ID
   if (url.includes('gettyimages.com')) {
+    const match = url.match(/photo\/(\d+)/);
+    if (match) {
+      return { url: `https://media.gettyimages.com/id/${match[1]}/photo.jpg?s=612x612` };
+    }
     return { url: null, needsFetch: true };
   }
   
   // Shutterstock
   if (url.includes('shutterstock.com')) {
+    const match = url.match(/image-(\d+)/);
+    if (match) {
+      return { url: `https://image.shutterstock.com/image-photo/${match[1]}.jpg` };
+    }
     return { url: null, needsFetch: true };
   }
   
-  // 返回 null 表示需要后续抓取
+  // 123RF
+  if (url.includes('123rf.com')) {
+    const match = url.match(/photo_(\d+)/);
+    if (match) {
+      return { url: `https://us.123rf.com/450wm/${match[1]}.jpg` };
+    }
+  }
+  
+  // 返回 null 表示没有图片
   return null;
 }
 

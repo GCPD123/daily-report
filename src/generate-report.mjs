@@ -13,8 +13,22 @@ const __dirname = dirname(__filename);
 const rootDir = join(__dirname, '..');
 
 // 读取数据
-const imageData = JSON.parse(readFileSync(join(rootDir, 'output', 'news-data.json'), 'utf-8'));
+let imageData = JSON.parse(readFileSync(join(rootDir, 'output', 'news-data.json'), 'utf-8'));
 const template = readFileSync(join(rootDir, 'src', 'template.html'), 'utf-8');
+
+// 统计有图片的数量
+const withImages = imageData.filter(item => item.image && item.image.url && item.image.url.trim() !== '');
+const withoutImages = imageData.length - withImages.length;
+console.log(` 图片统计：${withImages.length} 条有图片，${withoutImages} 条无图片`);
+
+// 排序：有图片的排前面
+imageData.sort((a, b) => {
+  const aHasImage = a.image && a.image.url && a.image.url.trim() !== '';
+  const bHasImage = b.image && b.image.url && b.image.url.trim() !== '';
+  if (aHasImage && !bHasImage) return -1;
+  if (!aHasImage && bHasImage) return 1;
+  return 0;
+});
 
 // 按分类分组
 const grouped = {};
@@ -26,10 +40,15 @@ imageData.forEach(item => {
 
 // 分类排序（丝袜优先）
 const categoryOrder = ['🩰 丝袜美腿', '👗 优雅气质', '🏙️ 街拍时尚', '📸 写真摄影', '☕ 日常穿搭'];
-const sortedCategories = Object.entries(grouped).sort((a, b) => {
+let sortedCategories = Object.entries(grouped).sort((a, b) => {
   const idxA = categoryOrder.indexOf(a[0]);
   const idxB = categoryOrder.indexOf(b[0]);
   return (idxA === -1 ? 999 : idxA) - (idxB === -1 ? 999 : idxB);
+});
+
+// 过滤掉没有图片的分类
+sortedCategories = sortedCategories.filter(([cat, items]) => {
+  return items.some(item => item.image && item.image.url && item.image.url.trim() !== '');
 });
 
 // 每个分类最多显示 8 张
@@ -38,7 +57,9 @@ const MAX_PER_CATEGORY = 8;
 // 生成分类标签
 function generateCategoryTabs() {
   return sortedCategories.map(([cat, items], idx) => {
-    const displayCount = Math.min(items.length, MAX_PER_CATEGORY);
+    // 只统计有图片的数量
+    const withImages = items.filter(item => item.image && item.image.url && item.image.url.trim() !== '');
+    const displayCount = Math.min(withImages.length, MAX_PER_CATEGORY);
     return `<div class="category-tab${idx === 0 ? ' active' : ''}" data-category="${cat}">${cat} (${displayCount})</div>`;
   }).join('\n');
 }
@@ -47,17 +68,22 @@ function generateCategoryTabs() {
 function generateImageCard(item, index) {
   const title = item.title || 'Beautiful Photo';
   const url = item.url;
-  const hasImage = item.image && item.image.url;
+  const hasImage = item.image && item.image.url && item.image.url.trim() !== '';
   
   // 生成占位图颜色（基于 URL 哈希）
   const colors = ['#ff6b6b', '#f06595', '#cc5de8', '#845ef7', '#5c7cfa', '#339af0', '#22b8cf', '#20c997'];
   const colorIndex = item.url.length % colors.length;
   const bgColor = colors[colorIndex];
   
+  // 如果没有图片，跳过不展示
+  if (!hasImage) {
+    return '';
+  }
+  
   return `
     <div class="image-card" onclick="window.open('${url}', '_blank')">
       <div class="image-wrapper" style="background: linear-gradient(135deg, ${bgColor}22 0%, ${bgColor}44 100%);">
-        ${hasImage ? `<img src="${item.image.url}" alt="${title}" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\\\'image-placeholder\\\\'>📷</span>'" />` : '<span class="image-placeholder">📷</span>'}
+        <img src="${item.image.url}" alt="${title}" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\\\'image-placeholder\\\\'>📷</span>'" />
         <div class="image-overlay">
           <span class="view-icon">🔍</span>
         </div>
@@ -72,14 +98,21 @@ function generateImageCard(item, index) {
 
 // 生成分类 HTML
 function generateCategoryHTML(category, items, isFirst = false) {
-  const displayItems = items.slice(0, MAX_PER_CATEGORY);
-  const extraCount = items.length - MAX_PER_CATEGORY;
+  // 只保留有图片的项目
+  const itemsWithImages = items.filter(item => item.image && item.image.url && item.image.url.trim() !== '');
+  const displayItems = itemsWithImages.slice(0, MAX_PER_CATEGORY);
+  const extraCount = itemsWithImages.length - MAX_PER_CATEGORY;
   
   const cardsHTML = displayItems.map((item, idx) => generateImageCard(item, idx)).join('\n');
   
+  // 如果这个分类没有图片，返回空字符串
+  if (itemsWithImages.length === 0) {
+    return '';
+  }
+  
   const countDisplay = extraCount > 0 
-    ? `${Math.min(items.length, MAX_PER_CATEGORY)}+${extraCount}`
-    : `${items.length}`;
+    ? `${Math.min(itemsWithImages.length, MAX_PER_CATEGORY)}+${extraCount}`
+    : `${itemsWithImages.length}`;
 
   return `
     <div class="category-section" id="category-${category.replace(/[^\w\u4e00-\u9fa5]/g, '-')}" ${!isFirst ? 'style="display:none;"' : ''}>
