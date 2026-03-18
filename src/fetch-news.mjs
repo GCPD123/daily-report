@@ -93,7 +93,20 @@ function extractImageFromUrl(url) {
     return { url };
   }
   
-  // 常见图片网站的 URL 转换
+  // YouTube 视频缩略图
+  if (url.includes('youtube.com/watch?v=') || url.includes('youtu.be/')) {
+    const videoId = url.split('v=')[1]?.split('&')[0] || url.split('youtu.be/')[1]?.split('?')[0];
+    if (videoId) {
+      return { url: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` };
+    }
+  }
+  
+  // Pinterest 图片
+  if (url.includes('pinterest.com/pin/')) {
+    return { url: null, needsFetch: true };
+  }
+  
+  // Unsplash
   if (url.includes('unsplash.com/photos/')) {
     const photoId = url.split('/photos/')[1]?.split('?')[0];
     if (photoId) {
@@ -101,8 +114,13 @@ function extractImageFromUrl(url) {
     }
   }
   
-  if (url.includes('pinterest.com/pin/')) {
-    // Pinterest 图片需要后续处理
+  // Getty Images
+  if (url.includes('gettyimages.com')) {
+    return { url: null, needsFetch: true };
+  }
+  
+  // Shutterstock
+  if (url.includes('shutterstock.com')) {
     return { url: null, needsFetch: true };
   }
   
