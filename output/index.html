@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Daily Report - 2026年3月18日星期三</title>
+  <title>Daily Beauty Report - 2026年3月18日星期三</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     
     :root {
-      --bg-primary: #0f0f0f;
-      --bg-secondary: #1f1f1f;
-      --bg-hover: #2f2f2f;
+      --bg-primary: #1a1a2e;
+      --bg-secondary: #16213e;
+      --bg-hover: #0f3460;
       --text-primary: #f1f1f1;
       --text-secondary: #aaaaaa;
-      --accent: #3ea6ff;
-      --border: #303030;
+      --accent: #e94560;
+      --accent-pink: #ff6b9d;
+      --border: #2a2a4e;
     }
     
     body {
-      font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
-      background: var(--bg-primary);
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
       color: var(--text-primary);
       min-height: 100vh;
     }
@@ -28,209 +29,193 @@
     .navbar {
       position: sticky;
       top: 0;
-      background: var(--bg-secondary);
+      background: rgba(22, 33, 62, 0.95);
+      backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border);
-      padding: 12px 24px;
+      padding: 16px 24px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       z-index: 1000;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
     }
     
     .logo {
       display: flex;
       align-items: center;
       gap: 12px;
-      font-size: 1.3em;
+      font-size: 1.4em;
       font-weight: 600;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-pink) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
     
     .logo-icon {
       font-size: 1.5em;
+      -webkit-text-fill-color: initial;
     }
     
     .date-badge {
       background: var(--bg-hover);
-      padding: 6px 16px;
-      border-radius: 20px;
+      padding: 8px 18px;
+      border-radius: 24px;
       font-size: 0.9em;
       color: var(--text-secondary);
+      border: 1px solid var(--border);
     }
     
     .stats-bar {
       display: flex;
-      gap: 16px;
+      gap: 12px;
     }
     
     .stat-item {
       background: var(--bg-hover);
-      padding: 6px 14px;
-      border-radius: 8px;
+      padding: 8px 16px;
+      border-radius: 12px;
       font-size: 0.85em;
+      border: 1px solid var(--border);
     }
     
     .stat-number {
-      color: var(--accent);
+      color: var(--accent-pink);
       font-weight: 600;
     }
     
     /* 主容器 */
     .container {
-      max-width: 1400px;
+      max-width: 1600px;
       margin: 0 auto;
-      padding: 24px;
+      padding: 32px 24px;
     }
     
     /* 分类标签栏 */
     .category-tabs {
       display: flex;
       gap: 12px;
-      margin-bottom: 24px;
+      margin-bottom: 32px;
       overflow-x: auto;
       padding-bottom: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
     }
     
     .category-tab {
       background: var(--bg-secondary);
       color: var(--text-primary);
-      padding: 8px 16px;
-      border-radius: 8px;
-      font-size: 0.9em;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 0.95em;
       white-space: nowrap;
       cursor: pointer;
-      transition: background 0.2s;
-      border: 1px solid var(--border);
+      transition: all 0.3s;
+      border: 2px solid var(--border);
     }
     
     .category-tab:hover {
       background: var(--bg-hover);
+      transform: translateY(-2px);
     }
     
     .category-tab.active {
-      background: var(--accent);
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-pink) 100%);
+      border-color: var(--accent);
+      box-shadow: 0 4px 16px rgba(233, 69, 96, 0.4);
+    }
+    
+    /* 图片网格布局 */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+    
+    /* 图片卡片 */
+    .image-card {
+      background: var(--bg-secondary);
+      border-radius: 16px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s;
+      border: 1px solid var(--border);
+    }
+    
+    .image-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 32px rgba(233, 69, 96, 0.3);
       border-color: var(--accent);
     }
     
-    /* 视频网格布局 */
-    .video-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 20px;
-      margin-bottom: 40px;
-    }
-    
-    /* 视频卡片 */
-    .video-card {
-      background: transparent;
-      border-radius: 12px;
-      overflow: hidden;
-      cursor: pointer;
-      transition: transform 0.2s;
-    }
-    
-    .video-card:hover {
-      transform: translateY(-4px);
-    }
-    
-    .thumbnail {
+    .image-wrapper {
       position: relative;
       width: 100%;
-      height: 180px;
-      background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
-      border-radius: 12px;
+      height: 400px;
+      background: linear-gradient(135deg, #2a2a4e 0%, #1a1a2e 100%);
       overflow: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
     }
     
-    .thumbnail-placeholder {
-      font-size: 3em;
-      opacity: 0.5;
+    .image-placeholder {
+      font-size: 4em;
+      opacity: 0.3;
     }
     
-    .thumbnail img {
+    .image-wrapper img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      transition: transform 0.3s;
     }
     
-    .duration-badge {
+    .image-card:hover .image-wrapper img {
+      transform: scale(1.05);
+    }
+    
+    .image-overlay {
       position: absolute;
-      bottom: 8px;
-      right: 8px;
-      background: rgba(0,0,0,0.8);
-      color: white;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.75em;
-      font-weight: 500;
-    }
-    
-    .translated-badge {
-      position: absolute;
-      top: 8px;
-      left: 8px;
-      background: rgba(46, 125, 50, 0.9);
-      color: white;
-      padding: 2px 8px;
-      border-radius: 4px;
-      font-size: 0.7em;
-      font-weight: 600;
-    }
-    
-    .video-info {
-      display: flex;
-      gap: 12px;
-      padding: 12px 0;
-    }
-    
-    .channel-icon {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: var(--accent);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.4);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.2em;
-      flex-shrink: 0;
+      opacity: 0;
+      transition: opacity 0.3s;
     }
     
-    .video-details {
-      flex: 1;
-      min-width: 0;
+    .image-card:hover .image-overlay {
+      opacity: 1;
     }
     
-    .video-title {
+    .view-icon {
+      font-size: 2.5em;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+    }
+    
+    .image-info {
+      padding: 16px;
+    }
+    
+    .image-title {
       font-size: 0.95em;
       font-weight: 500;
       line-height: 1.4;
       color: var(--text-primary);
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
     
-    .video-title a {
-      color: inherit;
-      text-decoration: none;
-    }
-    
-    .video-title a:hover {
-      color: var(--accent);
-    }
-    
-    .channel-name {
-      font-size: 0.85em;
-      color: var(--text-secondary);
-      margin-bottom: 4px;
-    }
-    
-    .video-meta {
+    .image-source {
       font-size: 0.8em;
       color: var(--text-secondary);
     }
@@ -239,36 +224,45 @@
     .category-header {
       display: flex;
       align-items: center;
-      gap: 12px;
-      margin: 32px 0 16px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--border);
-    }
-    
-    .category-icon {
-      font-size: 1.5em;
+      justify-content: space-between;
+      margin: 40px 0 20px;
+      padding: 16px 24px;
+      background: var(--bg-secondary);
+      border-radius: 16px;
+      border: 1px solid var(--border);
     }
     
     .category-title {
-      font-size: 1.3em;
+      font-size: 1.4em;
       font-weight: 600;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-pink) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
     
     .category-count {
       background: var(--bg-hover);
-      color: var(--text-secondary);
-      padding: 4px 10px;
-      border-radius: 12px;
-      font-size: 0.8em;
+      color: var(--accent-pink);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85em;
+      font-weight: 600;
+      border: 1px solid var(--accent);
     }
     
     /* 页脚 */
     footer {
       text-align: center;
-      padding: 40px 24px;
+      padding: 48px 24px;
       border-top: 1px solid var(--border);
       color: var(--text-secondary);
       font-size: 0.9em;
+      background: var(--bg-secondary);
+    }
+    
+    footer p {
+      margin: 4px 0;
     }
     
     /* 响应式 */
@@ -276,24 +270,29 @@
       .navbar {
         flex-direction: column;
         gap: 12px;
-        padding: 12px 16px;
+        padding: 16px;
       }
       
       .stats-bar {
-        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
       }
       
-      .video-grid {
-        grid-template-columns: 1fr;
+      .image-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 16px;
       }
       
-      .thumbnail {
-        height: 200px;
+      .image-wrapper {
+        height: 350px;
       }
       
       .container {
         padding: 16px;
+      }
+      
+      .category-tabs {
+        justify-content: flex-start;
       }
     }
   </style>
@@ -302,19 +301,16 @@
   <!-- 顶部导航栏 -->
   <nav class="navbar">
     <div class="logo">
-      <span class="logo-icon">📰</span>
-      <span>AI Daily Report</span>
+      <span class="logo-icon">✨</span>
+      <span>Daily Beauty Report</span>
     </div>
     <div class="date-badge">{{date}}</div>
     <div class="stats-bar">
       <div class="stat-item">
-        <span class="stat-number">98</span> 条资讯
+        <span class="stat-number">98</span> 张图片
       </div>
       <div class="stat-item">
         <span class="stat-number">5</span> 个分类
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">0</span> 已翻译
       </div>
     </div>
   </nav>
@@ -322,1003 +318,529 @@
   <div class="container">
     <!-- 分类标签 -->
     <div class="category-tabs">
-      <div class="category-tab active" data-category="AI 技术突破">🚀 AI 技术突破 (4)</div>
-<div class="category-tab" data-category="产品发布">🎉 产品发布 (12)</div>
-<div class="category-tab" data-category="行业动态">📈 行业动态 (22)</div>
-<div class="category-tab" data-category="研究论文">📄 研究论文 (5)</div>
-<div class="category-tab" data-category="其他">📌 其他 (55)</div>
+      <div class="category-tab active" data-category="🩰 丝袜美腿">🩰 丝袜美腿 (8)</div>
+<div class="category-tab" data-category="👗 优雅气质">👗 优雅气质 (6)</div>
+<div class="category-tab" data-category="🏙️ 街拍时尚">🏙️ 街拍时尚 (8)</div>
+<div class="category-tab" data-category="📸 写真摄影">📸 写真摄影 (8)</div>
+<div class="category-tab" data-category="☕ 日常穿搭">☕ 日常穿搭 (4)</div>
     </div>
 
     
-    <div class="category-section" id="category-AI 技术突破" >
+    <div class="category-section" id="category----丝袜美腿" >
       <div class="category-header">
-        <span class="category-icon">🚀</span>
-        <h2 class="category-title">AI 技术突破</h2>
-        <span class="category-count">4条</span>
+        <h2 class="category-title">🩰 丝袜美腿</h2>
+        <span class="category-count">8+11张</span>
       </div>
-      <div class="video-grid">
+      <div class="image-grid">
         
-    <div class="video-card" onclick="window.open('https://zamin.uz/en/world/194237-public-distrust-in-artificial-intelligence-is-growing.html', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f5576c22 0%, #f5576c44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">Z</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://zamin.uz/en/world/194237-public-distrust-in-artificial-intelligence-is-growing.html" target="_blank" rel="noopener">Public distrust in artificial intelligence is growing</a>
-          </div>
-          <div class="channel-name">Zamin.uz</div>
-          <div class="video-meta">
-            # Public distrust in artificial intelligence is growing. A recent national surve...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=RIHwoCcJQcU', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Why This Classic Stocking Style Still Defines Elegance</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.foxnews.com/tech/ai-newsletter-fda-rolls-out-ai-powered-vaccine-platform', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">F</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.foxnews.com/tech/ai-newsletter-fda-rolls-out-ai-powered-vaccine-platform" target="_blank" rel="noopener">Fox News AI Newsletter: FDA rolls out AI-powered vaccine platform</a>
-          </div>
-          <div class="channel-name">Fox News</div>
-          <div class="video-meta">
-            # Fox News AI Newsletter: FDA rolls out AI-powered vaccine platform. ### **Welco...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=wOdMooEVJ7Q', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Rose's Elegant Stockings & Heels Try-On - - YouTube</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.nature.com/articles/s41591-026-04278-w', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f093fb22 0%, #f093fb44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">N</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.nature.com/articles/s41591-026-04278-w" target="_blank" rel="noopener">A cognitive layer architecture to support large-language model performance in psychotherapy interactions</a>
-          </div>
-          <div class="channel-name">Nature</div>
-          <div class="video-meta">
-            In additional forced-choice, blinded pairwise comparisons between AI agents (*n*...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=f7esk7jsMjs', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">SEXY Pantyhose, Stockings, Tights, High Heels, Short Mini .....</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.seroundtable.com/is-google-algorithm-the-hitting-llm-tactic-of-self-promotional-listicles-41071.html', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #667eea22 0%, #667eea44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">S</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.seroundtable.com/is-google-algorithm-the-hitting-llm-tactic-of-self-promotional-listicles-41071.html" target="_blank" rel="noopener">Is Google Algorithm Hitting LLM Tactic of Self-Promotional Listicles?</a>
-          </div>
-          <div class="channel-name">Search Engine Roundtable</div>
-          <div class="video-meta">
-            Home / Google News / Is Google Hitting Self-Promotional Listicles Hard Again? # ...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.gettyimages.ca/photos/stocking-models', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #f0659522 0%, #f0659544 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
       </div>
+      <div class="image-info">
+        <div class="image-title">4533 Stocking Models Stock Photos, High-Res Pictures, and Im...</div>
+        <div class="image-source">www.gettyimages.ca</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.shutterstock.com/search/seductive-stockings?page=3', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #22b8cf22 0%, #22b8cf44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Seductive Stockings royalty-free images</div>
+        <div class="image-source">www.shutterstock.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.123rf.com/stock-photo/model_in_black_stockings.html', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #20c99722 0%, #20c99744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Model In Black Stockings Stock Photos and Images - 123RF</div>
+        <div class="image-source">www.123rf.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=_tXI_vWyLUI', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Pantyhose, Stockings, Tights, Heels, Mini Skirt (4K) - YouTu...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.pinterest.com/pin/292874782051851440/', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #f0659522 0%, #f0659544 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Pinterest [Video] | Donne, Belle donne, Moda donna</div>
+        <div class="image-source">www.pinterest.com</div>
+      </div>
     </div>
   
       </div>
     </div>
   
-    <div class="category-section" id="category-产品发布" style="display:none;">
+    <div class="category-section" id="category----优雅气质" style="display:none;">
       <div class="category-header">
-        <span class="category-icon">🎉</span>
-        <h2 class="category-title">产品发布</h2>
-        <span class="category-count">12条</span>
+        <h2 class="category-title">👗 优雅气质</h2>
+        <span class="category-count">6张</span>
       </div>
-      <div class="video-grid">
+      <div class="image-grid">
         
-    <div class="video-card" onclick="window.open('https://nationaltoday.com/us/la/new-orleans/news/2026/03/16/nasa-develops-improved-friction-stir-welding-techniques/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">N</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://nationaltoday.com/us/la/new-orleans/news/2026/03/16/nasa-develops-improved-friction-stir-welding-techniques/" target="_blank" rel="noopener">NASA Develops Improved Friction Stir Welding Techniques</a>
-          </div>
-          <div class="channel-name">National Today</div>
-          <div class="video-meta">
-            NASA's NESC team developed several innovative tools and techniques, including ma...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=3SgvnYsAoXo', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Elegant At Any Age. Street Style 2024: Trendy Women's Outfit...</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://aviationweek.com/awin-knowledge-center/air-forces-focus-usmc-2026-aviation-2040-plans-shine-through', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f5576c22 0%, #f5576c44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">A</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://aviationweek.com/awin-knowledge-center/air-forces-focus-usmc-2026-aviation-2040-plans-shine-through" target="_blank" rel="noopener">Air Forces In Focus: USMC 2026 Aviation: 2040+ Plans Shine Through</a>
-          </div>
-          <div class="channel-name">Aviation Week</div>
-          <div class="video-meta">
-            # Air Forces In Focus: USMC 2026 Aviation: 2040+ Plans Shine Through. The U.S. M...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=Yrksm4MAmKc', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Elegant Female Portraits | The Secrets to Stunning Light Con...</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.usatoday.com/press-release/story/28147/beeline-holdings-nasdaq-blne-sets-march-30-call-to-review-q4-results-including-a-100m-run-rate-by-december-2027/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f5576c22 0%, #f5576c44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">U</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.usatoday.com/press-release/story/28147/beeline-holdings-nasdaq-blne-sets-march-30-call-to-review-q4-results-including-a-100m-run-rate-by-december-2027/" target="_blank" rel="noopener">Beeline Holdings (NASDAQ: BLNE) Sets March 30 Call to Review Q4 Results, Including a $100M Run Rate by December 2027</a>
-          </div>
-          <div class="channel-name">USA Today</div>
-          <div class="video-meta">
-            Beeline Holdings (NASDAQ: BLNE), a fast-growing digital mortgage platform redefi...
-          </div>
+    <div class="image-card" onclick="window.open('https://glance.com/blogs/glanceai/fashion/classy-casual-outfits-for-women', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #f0659522 0%, #f0659544 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">10 Classy Casual Outfits for Women That Always Work - Glance</div>
+        <div class="image-source">glance.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.law360.com/real-estate-authority/commercial/articles/2445430/human-diligence-crucial-as-ai-raises-real-estate-fraud-risks', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">L</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.law360.com/real-estate-authority/commercial/articles/2445430/human-diligence-crucial-as-ai-raises-real-estate-fraud-risks" target="_blank" rel="noopener">Human Diligence Crucial As AI Raises Real Estate Fraud Risks</a>
-          </div>
-          <div class="channel-name">Law360</div>
-          <div class="video-meta">
-            * Sign up for our newsletters. CaseMap® CLE On-Demand Context CourtLink® Digital...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=wXumVkSTrDk', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">✅ 23 ELEGANT CASUAL OUTFITS That Make You Look ...</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.law360.com/insurance-authority/other/articles/2452851/attys-chamber-group-propose-disclosure-of-litigation-funders', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #43e97b22 0%, #43e97b44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">L</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.law360.com/insurance-authority/other/articles/2452851/attys-chamber-group-propose-disclosure-of-litigation-funders" target="_blank" rel="noopener">Attys, Chamber Group Propose Disclosure Of Litigation Funders</a>
-          </div>
-          <div class="channel-name">Law360</div>
-          <div class="video-meta">
-            * Sign up for our newsletters. Lexis® Tax MLex® MLex® (New) Nexis® Nexis Diligen...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=uLQnKCLSKLA', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">7 Ways to Look Classy in Casual Outfits - YouTube</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.greatandhra.com/articles/news/the-agentic-ai-era-your-timing-is-perfect-153507', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f093fb22 0%, #f093fb44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">G</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.greatandhra.com/articles/news/the-agentic-ai-era-your-timing-is-perfect-153507" target="_blank" rel="noopener">The Agentic AI Era - Your Timing Is Perfect</a>
-          </div>
-          <div class="channel-name">Great Andhra</div>
-          <div class="video-meta">
-            # The Agentic AI Era - Your Timing Is Perfect. By Indian Clicks On  March 15 , 2...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=IlLA1TE6MsM', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
       </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.mediapost.com/publications/article/413425/metas-moltbook-acquisition-teases-a-fully-automat.html', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">M</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.mediapost.com/publications/article/413425/metas-moltbook-acquisition-teases-a-fully-automat.html" target="_blank" rel="noopener">Meta's Moltbook Acquisition Teases A Fully Automated Future 03/12/2026</a>
-          </div>
-          <div class="channel-name">MediaPost</div>
-          <div class="video-meta">
-            AI agent social network Matt Schlicht and Ben Parr to join the tech giant's AI r...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://gizmodo.com/iran-includes-american-tech-giants-on-list-of-new-targets-2000732530', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #667eea22 0%, #667eea44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">G</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://gizmodo.com/iran-includes-american-tech-giants-on-list-of-new-targets-2000732530" target="_blank" rel="noopener">Iran Includes American Tech Giants on List of New Targets</a>
-          </div>
-          <div class="channel-name">Gizmodo</div>
-          <div class="video-meta">
-            A news agency affiliated with the Iranian regime released a list of American tec...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/03/11/introducing-new-ai-tech-brief-now-published-by-wp-intelligence/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #38f9d722 0%, #38f9d744 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">T</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/03/11/introducing-new-ai-tech-brief-now-published-by-wp-intelligence/" target="_blank" rel="noopener">Introducing the new AI & Tech Brief, now published by WP Intelligence</a>
-          </div>
-          <div class="channel-name">The Washington Post</div>
-          <div class="video-meta">
-            AI & Tech Brief from WP Intelligence. # Introducing the new AI & Tech Brief, now...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://tvnewscheck.com/regulation/article/ftc-revisits-click-to-cancel-rules/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #43e97b22 0%, #43e97b44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">T</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://tvnewscheck.com/regulation/article/ftc-revisits-click-to-cancel-rules/" target="_blank" rel="noopener">FTC Revisits ‘Click-To-Cancel’ Rules</a>
-          </div>
-          <div class="channel-name">TV News Check</div>
-          <div class="video-meta">
-            FTC Revisits 'Click-To-Cancel' Rules - TV News Check. Save this article for late...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.ft.com/content/be80ae87-6bd2-4006-bede-e3386a1085ab', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #38f9d722 0%, #38f9d744 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">F</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.ft.com/content/be80ae87-6bd2-4006-bede-e3386a1085ab" target="_blank" rel="noopener">Hold on — tech stocks are a safe haven now?</a>
-          </div>
-          <div class="channel-name">Financial Times</div>
-          <div class="video-meta">
-            Investors seek shelter from Iran war in American tech equities. on linkedin (ope...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.cnet.com/tech/computing/macbook-neo-launches-apple-into-a-cooler-era-and-with-a-mascot/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f5576c22 0%, #f5576c44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">C</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.cnet.com/tech/computing/macbook-neo-launches-apple-into-a-cooler-era-and-with-a-mascot/" target="_blank" rel="noopener">MacBook Neo Launches Apple Into a Cooler Era (With a Mascot?)</a>
-          </div>
-          <div class="channel-name">CNET</div>
-          <div class="video-meta">
-            *   01iPad Air M4 Review: The Best Option for the Moment. *   39 of the Best Tec...
-          </div>
-        </div>
+      <div class="image-info">
+        <div class="image-title">15 Classy Casual Outfits for Women Over 40 + How to ...</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
       </div>
     </div>
   
-    <div class="category-section" id="category-行业动态" style="display:none;">
+    <div class="category-section" id="category-----街拍时尚" style="display:none;">
       <div class="category-header">
-        <span class="category-icon">📈</span>
-        <h2 class="category-title">行业动态</h2>
-        <span class="category-count">12+10条</span>
+        <h2 class="category-title">🏙️ 街拍时尚</h2>
+        <span class="category-count">8+25张</span>
       </div>
-      <div class="video-grid">
+      <div class="image-grid">
         
-    <div class="video-card" onclick="window.open('https://zamin.uz/en/technology/194024-ai-programs-are-struggling-to-retain-users.html', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">Z</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://zamin.uz/en/technology/194024-ai-programs-are-struggling-to-retain-users.html" target="_blank" rel="noopener">AI programs are struggling to retain users</a>
-          </div>
-          <div class="channel-name">Zamin.uz</div>
-          <div class="video-meta">
-            Although artificial intelligence technologies are gaining popularity in the app ...
-          </div>
+    <div class="image-card" onclick="window.open('https://classicsixny.com/blogs/classic-chronicles/the-ultimate-guide-to-street-style-women-fashion?srsltid=AfmBOooHqqDfPKoYMt-tx361n_9Rs9gDFbT6IJU7xzzy0hSZgf36aVKM', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Street Style Women: Combining Comfort with Chic Looks | Clas...</div>
+        <div class="image-source">classicsixny.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://markets.businessinsider.com/news/stocks/fulloop-highlights-institutional-shift-toward-ai-infrastructure-investment-1035916673', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">M</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://markets.businessinsider.com/news/stocks/fulloop-highlights-institutional-shift-toward-ai-infrastructure-investment-1035916673" target="_blank" rel="noopener">Fulloop Highlights Institutional Shift Toward AI Infrastructure Investment</a>
-          </div>
-          <div class="channel-name">markets.businessinsider.com</div>
-          <div class="video-meta">
-            New York, United States, March 11, 2026 -- Fulloop, a technology platform focuse...
-          </div>
+    <div class="image-card" onclick="window.open('https://classicsixny.com/blogs/classic-chronicles/the-ultimate-guide-to-street-style-women-fashion?srsltid=AfmBOoq37yebfYczUAZ_4JPwqGiSDO37zLnbEGwXpgh9jF_Ak_Q_7k-S', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Street Style Women: Combining Comfort with Chic Looks | Clas...</div>
+        <div class="image-source">classicsixny.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://markets.businessinsider.com/news/stocks/ligolab-highlights-ai-and-automation-insights-at-ligoverse-2026-1035931746', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f093fb22 0%, #f093fb44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">M</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://markets.businessinsider.com/news/stocks/ligolab-highlights-ai-and-automation-insights-at-ligoverse-2026-1035931746" target="_blank" rel="noopener">LigoLab Highlights AI and Automation Insights at LigoVerse 2026</a>
-          </div>
-          <div class="channel-name">markets.businessinsider.com</div>
-          <div class="video-meta">
-            GLENDALE, CA, March 16, 2026 (GLOBE NEWSWIRE) -- **LigoLab**, a laboratory infor...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.amazon.com/street-style-fashion-women/s?k=street+style+fashion+for+women', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #5c7cfa22 0%, #5c7cfa44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Street Style Fashion For Women - Amazon.com</div>
+        <div class="image-source">www.amazon.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.fool.com/investing/2026/03/15/my-top-5-ai-stocks-to-buy-amid-the-market-pullback/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">T</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.fool.com/investing/2026/03/15/my-top-5-ai-stocks-to-buy-amid-the-market-pullback/" target="_blank" rel="noopener">My Top 5 AI Stocks to Buy Amid the Market Pullback</a>
-          </div>
-          <div class="channel-name">The Motley Fool</div>
-          <div class="video-meta">
-            # My Top 5 AI Stocks to Buy Amid the Market Pullback. These are fantastic stocks...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.pinterest.com/nxgeluno/womens-street-style/', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #20c99722 0%, #20c99744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">470 Best Women's Street Style ideas in 2026 - Pinterest</div>
+        <div class="image-source">www.pinterest.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.cbsnews.com/sanfrancisco/video/silicon-valley-program-encourages-young-women-to-lead-in-ai/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #38f9d722 0%, #38f9d744 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">5 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">C</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.cbsnews.com/sanfrancisco/video/silicon-valley-program-encourages-young-women-to-lead-in-ai/" target="_blank" rel="noopener">Silicon Valley program encourages young women to lead in AI</a>
-          </div>
-          <div class="channel-name">CBS News</div>
-          <div class="video-meta">
-            # Silicon Valley program encourages young women to lead in AI. Tech companies cl...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.instagram.com/streetstyle__daily/', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #339af022 0%, #339af044 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Women's Street Fashion, Trends & Looks 👁️‍🗨️ (@streetstyle...</div>
+        <div class="image-source">www.instagram.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.hotelnewsresource.com/article140429.html', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">H</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.hotelnewsresource.com/article140429.html" target="_blank" rel="noopener">HSMAI Europe Launches AI Advisory Board to Guide the Hospitality Industry’s Practical Use of Artificial Intelligence</a>
-          </div>
-          <div class="channel-name">Hotel News Resource</div>
-          <div class="video-meta">
-            # HSMAI Europe Launches AI Advisory Board to Guide the Hospitality Industry’s Pr...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.instagram.com/reel/DSQY6hdDUB2/', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Street style for a city girl - Instagram</div>
+        <div class="image-source">www.instagram.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.accountingtoday.com/opinion/ai-can-now-do-your-taxes-but-is-that-a-good-idea', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #667eea22 0%, #667eea44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">A</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.accountingtoday.com/opinion/ai-can-now-do-your-taxes-but-is-that-a-good-idea" target="_blank" rel="noopener">AI can now do your taxes, but should it?</a>
-          </div>
-          <div class="channel-name">Accounting Today</div>
-          <div class="video-meta">
-            One area in which potential use cases for artificial intelligence in accounting ...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.pinterest.com/pin/kickback-streetwear-spring--23503229299504456/', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #5c7cfa22 0%, #5c7cfa44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Street Wear - Pinterest</div>
+        <div class="image-source">www.pinterest.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.fiercehealthcare.com/health-tech/maven-clinic-expands-ai-capabilities-generative-ai-openai-google', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">F</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.fiercehealthcare.com/health-tech/maven-clinic-expands-ai-capabilities-generative-ai-openai-google" target="_blank" rel="noopener">Maven Clinic expands AI capabilities with genAI agent built on OpenAI, Google LLMs</a>
-          </div>
-          <div class="channel-name">Fierce Healthcare</div>
-          <div class="video-meta">
-            Maven Artificial Intelligence Women's health generative AI. The company refers t...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.reddit.com/r/fashionwomens35/comments/1ed6ba1/street_styleyour_recent_favorite_outfits/', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
       </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.fiercebiotech.com/biotech/xaira-exec-divulges-rd-focus-how-ai-company-chasing-what-industry-hungriest', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #764ba222 0%, #764ba244 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">F</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.fiercebiotech.com/biotech/xaira-exec-divulges-rd-focus-how-ai-company-chasing-what-industry-hungriest" target="_blank" rel="noopener">Xaira exec divulges R&D focus, how $1B fundraise fuels AI-driven hunt for what the 'industry is hungriest for'</a>
-          </div>
-          <div class="channel-name">Fierce Biotech</div>
-          <div class="video-meta">
-            “That’s where we started, so we are working on building antibody therapeutics,” ...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('http://thenextweb.com/news/blify-21m-pre-seed-ai-learning-platform', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f093fb22 0%, #f093fb44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">T</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="http://thenextweb.com/news/blify-21m-pre-seed-ai-learning-platform" target="_blank" rel="noopener">Blify secures $2.1M to bring AI-native training to Slack and Teams</a>
-          </div>
-          <div class="channel-name">The Next Web</div>
-          <div class="video-meta">
-            # Blify secures $2.1M to bring AI-native training to Slack and Teams. The Paris-...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.pymnts.com/cpi-posts/carey-bolsters-competition-law-team-with-new-senior-counsel/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">P</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.pymnts.com/cpi-posts/carey-bolsters-competition-law-team-with-new-senior-counsel/" target="_blank" rel="noopener">Carey Bolsters Competition Law Team With New Senior Counsel</a>
-          </div>
-          <div class="channel-name">PYMNTS.com</div>
-          <div class="video-meta">
-            Chilean law firm Carey has expanded its antitrust and regulated markets team wit...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.law.com/2026/03/16/how-i-made-partner-accept-that-the-path-is-rarely-linear-says-morgan-xu-of-foley-hoag/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">L</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.law.com/2026/03/16/how-i-made-partner-accept-that-the-path-is-rarely-linear-says-morgan-xu-of-foley-hoag/" target="_blank" rel="noopener">How I Made Partner: 'Accept That the Path Is Rarely Linear,' Says Morgan Xu of Foley Hoag</a>
-          </div>
-          <div class="channel-name">Law.com</div>
-          <div class="video-meta">
-            A look at the Asian legal market and its law firms, in-house legal departments a...
-          </div>
-        </div>
+      <div class="image-info">
+        <div class="image-title">street style...your recent favorite outfits : r/fashionwomen...</div>
+        <div class="image-source">www.reddit.com</div>
       </div>
     </div>
   
       </div>
     </div>
   
-    <div class="category-section" id="category-研究论文" style="display:none;">
+    <div class="category-section" id="category----写真摄影" style="display:none;">
       <div class="category-header">
-        <span class="category-icon">📄</span>
-        <h2 class="category-title">研究论文</h2>
-        <span class="category-count">5条</span>
+        <h2 class="category-title">📸 写真摄影</h2>
+        <span class="category-count">8+28张</span>
       </div>
-      <div class="video-grid">
+      <div class="image-grid">
         
-    <div class="video-card" onclick="window.open('https://www.newswise.com/articles/ai-tool-streamlines-drug-synthesis', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">N</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.newswise.com/articles/ai-tool-streamlines-drug-synthesis" target="_blank" rel="noopener">AI Tool Streamlines Drug Synthesis | Newswise</a>
-          </div>
-          <div class="channel-name">Newswise</div>
-          <div class="video-meta">
-            ###### *A machine-learning system trained on sparse data predicts how molecules ...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.freepik.com/photos/stocking-models', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #22b8cf22 0%, #22b8cf44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Stocking models Photos - Download Free High-Quality Pictures</div>
+        <div class="image-source">www.freepik.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://techxplore.com/news/2026-03-small-edge-cars-rural-areas.html', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">T</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://techxplore.com/news/2026-03-small-edge-cars-rural-areas.html" target="_blank" rel="noopener">Small 'edge' computer could help self-driving cars operate in rural areas</a>
-          </div>
-          <div class="channel-name">Tech Xplore</div>
-          <div class="video-meta">
-            # Small 'edge' computer could help self-driving cars operate in rural areas. New...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.istockphoto.com/photos/portraits-of-beautiful-women', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #20c99722 0%, #20c99744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">4722438 Portraits Of Beautiful Women Images and Stock Photos</div>
+        <div class="image-source">www.istockphoto.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://phys.org/news/2026-03-chatgpt-mathematical-proofs.html', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #43e97b22 0%, #43e97b44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">P</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://phys.org/news/2026-03-chatgpt-mathematical-proofs.html" target="_blank" rel="noopener">ChatGPT can provide original mathematical proofs, researchers show</a>
-          </div>
-          <div class="channel-name">Phys.org</div>
-          <div class="video-meta">
-            # ChatGPT can provide original mathematical proofs, researchers show. VUB's Data...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.istockphoto.com/photos/beautiful-women-portraits', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #5c7cfa22 0%, #5c7cfa44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">4725572 Beautiful Women Portraits Images and Stock Photos - ...</div>
+        <div class="image-source">www.istockphoto.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">A</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/" target="_blank" rel="noopener">Supply-chain attack using invisible code hits GitHub and other repositories</a>
-          </div>
-          <div class="channel-name">Ars Technica</div>
-          <div class="video-meta">
-            # Supply-chain attack using invisible code hits GitHub and other repositories. R...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.gettyimages.com/photos/beautiful-woman-portrait', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">1390682 Beautiful Woman Portrait Images and Stock Photos</div>
+        <div class="image-source">www.gettyimages.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.mediapost.com/publications/article/413399/agentic-agency-tech-take-stronger-position-in-ad-c.html', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">M</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.mediapost.com/publications/article/413399/agentic-agency-tech-take-stronger-position-in-ad-c.html" target="_blank" rel="noopener">Agentic Agency Technology Takes Stronger Position In Ad Chain 03/11/2026</a>
-          </div>
-          <div class="channel-name">MediaPost</div>
-          <div class="video-meta">
-            Subscribe today to gain access to every *Research Intelligencer* article we publ...
-          </div>
+    <div class="image-card" onclick="window.open('https://stock.adobe.com/search?k=stunning+woman', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #20c99722 0%, #20c99744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
       </div>
+      <div class="image-info">
+        <div class="image-title">Stunning Woman Images – Browse 795646 Stock Photos, Vectors ...</div>
+        <div class="image-source">stock.adobe.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://unsplash.com/s/photos/beautiful-woman-portrait', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #22b8cf22 0%, #22b8cf44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Beautiful Woman Portrait Pictures - Unsplash</div>
+        <div class="image-source">unsplash.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.gettyimages.com/photos/women-portraits', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #cc5de822 0%, #cc5de844 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">4601784 Women Portraits Images and Stock Photos</div>
+        <div class="image-source">www.gettyimages.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.pexels.com/search/beautiful%20women/', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #ff6b6b22 0%, #ff6b6b44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Free Beautiful Women Photos - Pexels</div>
+        <div class="image-source">www.pexels.com</div>
+      </div>
     </div>
   
       </div>
     </div>
   
-    <div class="category-section" id="category-其他" style="display:none;">
+    <div class="category-section" id="category---日常穿搭" style="display:none;">
       <div class="category-header">
-        <span class="category-icon">📌</span>
-        <h2 class="category-title">其他</h2>
-        <span class="category-count">12+43条</span>
+        <h2 class="category-title">☕ 日常穿搭</h2>
+        <span class="category-count">4张</span>
       </div>
-      <div class="video-grid">
+      <div class="image-grid">
         
-    <div class="video-card" onclick="window.open('https://www.forbes.com/sites/chuckbrooks/2026/03/14/the-rapid-trajectory-of-artificial-intelligence/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">F</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.forbes.com/sites/chuckbrooks/2026/03/14/the-rapid-trajectory-of-artificial-intelligence/" target="_blank" rel="noopener">The Rapid Trajectory Of Artificial Intelligence</a>
-          </div>
-          <div class="channel-name">Forbes</div>
-          <div class="video-meta">
-            _The Rapid Trajectory of Artificial Intelligence: From Machine Learning Foundati...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.fashionnova.com/collections/streetwear-trends', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #f0659522 0%, #f0659544 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Women's Streetwear Clothing - Street Chic Style - Fashion No...</div>
+        <div class="image-source">www.fashionnova.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://markets.businessinsider.com/news/stocks/canadian-tech-entrepreneur-yanik-guillemette-publishes-analysis-on-the-future-of-artificial-intelligence-in-the-workplace-1035925769', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">M</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://markets.businessinsider.com/news/stocks/canadian-tech-entrepreneur-yanik-guillemette-publishes-analysis-on-the-future-of-artificial-intelligence-in-the-workplace-1035925769" target="_blank" rel="noopener">Canadian Tech Entrepreneur Yanik Guillemette Publishes Analysis on the Future of Artificial Intelligence in the Workplace</a>
-          </div>
-          <div class="channel-name">markets.businessinsider.com</div>
-          <div class="video-meta">
-            # Canadian Tech Entrepreneur Yanik Guillemette Publishes Analysis on the Future ...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.reddit.com/r/fashionwomens35/comments/1bic6ud/mid_thirties_streetwear_style/', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #ff6b6b22 0%, #ff6b6b44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Mid thirties streetwear style? : r/fashionwomens35 - Reddit</div>
+        <div class="image-source">www.reddit.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://vajiramandravi.com/current-affairs/artificial-intelligence-finance/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f5576c22 0%, #f5576c44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">V</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://vajiramandravi.com/current-affairs/artificial-intelligence-finance/" target="_blank" rel="noopener">Artificial Intelligence in Finance - Opportunities, Risks & Workforce Transformation</a>
-          </div>
-          <div class="channel-name">Vajiram & Ravi</div>
-          <div class="video-meta">
-            Artificial Intelligence in finance is enhancing efficiency, improving risk manag...
-          </div>
+    <div class="image-card" onclick="window.open('https://stock.adobe.com/search?k=beautiful+woman', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #ff6b6b22 0%, #ff6b6b44 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Beautiful Woman Images – Browse 32276585 Stock Photos, Vecto...</div>
+        <div class="image-source">stock.adobe.com</div>
       </div>
     </div>
   
 
-    <div class="video-card" onclick="window.open('https://www.fool.com/investing/2026/03/16/prediction-artificial-intelligence-ai-stock-micron/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #00f2fe22 0%, #00f2fe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">T</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.fool.com/investing/2026/03/16/prediction-artificial-intelligence-ai-stock-micron/" target="_blank" rel="noopener">Prediction: This Artificial Intelligence (AI) Stock Will Skyrocket After March 18 (Hint: It's Not Micron)</a>
-          </div>
-          <div class="channel-name">The Motley Fool</div>
-          <div class="video-meta">
-            # Prediction: This Artificial Intelligence (AI) Stock Will Skyrocket After March...
-          </div>
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=i2Zi5ziah44', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <span class="image-placeholder">📷</span>
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
         </div>
       </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.newsweek.com/ai-impact-is-ai-actually-intelligent-stephen-fry-weighs-in-11667975', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">N</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.newsweek.com/ai-impact-is-ai-actually-intelligent-stephen-fry-weighs-in-11667975" target="_blank" rel="noopener">AI Impact: Is AI Actually Intelligent? Stephen Fry Weighs in</a>
-          </div>
-          <div class="channel-name">Newsweek</div>
-          <div class="video-meta">
-            *Editor's note: This is AI Impact, Newsweek's weekly newsletter where each week,...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.govconwire.com/articles/hpe-jim-kelly-agentic-ai-network', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">G</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.govconwire.com/articles/hpe-jim-kelly-agentic-ai-network" target="_blank" rel="noopener">HPE’s Jim Kelly on Agentic AI for Proactive, Self-Driving Networks</a>
-          </div>
-          <div class="channel-name">GovCon Wire</div>
-          <div class="video-meta">
-            Home Artificial Intelligence HPE’s Jim Kelly on Agentic AI for Proactive, Self-D...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.forbes.com/sites/chaddscott/2026/03/13/artists-lay-bare-the-dangers-and-biases-of-artificial-intelligence/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #43e97b22 0%, #43e97b44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">F</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.forbes.com/sites/chaddscott/2026/03/13/artists-lay-bare-the-dangers-and-biases-of-artificial-intelligence/" target="_blank" rel="noopener">Artists Lay Bare The Dangers And Biases Of Artificial Intelligence</a>
-          </div>
-          <div class="channel-name">Forbes</div>
-          <div class="video-meta">
-            All the proof anyone should ever need about the dangers of society’s increasing ...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.news-medical.net/health/AI-in-Food-How-Artificial-Intelligence-is-Designing-Healthier-and-More-Sustainable-Foods.aspx', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #764ba222 0%, #764ba244 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">N</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.news-medical.net/health/AI-in-Food-How-Artificial-Intelligence-is-Designing-Healthier-and-More-Sustainable-Foods.aspx" target="_blank" rel="noopener">AI in Food: How Artificial Intelligence is Designing Healthier and More Sustainable Foods</a>
-          </div>
-          <div class="channel-name">News-Medical</div>
-          <div class="video-meta">
-            _**Artificial intelligence is reshaping the journey from ingredient discovery to...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/03/17/congress-is-losing-race-regulate-ai/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #4facfe22 0%, #4facfe44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">T</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/03/17/congress-is-losing-race-regulate-ai/" target="_blank" rel="noopener">Congress is losing the race to regulate AI</a>
-          </div>
-          <div class="channel-name">The Washington Post</div>
-          <div class="video-meta">
-            AI & Tech Brief from WP Intelligence. # Congress is losing the race to regulate ...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.fool.com/investing/2026/03/14/prediction-ai-stock-worth-more-micron-palantir/', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #764ba222 0%, #764ba244 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">T</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.fool.com/investing/2026/03/14/prediction-ai-stock-worth-more-micron-palantir/" target="_blank" rel="noopener">Prediction: 1 Artificial Intelligence (AI) Stock That Will Be Worth More Than Micron and Palantir by 2027</a>
-          </div>
-          <div class="channel-name">The Motley Fool</div>
-          <div class="video-meta">
-            # Prediction: 1 Artificial Intelligence (AI) Stock That Will Be Worth More Than ...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.nature.com/articles/s44294-025-00126-3', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #f093fb22 0%, #f093fb44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">N</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.nature.com/articles/s44294-025-00126-3" target="_blank" rel="noopener">Leveraging multimodal machine learning for accurate risk identification of intimate partner violence</a>
-          </div>
-          <div class="channel-name">Nature</div>
-          <div class="video-meta">
-            This work presents machine learning models for the early detection of IPV in cli...
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-    <div class="video-card" onclick="window.open('https://www.fiercehealthcare.com/ai-and-machine-learning/fierce-healthcare-team-fierce-15-2026', '_blank')">
-      <div class="thumbnail" style="background: linear-gradient(135deg, #43e97b22 0%, #43e97b44 100%);">
-        <span class="thumbnail-placeholder">📰</span>
-        
-        <span class="duration-badge">6 分钟</span>
-      </div>
-      <div class="video-info">
-        <div class="channel-icon">F</div>
-        <div class="video-details">
-          <div class="video-title">
-            <a href="https://www.fiercehealthcare.com/ai-and-machine-learning/fierce-healthcare-team-fierce-15-2026" target="_blank" rel="noopener">The Fierce Healthcare team on the Fierce 15 of 2026</a>
-          </div>
-          <div class="channel-name">Fierce Healthcare</div>
-          <div class="video-meta">
-            # The Fierce Healthcare team on the Fierce 15 of 2026. Podnosis Fierce 15 Innova...
-          </div>
-        </div>
+      <div class="image-info">
+        <div class="image-title">20 Photographers You Should Know - YouTube</div>
+        <div class="image-source">www.youtube.com</div>
       </div>
     </div>
   
@@ -1328,8 +850,8 @@
   </div>
 
   <footer>
-    <p>Generated by AI Daily Report · 2026</p>
-    <p style="margin-top: 8px; opacity: 0.7;">数据来自 Tavily · 每日早 8 点自动更新</p>
+    <p>Generated by Daily Beauty Report · 2026</p>
+    <p style="margin-top: 8px; opacity: 0.7;">图片来自互联网 · 每日早 8 点自动更新</p>
   </footer>
 
 <script>
@@ -1344,7 +866,7 @@
       
       // 显示对应分类
       document.querySelectorAll('.category-section').forEach(section => {
-        section.style.display = section.id === 'category-' + category ? 'block' : 'none';
+        section.style.display = section.id === 'category-' + category.replace(/[^w一-龥]/g, '-') ? 'block' : 'none';
       });
     });
   });
