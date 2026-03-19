@@ -1,9 +1,11 @@
-name: Deploy to GitHub Pages
+name: Deploy Gallery to Root
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'output/**'
 
 jobs:
   deploy:
@@ -12,10 +14,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
-          publish_branch: gh-pages
-          force_orphan: true
+      - name: Copy gallery to root
+        run: |
+          cp output/index.html ./index.html
+          cp output/news-data.json ./news-data.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "AI Daily Report Bot"
+          git config user.email "daily-report@openclaw.local"
+          git add index.html news-data.json
+          git diff --cached --quiet || git commit -m "🎨 Auto-deploy gallery to root [skip ci]"
+          git push

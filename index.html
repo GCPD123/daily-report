@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Beauty Report - 2026年3月19日星期四</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    :root {
+      --bg-primary: #1a1a2e;
+      --bg-secondary: #16213e;
+      --bg-hover: #0f3460;
+      --text-primary: #f1f1f1;
+      --text-secondary: #aaaaaa;
+      --accent: #e94560;
+      --accent-pink: #ff6b9d;
+      --border: #2a2a4e;
+    }
+    
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+      color: var(--text-primary);
+      min-height: 100vh;
+    }
+    
+    /* 顶部导航栏 */
+    .navbar {
+      position: sticky;
+      top: 0;
+      background: rgba(22, 33, 62, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1000;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.4em;
+      font-weight: 600;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-pink) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .logo-icon {
+      font-size: 1.5em;
+      -webkit-text-fill-color: initial;
+    }
+    
+    .date-badge {
+      background: var(--bg-hover);
+      padding: 8px 18px;
+      border-radius: 24px;
+      font-size: 0.9em;
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+    }
+    
+    .stats-bar {
+      display: flex;
+      gap: 12px;
+    }
+    
+    .stat-item {
+      background: var(--bg-hover);
+      padding: 8px 16px;
+      border-radius: 12px;
+      font-size: 0.85em;
+      border: 1px solid var(--border);
+    }
+    
+    .stat-number {
+      color: var(--accent-pink);
+      font-weight: 600;
+    }
+    
+    /* 主容器 */
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+    
+    /* 分类标签栏 */
+    .category-tabs {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 32px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .category-tab {
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 0.95em;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.3s;
+      border: 2px solid var(--border);
+    }
+    
+    .category-tab:hover {
+      background: var(--bg-hover);
+      transform: translateY(-2px);
+    }
+    
+    .category-tab.active {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-pink) 100%);
+      border-color: var(--accent);
+      box-shadow: 0 4px 16px rgba(233, 69, 96, 0.4);
+    }
+    
+    /* 图片网格布局 */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+    
+    /* 图片卡片 */
+    .image-card {
+      background: var(--bg-secondary);
+      border-radius: 16px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s;
+      border: 1px solid var(--border);
+    }
+    
+    .image-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 32px rgba(233, 69, 96, 0.3);
+      border-color: var(--accent);
+    }
+    
+    .image-wrapper {
+      position: relative;
+      width: 100%;
+      height: 400px;
+      background: linear-gradient(135deg, #2a2a4e 0%, #1a1a2e 100%);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .image-placeholder {
+      font-size: 4em;
+      opacity: 0.3;
+    }
+    
+    .image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+    
+    .image-card:hover .image-wrapper img {
+      transform: scale(1.05);
+    }
+    
+    .image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .image-card:hover .image-overlay {
+      opacity: 1;
+    }
+    
+    .view-icon {
+      font-size: 2.5em;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+    }
+    
+    .image-info {
+      padding: 16px;
+    }
+    
+    .image-title {
+      font-size: 0.95em;
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    
+    .image-source {
+      font-size: 0.8em;
+      color: var(--text-secondary);
+    }
+    
+    /* 分类标题 */
+    .category-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 40px 0 20px;
+      padding: 16px 24px;
+      background: var(--bg-secondary);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+    }
+    
+    .category-title {
+      font-size: 1.4em;
+      font-weight: 600;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-pink) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .category-count {
+      background: var(--bg-hover);
+      color: var(--accent-pink);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85em;
+      font-weight: 600;
+      border: 1px solid var(--accent);
+    }
+    
+    /* 页脚 */
+    footer {
+      text-align: center;
+      padding: 48px 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 0.9em;
+      background: var(--bg-secondary);
+    }
+    
+    footer p {
+      margin: 4px 0;
+    }
+    
+    /* 响应式 */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+      }
+      
+      .stats-bar {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .image-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 16px;
+      }
+      
+      .image-wrapper {
+        height: 350px;
+      }
+      
+      .container {
+        padding: 16px;
+      }
+      
+      .category-tabs {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-icon">✨</span>
+      <span>Daily Beauty Report</span>
+    </div>
+    <div class="date-badge" id="current-date">2026年3月19日星期四</div>
+    <div class="stats-bar">
+      <div class="stat-item">
+        <span class="stat-number">94</span> 张图片
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">5</span> 个分类
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- 分类标签 -->
+    <div class="category-tabs">
+      <div class="category-tab active" data-category="🩰 丝袜美腿">🩰 丝袜美腿 (8)</div>
+<div class="category-tab" data-category="👗 优雅气质">👗 优雅气质 (6)</div>
+<div class="category-tab" data-category="🏙️ 街拍时尚">🏙️ 街拍时尚 (8)</div>
+<div class="category-tab" data-category="📸 写真摄影">📸 写真摄影 (8)</div>
+<div class="category-tab" data-category="☕ 日常穿搭">☕ 日常穿搭 (2)</div>
+    </div>
+
+    
+    <div class="category-section" id="category----丝袜美腿" >
+      <div class="category-header">
+        <h2 class="category-title">🩰 丝袜美腿</h2>
+        <span class="category-count">8+10张</span>
+      </div>
+      <div class="image-grid">
+        
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=eWkBZSFmSUo', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/eWkBZSFmSUo/maxresdefault.jpg" alt="Meet Bianca Watts - Stockings, High Heels & Facts" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Meet Bianca Watts - Stockings, High Heels & Facts</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=-wFpBBnBghg', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/-wFpBBnBghg/maxresdefault.jpg" alt="Nico Nicoleta High Heels & Nylon Elegance | Fashion Model ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Nico Nicoleta High Heels & Nylon Elegance | Fashion Model .....</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=TV1MHAVBn9I', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/TV1MHAVBn9I/maxresdefault.jpg" alt="Oona Linna ✅ Elegant Nylon Stockings & High Heel Style" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Oona Linna ✅ Elegant Nylon Stockings & High Heel Style</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=MAeKMUQZ68A', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/MAeKMUQZ68A/maxresdefault.jpg" alt="Lizzie Grey Nylon Fashion Office Crush I Elegant Stockings ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Lizzie Grey Nylon Fashion Office Crush I Elegant Stockings ....</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=oqO0sYB8VqA', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/oqO0sYB8VqA/maxresdefault.jpg" alt="Premium British Gio Vintage Fully Fashioned Stockings ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Premium British Gio Vintage Fully Fashioned Stockings ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=rV59sW6SGBI', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/rV59sW6SGBI/maxresdefault.jpg" alt="HOSIERY FASHION MODEL FILM : Pantyhose, Tights ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">HOSIERY FASHION MODEL FILM : Pantyhose, Tights ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=N3z9FDrGr-4', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/N3z9FDrGr-4/maxresdefault.jpg" alt="Kelly Monroe Elegant Nylons Queen | High Heels Confidence ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Kelly Monroe Elegant Nylons Queen | High Heels Confidence .....</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=RIHwoCcJQcU', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/RIHwoCcJQcU/maxresdefault.jpg" alt="Why This Classic Stocking Style Still Defines Elegance | Satin ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Why This Classic Stocking Style Still Defines Elegance | Sat...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+      </div>
+    </div>
+  
+    <div class="category-section" id="category----优雅气质" style="display:none;">
+      <div class="category-header">
+        <h2 class="category-title">👗 优雅气质</h2>
+        <span class="category-count">6张</span>
+      </div>
+      <div class="image-grid">
+        
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=1IYuvRvNdoo', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/1IYuvRvNdoo/maxresdefault.jpg" alt="Helen Lady ✅ Elegant Over 50 Fashion Model, High Heels ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Helen Lady ✅ Elegant Over 50 Fashion Model, High Heels ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=eBYps5KSeUE', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/eBYps5KSeUE/maxresdefault.jpg" alt="Best Street Style Looks Elegant Women Fashion Over 40, 50, 60" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Best Street Style Looks Elegant Women Fashion Over 40, 50, 6...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=9csBPTMtMpA', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/9csBPTMtMpA/maxresdefault.jpg" alt="Elegant Milan Spring Street Style | Chic Women's Fashion in ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Elegant Milan Spring Street Style | Chic Women's Fashion in ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=MjElQafHc7Y', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/MjElQafHc7Y/maxresdefault.jpg" alt="WHAT EVERYONE IS WEARING IN PARIS → PARIS Street ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">WHAT EVERYONE IS WEARING IN PARIS → PARIS Street ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=l1KBjAtZ714', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/l1KBjAtZ714/maxresdefault.jpg" alt="Paris Street Style 2025. Elegant Women's Fashion & Chic ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Paris Street Style 2025. Elegant Women's Fashion & Chic ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=emmjyOM4ItQ', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/emmjyOM4ItQ/maxresdefault.jpg" alt="Street Style Italy 2025 – Beautiful People, Beautiful Outfits in ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Street Style Italy 2025 – Beautiful People, Beautiful Outfit...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+      </div>
+    </div>
+  
+    <div class="category-section" id="category-----街拍时尚" style="display:none;">
+      <div class="category-header">
+        <h2 class="category-title">🏙️ 街拍时尚</h2>
+        <span class="category-count">8+3张</span>
+      </div>
+      <div class="image-grid">
+        
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=cO9rRXvjRIw', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/cO9rRXvjRIw/maxresdefault.jpg" alt="What Everyone Is Wearing in Milan - → MILAN Street Style ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">What Everyone Is Wearing in Milan - → MILAN Street Style ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=AONcl0iF8a4', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/AONcl0iF8a4/maxresdefault.jpg" alt="What Are People Wearing in New York? (Fashion Trends ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">What Are People Wearing in New York? (Fashion Trends ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=DBBwoUxgkE4', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/DBBwoUxgkE4/maxresdefault.jpg" alt="What Are People Wearing in New York? (Fashion Trends ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">What Are People Wearing in New York? (Fashion Trends ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=HKnTOje8Z28', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/HKnTOje8Z28/maxresdefault.jpg" alt="8 High Fashion Street Style Outfits You Can Wear In Real Life" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">8 High Fashion Street Style Outfits You Can Wear In Real Lif...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=wzsXBfsSrW8', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/wzsXBfsSrW8/maxresdefault.jpg" alt="London Street Fashion, Everyday Outfits You'll Actually Wear" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">London Street Fashion, Everyday Outfits You'll Actually Wear</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=pq4zCRAOyqc', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/pq4zCRAOyqc/maxresdefault.jpg" alt="What Are People Wearing in NYC? (Street Style 2025 Winter ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">What Are People Wearing in NYC? (Street Style 2025 Winter .....</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=-jHMRawBvqs', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/-jHMRawBvqs/maxresdefault.jpg" alt="What Are People Wearing in NYC (2026 Street Style Winter ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">What Are People Wearing in NYC (2026 Street Style Winter ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=0lISzi6AVzY', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/0lISzi6AVzY/maxresdefault.jpg" alt="London Street Fashion. Timeless Style Inspiration" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">London Street Fashion. Timeless Style Inspiration</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+      </div>
+    </div>
+  
+    <div class="category-section" id="category----写真摄影" style="display:none;">
+      <div class="category-header">
+        <h2 class="category-title">📸 写真摄影</h2>
+        <span class="category-count">8+9张</span>
+      </div>
+      <div class="image-grid">
+        
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=1CDWFfGGkIM', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/1CDWFfGGkIM/maxresdefault.jpg" alt="Colorful Fashion Photoshoot Posing With Professional Model (with ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Colorful Fashion Photoshoot Posing With Professional Model (...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=CpBwJ1ld99E', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/CpBwJ1ld99E/maxresdefault.jpg" alt="Behind-the-Scenes Photoshoot | Working with Professional Models" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Behind-the-Scenes Photoshoot | Working with Professional Mod...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=BjYYP_O6M6Q', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/BjYYP_O6M6Q/maxresdefault.jpg" alt="Montrealer breaks record for deepest underwater model photoshoot" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Montrealer breaks record for deepest underwater model photos...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=I_515SoF9A8', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/I_515SoF9A8/maxresdefault.jpg" alt="Female model model photoshoot behind the scenes at Pixel 8 Studio Cam #photoshoot #glamourmodel" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Female model model photoshoot behind the scenes at Pixel 8 S...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=vP0-FLtC4YU', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/vP0-FLtC4YU/maxresdefault.jpg" alt="Photoshoot of Russian Models | Fashion Photography Tips | Model Photoshoot in Jammu Studio" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Photoshoot of Russian Models | Fashion Photography Tips | Mo...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=zqRnt4EiBX8', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/zqRnt4EiBX8/maxresdefault.jpg" alt="Life of a Model: Chicago Model Portfolio Photoshoot | Behind The Scenes | Riley Gaynor" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Life of a Model: Chicago Model Portfolio Photoshoot | Behind...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://m.youtube.com/watch?v=3LSzS8MYlBo', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #f0659522 0%, #f0659544 100%);">
+        <img src="https://img.youtube.com/vi/3LSzS8MYlBo/maxresdefault.jpg" alt="Male Model Photoshoot with muscle boy physique fitness model Rydel in Cuba" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Male Model Photoshoot with muscle boy physique fitness model...</div>
+        <div class="image-source">m.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=nib9PTl0rDs', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/nib9PTl0rDs/maxresdefault.jpg" alt="Zero-budget model photoshoot that looks REAL | CapCut Creator Studio" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">Zero-budget model photoshoot that looks REAL | CapCut Creato...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+      </div>
+    </div>
+  
+    <div class="category-section" id="category---日常穿搭" style="display:none;">
+      <div class="category-header">
+        <h2 class="category-title">☕ 日常穿搭</h2>
+        <span class="category-count">2张</span>
+      </div>
+      <div class="image-grid">
+        
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=_Jn_vydHj2g', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/_Jn_vydHj2g/maxresdefault.jpg" alt="What Are People Wearing in Los Angeles? (Fashion Trends ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">What Are People Wearing in Los Angeles? (Fashion Trends ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+
+    <div class="image-card" onclick="window.open('https://www.youtube.com/watch?v=dvQvt0TVR6E', '_blank')">
+      <div class="image-wrapper" style="background: linear-gradient(135deg, #845ef722 0%, #845ef744 100%);">
+        <img src="https://img.youtube.com/vi/dvQvt0TVR6E/maxresdefault.jpg" alt="What Are People Wearing in New York? (Fashion Trends ..." loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\\'image-placeholder\\'>📷</span>'" />
+        <div class="image-overlay">
+          <span class="view-icon">🔍</span>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="image-title">What Are People Wearing in New York? (Fashion Trends ...</div>
+        <div class="image-source">www.youtube.com</div>
+      </div>
+    </div>
+  
+      </div>
+    </div>
+  
+  </div>
+
+  <footer>
+    <p>Generated by Daily Beauty Report · <span id="current-year">2026</span></p>
+    <p style="margin-top: 8px; opacity: 0.7;">图片来自互联网 · 每日早 8 点自动更新</p>
+  </footer>
+
+  <script>
+    // 客户端动态更新日期（确保 PC 和手机都显示当前日期）
+    function updateDate() {
+      const now = new Date();
+      const dateOptions = { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric', 
+        weekday: 'long' 
+      };
+      const dateStr = now.toLocaleDateString('zh-CN', dateOptions);
+      
+      const dateEl = document.getElementById('current-date');
+      if (dateEl) {
+        dateEl.textContent = dateStr;
+      }
+      
+      const yearEl = document.getElementById('current-year');
+      if (yearEl) {
+        yearEl.textContent = now.getFullYear();
+      }
+    }
+    
+    // 页面加载时执行
+    updateDate();
+  </script>
+
+<script>
+  // 分类标签切换
+  document.querySelectorAll('.category-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const category = tab.getAttribute('data-category');
+      
+      // 更新标签状态
+      document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      
+      // 显示对应分类
+      document.querySelectorAll('.category-section').forEach(section => {
+        section.style.display = section.id === 'category-' + category.replace(/[^w一-龥]/g, '-') ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>

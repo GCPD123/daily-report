@@ -4,7 +4,7 @@
 .env.local
 .env.*.local
 
-# 输出目录
+# 输出目录（保留原始数据）
 output/*.json
 output/.gitignore
 output/news-data*.json
@@ -16,3 +16,7 @@ node_modules/
 # 日志
 *.log
 npm-debug.log*
+
+# 但允许根目录的部署文件
+!index.html
+!news-data.json
