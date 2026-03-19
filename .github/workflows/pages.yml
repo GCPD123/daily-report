@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'output/**'
 
 jobs:
   deploy:
@@ -20,3 +18,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
           publish_branch: gh-pages
+          force_orphan: true
